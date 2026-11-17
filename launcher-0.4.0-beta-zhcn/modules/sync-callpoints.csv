@@ -3,3 +3,18 @@ token,method_il,original,callpoint_translation,scope,note
 0x70000CF5,MainWindow.UpdateSyncStatus@385,": ","，",UpdateSyncStatus@385,失败链同点，主表保持原样
 0x70000D49,MainWindow.UpdateSyncStatus@304,"Last sync failed ","上次同步失败于 ",UpdateSyncStatus@304,主表锁定样本保持“上次同步失败 ”，本行仅记录调用点覆盖
 0x70000D01,MainWindow.UpdateSyncStatus@202," items, "," 项，",UpdateSyncStatus@202,前导空格保留，末端空格在此单点取消
+0x7000CBB1,MainWindow.EnterSetup@303,Check and repair,检查并修复,EnterSetup,图1 安装页按钮，沿用锁定译名
+0x7000CBB1,MainWindow.EnterSetup@329,Check and repair,检查并修复,EnterSetup,图1 同一按钮的另一处引用
+0x7000CBB1,MainWindow.!XamlIlPopulate@21340,Check and repair,检查并修复,Install page,图1 截图所在按钮
+0x70005927,MainWindow.BuildPaths@56,Session runner,会话启动程序,Settings paths,图3 路径区标签
+0x700128A9,MainWindow.!XamlIlPopulate@30208,Open session logs,打开会话日志,Settings paths,图3 路径区按钮
+0x70007966,MainWindow.UpdateButton@51,PLAY,开始游戏,Play page,RF-01 主按钮
+0x70006D1D,MainWindow.ShowObserving@217,Running,运行中,Play page,RF-02 状态标签
+0x70006D1D,.cctor@53,Running,运行中,Play page,RF-02 静态状态表
+0x700129D0,MainWindow.!XamlIlPopulate@31196,INSTALLATION,安装,Setup wizard,RF-03 安装引导标题
+0x70009B61,MainWindow.ModsSummaryText@98," mod"," 个模组",Mods page,图4 计数串的量词
+0x70009B6B,MainWindow.ModsSummaryText@114,s,,Mods page,图4 复数后缀在该调用点移除
+0x70009B6F,MainWindow.ModsSummaryText@133," on. Drag a mod to change the order: the bottom one loads first, the top one wins. ",已启用。拖动模组可调整顺序：最下面的先加载，最上面的生效。,Mods page,图4 计数串尾句
+0x70009D63,MainWindow.RefreshMods@484," gameplay mod"," 个玩法模组",Mods page,图4 玩法模组计数，补量词
+0x70009B6B,MainWindow.RefreshMods@501,s,,Mods page,图4 同一复数后缀的另一调用点
+0x70001CBC,MainWindow.ModsSummaryText@33,.,。,Mods page,修正英文句号为全角，下一句已去掉前导分号

@@ -110,7 +110,8 @@
 | 候选区别 | 无 |
 | 建议 | 译名已定，无需再裁定；转为实机验证项，构建可用后确认该标签在设置页的显示位置即可。 |
 | 理由 | 译名“会话启动程序”已由委托方确认；剩余工作只是确认位置与排版，不涉及译名选择。 |
-| 状态 | 已定，待实机验证 |
+| 依据 | 负责人实测路径区截图 preview-0.4.0-beta-zhcn/refinement-smoke/settings-100.png 已显示该标签位置，无需再裁定。 |
+| 状态 | 已关闭 |
 
 ## PD-007 设置页标签引用（合并自 launch-errors ERR-01）
 
@@ -325,6 +326,7 @@
 | capture | 采集 | account-sync 定稿 |
 | network block | 网络阻断 | 设置模块定稿，PD-005 关闭依据 |
 | STOP | 停止 | residual-2 UpdateButton 定稿，PD-021 关闭依据 |
+| cosmetic pack | 外观模组 | 用户 2026-11-18 确认，替代“外观包” |
 | Session runner | 会话启动程序 | 试译确认 |
 | Check and repair | 检查并修复 | 试译确认 |
 | sync | 同步 | 试译确认 |
