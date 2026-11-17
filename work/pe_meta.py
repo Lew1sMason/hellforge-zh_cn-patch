@@ -11,8 +11,7 @@ import io
 import os
 import json
 
-PATH = sys.argv[1]
-OUT = sys.argv[2]
+PATH = globals().get('PATH') or sys.argv[1]
 
 data = open(PATH, 'rb').read()
 
@@ -273,6 +272,13 @@ def type_name(ridx):
 
 methoddefs = tables.get(0x06, [])
 typedefs = tables.get(0x02, [])
+enclosing_types = {row[0]: row[1] for row in tables.get(0x29, [])}
+
+
+def type_path(index):
+    name = type_name(index)
+    parent = enclosing_types.get(index)
+    return type_path(parent) + '.' + name if parent is not None else name
 
 m2t = {}
 for i, t in enumerate(typedefs):
@@ -360,9 +366,11 @@ for mi, m in enumerate(methoddefs):
                 tn = type_name(tdef + 1) if tdef is not None else '?'
                 ldstr.append({
                     'type': tn,
+                    'type_path': type_path(tdef + 1) if tdef is not None else tn,
                     'method': s_heap(m[3]),
                     'us_index': idx,
                     'il_offset': ip,
+                    'operand_offset': code + ip + 1,
                     'token': '0x%08X' % tok,
                     'text': us(idx),
                 })
@@ -371,46 +379,48 @@ for mi, m in enumerate(methoddefs):
         ip += 1 + OPLEN.get(op, 0)
 
 # ---------------- output ----------------
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
-with io.open(os.path.join(os.path.dirname(OUT), 'us_all.tsv'), 'w', encoding='utf-8', newline='\n') as f:
-    f.write('us_index\tus_file_offset\ttext\n')
-    o = 1
-    while o < us_size - 1:
-        start = o
-        n, o2 = read_compressed(us_off + o)
-        o = (o2 - us_off) + n
-        if n == 0:
-            continue
-        raw = data[o2:o2 + n]
-        if raw and raw[-1] in (0, 1) and len(raw) % 2 == 1:
-            raw = raw[:-1]
-        try:
-            txt = raw.decode('utf-16-le', 'replace')
-        except Exception:
-            txt = ''
-        if txt:
-            f.write('%d\t%d\t%s\n' % (start, us_off + start, txt.replace('\t', '\\t').replace('\n', '\\n')))
-        if o <= start:
-            break
+if __name__ == '__main__':
+    OUT = sys.argv[2]
+    os.makedirs(os.path.dirname(OUT), exist_ok=True)
+    with io.open(os.path.join(os.path.dirname(OUT), 'us_all.tsv'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write('us_index\tus_file_offset\ttext\n')
+        o = 1
+        while o < us_size - 1:
+            start = o
+            n, o2 = read_compressed(us_off + o)
+            o = (o2 - us_off) + n
+            if n == 0:
+                continue
+            raw = data[o2:o2 + n]
+            if raw and raw[-1] in (0, 1) and len(raw) % 2 == 1:
+                raw = raw[:-1]
+            try:
+                txt = raw.decode('utf-16-le', 'replace')
+            except Exception:
+                txt = ''
+            if txt:
+                f.write('%d\t%d\t%s\n' % (start, us_off + start, txt.replace('\t', '\\t').replace('\n', '\\n')))
+            if o <= start:
+                break
 
-with io.open(os.path.join(os.path.dirname(OUT), 'ldstr_refs.tsv'), 'w', encoding='utf-8', newline='\n') as f:
-    f.write('us_index\ttype\tmethod\til_offset\ttoken\ttext\n')
-    for r in ldstr:
-        f.write('%d\t%s\t%s\t%d\t%s\t%s\n' % (r['us_index'], r['type'], r['method'], r['il_offset'],
-                                              r['token'], r['text'].replace('\t', '\\t').replace('\n', '\\n')))
+    with io.open(os.path.join(os.path.dirname(OUT), 'ldstr_refs.tsv'), 'w', encoding='utf-8', newline='\n') as f:
+        f.write('us_index\ttype\tmethod\til_offset\ttoken\ttext\n')
+        for r in ldstr:
+            f.write('%d\t%s\t%s\t%d\t%s\t%s\n' % (r['us_index'], r['type'], r['method'], r['il_offset'],
+                                                  r['token'], r['text'].replace('\t', '\\t').replace('\n', '\\n')))
 
-summary = {
-    'file': PATH,
-    'size': len(data),
-    'metadata_version': ver_str,
-    'streams': {k: v[1] for k, v in stream_map.items()},
-    'tables': rowcounts,
-    'assembly': assembly_info,
-    'assembly_refs': refs,
-    'manifest_resources': res,
-    'us_count': len(us_cache),
-    'ldstr_count': len(ldstr),
-}
-with io.open(OUT, 'w', encoding='utf-8') as f:
-    json.dump(summary, f, ensure_ascii=False, indent=2)
-print(json.dumps({k: summary[k] for k in ('assembly', 'manifest_resources', 'us_count', 'ldstr_count')}, ensure_ascii=False, indent=2))
+    summary = {
+        'file': PATH,
+        'size': len(data),
+        'metadata_version': ver_str,
+        'streams': {k: v[1] for k, v in stream_map.items()},
+        'tables': rowcounts,
+        'assembly': assembly_info,
+        'assembly_refs': refs,
+        'manifest_resources': res,
+        'us_count': len(us_cache),
+        'ldstr_count': len(ldstr),
+    }
+    with io.open(OUT, 'w', encoding='utf-8') as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    print(json.dumps({k: summary[k] for k in ('assembly', 'manifest_resources', 'us_count', 'ldstr_count')}, ensure_ascii=False, indent=2))

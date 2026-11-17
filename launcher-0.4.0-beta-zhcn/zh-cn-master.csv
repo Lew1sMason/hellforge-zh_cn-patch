@@ -15,7 +15,7 @@ HF-22604,启动,22604,0x7000584C,439268,Start@1028,Preparing the session...,正�
 HF-22654,启动,22654,0x7000587E,439318,MainWindow.Start@1034,"Building mods that ship their sources, then checking the copied game.",正在编译随源分发的模组，然后检查复制后的游戏。,已译,低,用户可见。启动进度提示。 合并自 launch-errors.csv。,
 HF-22795,启动,22795,0x7000590B,439459,MainWindow.StartPreflight@35,Local backend,本地后端,已译,低,用户可见。预检失败前缀，后接“ 缺失。”。 合并自 launch-errors.csv。,
 HF-22823,启动,22823,0x70005927,439487,StartPreflight@63,Session runner,会话启动程序,已译,低,与第 10 条锁定译名一致，作设置页路径标签。,
-HF-22853,启动,22853,0x70005945,439517,MainWindow.StartPreflight@124, is missing.,,待裁定,低,用户可见。与“本地后端”拼接；中文片段间是否保留前导空格待定。 合并自 launch-errors.csv。,PD-009
+HF-22853,启动,22853,0x70005945,439517,MainWindow.StartPreflight@124, is missing.,缺失。,已译,低,PD-009 关闭：中文标签后直接接“缺失。”，去前导空格。,
 HF-22879,启动,22879,0x7000595F,439543,StartPreflight@153,Sessions run in installations made with HellForge-Setup.,会话只在通过 HellForge-Setup 安装的环境中运行。,已译,高,预检失败说明。,
 HF-22993,启动,22993,0x700059D1,439657,MainWindow.StartPreflight@160,Reinstall HellForge: ,重新安装 HellForge: ,已译,低,用户可见。预检修复指引，后接安装路径或命令；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
 HF-23037,启动,23037,0x700059FD,439701,StartPreflight@211,Account Sync is finishing: it keeps the normal HELLDIVERS 2 connected until you close it.,账户同步正在完成：它会保持与正常 HELLDIVERS 2 的连接，直到你关闭游戏。,已译,低,Account Sync 暂译“账户同步”，术语待确认。,
@@ -23,7 +23,7 @@ HF-23218,启动,23218,0x70005AB2,439882,StartPreflight@217,"Close HELLDIVERS 2, 
 HF-23304,启动,23304,0x70005B08,439968,StartPreflight@239,"A game, anti-cheat or session process is still running.",游戏、反作弊或会话进程仍在运行。,已译,低,预检提示，只译显示文本。,
 HF-23416,启动,23416,0x70005B78,440080,StartPreflight@245,"End it on the play page, then press PLAY again.",请在开始页结束该进程，然后再次按“开始游戏”。,已译,低,与上一条同组提示。,
 HF-23512,启动,23512,0x70005BD8,440176,MainWindow.StartPreflight@303,Multiplayer needs Local PlayFab.,多人游戏需要 Local PlayFab。,已译,低,用户可见。预检提示；Local PlayFab 为功能名，保留英文。 合并自 launch-errors.csv。,
-HF-23578,启动,23578,0x70005C1A,440242,MainWindow.StartPreflight@314,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,,待裁定,低,用户可见。引用设置页分区名 Experiments，该标签译名未定。 合并自 launch-errors.csv。,PD-008
+HF-23578,启动,23578,0x70005C1A,440242,MainWindow.StartPreflight@314,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,开启 Experiments > Local PlayFab（或关闭 PlayFab SDK 替代项），然后再次按“开始游戏”。,已译,低,PD-008 关闭：分区名保留英文 Experiments > Local PlayFab。,
 HF-24800,启动,24800,0x700060E0,441464,ShowEarlyFailure@37,HellForge cannot start inside this container.,HellForge 无法在此容器内启动。,已译,高,容器环境启动失败。,
 HF-24892,启动,24892,0x7000613C,441556,MainWindow.ShowEarlyFailure@78,See ,请参阅 ,已译,高,用户可见。早期失败提示前段，后接日志路径；尾空格保留。 合并自 launch-errors.csv。,
 HF-24950,启动,24950,0x70006176,441614,MainWindow.ShowEarlyFailure@109, for why., 了解原因。,已译,高,用户可见。与“请参阅 ”和日志路径拼接；前导空格保留。 合并自 launch-errors.csv。,
@@ -49,13 +49,13 @@ HF-3329,状态,3329,0x70000D01,419993,UpdateSyncStatus@202," items, ", 项，,�
 HF-3347,状态,3347,0x70000D13,420011,UpdateSyncStatus@246,progression captured.,已同步进度。,已译,高,PD-004 用户裁定：成功无经验值分支尾句。,
 HF-3391,状态,3391,0x70000D3F,420055,UpdateSyncStatus@277, XP., 经验值。,已译,高,PD-004 用户裁定：成功经验值分支尾片，前导空格保留。,
 HF-3401,状态,3401,0x70000D49,420065,MainWindow.UpdateSyncStatus@304,Last sync failed ,上次同步失败 ,锁定,试译确认,阶段 3 确认样本，原样锁定。,
-HF-3437,状态,3437,0x70000D6D,420101,UpdateSyncStatus@415," items, no progression. Sync again to get your level, unlocks and ship.",,待裁定,高,跨片段语序待定。,PD-004
+HF-3437,状态,3437,0x70000D6D,420101,UpdateSyncStatus@415," items, no progression. Sync again to get your level, unlocks and ship.", 项，未同步到进度。请重新同步以获取等级、解锁项和超级驱逐舰数据。,已译,高,PD-004 尾片按授权回填，ship 取超级驱逐舰数据。,
 HF-3582,状态,3582,0x70000DFE,420246,UpdateSyncStatus@439,No snapshot yet. Sync to copy your real inventory into this profile.,尚无快照。同步后可将真实库存复制到此档案。,已译,高,同步状态说明。,
 HF-24750,状态,24750,0x700060AE,441414,RequestStop@319,Cancelled before launch.,启动前已取消。,已译,低,取消结果。,
-HF-25860,状态,25860,0x70006504,442524,ShowState@462,Approve the Windows prompt to install the network block.,请在 Windows 提示中允许安装网络阻断。,已译,高,PD-005 关闭：设置模块定稿使用“网络阻断”，与本行一致。,
-HF-25974,状态,25974,0x70006576,442638,ShowState@468,Asked once: the network block keeps the copied game off the internet. Later sessions need no prompt.,只需确认一次。网络阻断会让复制后的游戏离网，之后的会话不再提示。,已译,高,PD-005 关闭：设置模块定稿使用“网络阻断”。,
-HF-26177,状态,26177,0x70006641,442841,ShowState@510,Approve the Windows prompt to place a network block for this session.,请在 Windows 提示中允许为本次会话设置网络阻断。,已译,高,PD-005 关闭：设置模块定稿使用“网络阻断”。,
-HF-26318,状态,26318,0x700066CE,442982,ShowState@516,It keeps the copied game off the internet until the session ends.,它会让复制后的游戏在会话结束前保持离网。,已译,高,PD-005 关闭：设置模块定稿使用“网络阻断”。,
+HF-25860,状态,25860,0x70006504,442524,ShowState@462,Approve the Windows prompt to install the network block.,请在 Windows 提示中允许安装网络阻断。,已译,高,PD-005 统一：网络阻断。,
+HF-25974,状态,25974,0x70006576,442638,ShowState@468,Asked once: the network block keeps the copied game off the internet. Later sessions need no prompt.,只需确认一次。网络阻断会阻止游戏副本访问互联网，之后的会话不再提示。,已译,高,PD-005 统一。,
+HF-26177,状态,26177,0x70006641,442841,ShowState@510,Approve the Windows prompt to place a network block for this session.,请在 Windows 提示中允许为本次会话设置网络阻断。,已译,高,PD-005 统一。,
+HF-26318,状态,26318,0x700066CE,442982,ShowState@516,It keeps the copied game off the internet until the session ends.,它会在会话结束前阻止游戏副本访问互联网。,已译,高,PD-005 统一。,
 HF-26451,状态,26451,0x70006753,443115,ShowState@555,Waiting for Steam...,正在等待 Steam……,已译,高,进度提示。,
 HF-26493,状态,26493,0x7000677D,443157,HellForge.Launcher.MainWindow.ShowState@561,"The sandboxed game reaches Steam through HellForge's Steam broker, which is starting.",沙箱中的游戏通过 HellForge 的 Steam broker 连接 Steam，该 broker 正在启动。,已译,高,启动状态提示；broker 沿用主表保留英文的写法，sandbox 沿用“沙箱”。 合并自 modules/residual-3.csv。,
 HF-26666,状态,26666,0x7000682A,443330,ShowState@600,Launching the game...,正在启动游戏……,已译,高,进度提示。,
@@ -131,16 +131,16 @@ HF-13663,控制台,13663,0x7000355F,430327,HellForge.Launcher.MainWindow.AppendS
 HF-13683,控制台,13683,0x70003573,430347,AppendSteamLeft@56,  - Steam's depot download (kept unless you tick the Steam box): ,  - Steam 的 depot 下载内容（未勾选 Steam 选项则保留）： ,已译,低,卸载计划·控制台行；Steam depot 下载条目，us=13683，偏移 430347；行首「  - 」与首尾空格保留，depot 为 Steam 术语保留英文，末尾冒号用 ASCII 以接路径。 合并自 modules/residual-1.csv。,
 HF-13816,控制台,13816,0x700035F8,430480,AppendSteamLeft@145,  - Steam's download folder once empty (kept unless you tick the Steam box): ,  - Steam 的下载文件夹（清空后，未勾选 Steam 选项则保留）： ,已译,低,卸载计划·控制台行；Steam 下载文件夹条目，us=13816，偏移 430480；行首「  - 」与首尾空格保留。 合并自 modules/residual-1.csv。,
 HF-13973,控制台,13973,0x70003695,430637,AppendSteamLeft@235,  - Steam's download state file (kept unless you tick the Steam box): ,  - Steam 的下载状态文件（未勾选 Steam 选项则保留）： ,已译,低,卸载计划·控制台行；Steam 下载状态文件条目，us=13973，偏移 430637；行首「  - 」与首尾空格保留。 合并自 modules/residual-1.csv。,
-HF-23893,控制台,23893,0x70005D55,440557,MainWindow.AppendCoopRelaysLine@30,Co-op over Steam relays is off (Settings > Multiplayer): other players' lobbies show but can't be joined; the lobby browser can turn it on.,,待裁定,低,控制台诊断行，多人合作关闭时追加；多人合作、Steam 中继、大厅浏览器术语跨模块未定。 合并自 modules/console.csv。,PD-012
-HF-24174,控制台,24174,0x70005E6E,440838,MainWindow.AppendCoopRelaysLine@58, Until then this session plays without co-op.,,待裁定,低,控制台诊断行后段；首空格保留。 合并自 modules/console.csv。,PD-012
+HF-23893,控制台,23893,0x70005D55,440557,MainWindow.AppendCoopRelaysLine@30,Co-op over Steam relays is off (Settings > Multiplayer): other players' lobbies show but can't be joined; the lobby browser can turn it on.,Steam 中继多人合作已关闭（设置 > 多人游戏）：其他玩家的大厅会显示但无法加入；可在“大厅浏览器”中开启。,已译,低,PD-012 关闭：多人合作、Steam 中继、大厅、大厅浏览器。,
+HF-24174,控制台,24174,0x70005E6E,440838,MainWindow.AppendCoopRelaysLine@58, Until then this session plays without co-op., 在此之前，本次会话将不启用多人合作。,已译,低,PD-012 关闭。,
 HF-31460,控制台,31460,0x70007AE4,448124,MainWindow.SaveLogsToDesktop@110,No session logs yet: play a session first.,尚无会话日志：请先进行一次会话。,已译,低,保存日志按钮的提示，无会话日志时显示。 合并自 modules/console.csv。,
 HF-31638,控制台,31638,0x70007B96,448302,MainWindow.SaveLogsToDesktop@240,Saved the latest session's logs to ,已将最近一次会话的日志保存到 ,已译,低,保存日志成功提示前段，后接保存路径；尾空格保留。 合并自 modules/console.csv。,
 HF-31710,控制台,31710,0x70007BDE,448374,MainWindow.SaveLogsToDesktop@269, (, (,保留,低,共享格式片段「 (」，用于引出括号内数量；保存日志、崩溃报告、模组打包等 11 处引用，按首版规则保留 ASCII 空格与括号。 合并自 modules/console.csv。,
 HF-31716,控制台,31716,0x70007BE4,448380,MainWindow.SaveLogsToDesktop@289, files in use were left out), 个正在使用而略过的文件),已译,低,保存日志成功提示后段，前接数量；首空格保留。同 token 亦见 SaveCrashReport IL 557。 合并自 modules/console.csv。,
-HF-33203,控制台,33203,0x700081B3,449867,MainWindow.AppendSandboxLine@29,"Sandboxed (Settings > Sandbox): the game runs at low integrity, with Steam through the Steam broker.",,待裁定,低,控制台诊断行，沙箱会话追加；沙箱、低完整性、Steam 中转术语跨模块未定。 合并自 modules/console.csv。,PD-011
-HF-33611,控制台,33611,0x7000834B,450275,MainWindow.AppendSandboxLine@115,Settings > Sandbox is off,,待裁定,低,沙箱关闭原因片段；AppendSandboxLine 与 SandboxOffReason 共用，共 3 处引用，设置页也会显示。 合并自 modules/console.csv。,PD-011
-HF-33663,控制台,33663,0x7000837F,450327,MainWindow.AppendSandboxLine@122,This session is not sandboxed (,,待裁定,低,控制台诊断行前段，后接关闭原因；与 0x700083BF 拼接。 合并自 modules/console.csv。,PD-011
-HF-33727,控制台,33727,0x700083BF,450391,MainWindow.AppendSandboxLine@128,"). The game, its mods and anything they run can write your files.",,待裁定,低,控制台诊断行后段，接于关闭原因之后；首字符为右括号。 合并自 modules/console.csv。,PD-011
+HF-33203,控制台,33203,0x700081B3,449867,MainWindow.AppendSandboxLine@29,"Sandboxed (Settings > Sandbox): the game runs at low integrity, with Steam through the Steam broker.",沙箱（设置 > 沙箱）：游戏以低完整性级别运行，Steam 通过 Steam 中转通信。,已译,低,PD-011 关闭：沙箱、低完整性级别、Steam 中转。,
+HF-33611,控制台,33611,0x7000834B,450275,MainWindow.AppendSandboxLine@115,Settings > Sandbox is off,设置 > 沙箱已关闭,已译,低,PD-011 关闭。,
+HF-33663,控制台,33663,0x7000837F,450327,MainWindow.AppendSandboxLine@122,This session is not sandboxed (,本次会话未启用沙箱（,已译,低,PD-011 关闭。,
+HF-33727,控制台,33727,0x700083BF,450391,MainWindow.AppendSandboxLine@128,"). The game, its mods and anything they run can write your files.",）。游戏、其模组以及它们运行的任何内容都可以写入你的文件。,已译,低,PD-011 关闭。,
 HF-38591,控制台,38591,0x700096BF,455255,MainWindow.ShowLiveResult@87,Applied to the running game: ,已应用到运行中的游戏: ,已译,低,"控制台日志行前缀，后接改动列表；尾空格保留，列表分隔符为共享 ASCII「, 」「. 」，不改。 合并自 modules/console.csv。",
 HF-38651,控制台,38651,0x700096FB,455315,MainWindow.ShowLiveResult@125, Friends need the same mods to join., 好友需要相同的模组才能加入。,已译,低,控制台日志行后段，接于模组列表之后；首空格保留。 合并自 modules/console.csv。,
 HF-38725,控制台,38725,0x70009745,455389,MainWindow.ShowLiveResult@220,Mods: ,模组: ,已译,低,控制台日志行前缀；尾空格保留，冒号沿用拼接片的 ASCII 格式。 合并自 modules/console.csv。,
@@ -148,7 +148,7 @@ HF-55715,控制台,55715,0x7000D9A3,472379,MainWindow.OpenSteamConsole@55,No pro
 HF-55763,控制台,55763,0x7000D9D3,472427,MainWindow.OpenSteamConsole@119,Could not open the Steam console: ,无法打开 Steam 控制台: ,已译,低,打开 Steam 控制台失败前段，后接异常；ASCII 冒号与尾空格保留。 合并自 modules/residual-2.csv。,
 HF-55833,控制台,55833,0x7000DA19,472497,MainWindow.OpenSteamConsole@130," Start Steam with -console, then try again.", 请以 -console 参数启动 Steam，然后重试。,已译,低,打开 Steam 控制台失败说明；前导空格为接缝，-console 保留。 合并自 modules/residual-2.csv。,
 HF-71663,控制台,71663,0x700117EF,488327,MainWindow.!XamlIlPopulate@19803,Save logs to Desktop,保存日志到桌面,已译,中,控制台页按钮；同 token 亦用于崩溃/日志区 IL 4727。 合并自 modules/console.csv。,
-HF-75877,控制台,75877,0x70012865,492541,MainWindow.!XamlIlPopulate@19290,BACKEND,,待裁定,中,控制台页眉标（eyebrow），位于一级标题「控制台」上方；装饰性小标题，与 DEPLOYMENT/HELLDIVER 等眉标同属待统一项。 合并自 modules/console.csv。,PD-010
+HF-75877,控制台,75877,0x70012865,492541,MainWindow.!XamlIlPopulate@19290,BACKEND,后端,已译,中,PD-010 关闭：BACKEND 译后端。,
 HF-75893,控制台,75893,0x70012875,492557,MainWindow.!XamlIlPopulate@19350,Console,控制台,已译,中,控制台页一级标题；与导航「04   控制台」用词一致。 合并自 modules/console.csv。,
 HF-75909,控制台,75909,0x70012885,492573,MainWindow.!XamlIlPopulate@19513,Auto-scroll,自动滚动,已译,中,控制台页复选框标签，控制日志列表自动滚动。 合并自 modules/console.csv。,
 HF-75933,控制台,75933,0x7001289D,492597,MainWindow.!XamlIlPopulate@19617,Clear,清除,已译,中,控制台页按钮，清空控制台列表。 合并自 modules/console.csv。,
@@ -161,7 +161,7 @@ HF-92617,控制台,92617,0x700169C9,509281,MainWindow.<>c__DisplayClass162_1.<Pr
 HF-1807,设置,1807,0x7000070F,418471,UpdateSettingsImport@130,Stop the session first: the game writes its settings when it closes.,请先停止会话：游戏会在关闭时写入其设置。,已译,低,设置页·游戏设置导入；导入前的拦截提示，us=1807，偏移 418471；句内冒号用全角。 合并自 modules/settings.csv。,
 HF-34270,设置,34270,0x700085DE,450934,HellForge.Launcher.MainWindow.ApplyStrangersSetting@125,Off by default: ,默认关闭: ,已译,低,与陌生人同玩设置说明前缀；ASCII 冒号与尾空格保留。 合并自 modules/residual-3.csv。,
 HF-34304,设置,34304,0x70008600,450968,HellForge.Launcher.MainWindow.ApplyStrangersSetting@143,On by default while your game is sandboxed,当你的游戏处于沙箱中时默认开启,已译,低,与陌生人同玩设置说明。 合并自 modules/residual-3.csv。,
-HF-34564,设置,34564,0x70008704,451228,!XamlIlPopulate@25934,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",陌生人的游戏会向你发送你无法核查的数据：被修改的游戏可能谎报其模组，游戏网络代码的缺陷还可能让它在你的电脑上运行代码。只有在接受这一风险时才开启。开关会在数秒内生效，会话进行中也是如此。,已译,中,设置页·多人游戏；StrangersWarning 风险警告，us=34564，偏移 451228；同一字符串也由 ShowStrangersDefaultNotice 使用；术语同 SET-01。 合并自 modules/settings.csv。,
+HF-34564,设置,34564,0x70008704,451228,!XamlIlPopulate@25934,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",非好友玩家的游戏会向你发送你无法核查的数据：被修改的游戏可能谎报其模组，游戏网络代码的缺陷还可能让它在你的电脑上运行代码。只有在接受这一风险时才开启。开关会在数秒内生效，会话进行中也是如此。,已译,中,PD-014 联动：strangers 统一为非好友玩家。,
 HF-35089,设置,35089,0x70008911,451753,ShowStrangersDefaultNotice@179,Could not save that the stranger warning was shown: ,无法保存“已显示陌生人警告”的记录: ,已译,低,设置页·多人游戏；默认值提示的保存失败后缀，us=35089，偏移 451753；后接异常详情，保留 ASCII 冒号与尾空格。 合并自 modules/settings.csv。,
 HF-46901,设置,46901,0x7000B735,463565,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@304,Profile ,档案 ,已译,低,设置导入提示前缀，后接运行期档案名；尾空格保留，档案沿用主表。 合并自 modules/residual-3.csv。,
 HF-48483,设置,48483,0x7000BD63,465147,!XamlIlPopulate@36326,OPTIONS,选项,已译,中,安装引导页·选项卡；OPTIONS 分区标题，us=48483，偏移 465147；同一字符串另用于模组包选项 PackOptions@152，两处共用；本处属安装流程的分区名。 合并自 modules/settings.csv。,
@@ -217,7 +217,7 @@ HF-67888,设置,67888,0x70010930,484552,<InitializeSettingsImport>b__30_1@66,The
 HF-67956,设置,67956,0x70010974,484620,<InitializeSettingsImport>b__30_1@73,The profile's own settings are back.,档案自身的设置已恢复。,已译,低,设置页·游戏设置导入；撤回完成提示，us=67956，偏移 484620。 合并自 modules/settings.csv。,
 HF-68030,设置,68030,0x700109BE,484694,<InitializeSettingsImport>b__30_1@129,The import could not be taken back: ,导入无法撤回: ,已译,低,设置页·游戏设置导入；撤回失败提示前缀，us=68030，偏移 484694；后接异常详情，保留 ASCII 冒号与尾空格。 合并自 modules/settings.csv。,
 HF-68104,设置,68104,0x70010A08,484768,<InitializeLiveChanges>b__220_0@95,Could not save Change mods without restarting: ,无法保存“无需重启即可更换模组”设置: ,已译,低,设置页·实验性；实时更换模组开关的保存失败，us=68104，偏移 484768；后接异常详情，保留 ASCII 冒号与尾空格。 合并自 modules/settings.csv。,
-HF-68200,设置,68200,0x70010A68,484864,<InitializeStrangers>b__231_0@108,Could not save Play with strangers: ,无法保存“与陌生人同玩”设置: ,已译,低,设置页·多人游戏；“与陌生人同玩”开关的保存失败，us=68200，偏移 484864；另一调用点 @85；后接异常详情，保留 ASCII 冒号与尾空格；开关名沿用 SET-01 草稿。 合并自 modules/settings.csv。,
+HF-68200,设置,68200,0x70010A68,484864,<InitializeStrangers>b__231_0@108,Could not save Play with strangers: ,无法保存“与非好友玩家联机”设置: ,已译,低,PD-014 联动：标签统一。,
 HF-76188,设置,76188,0x7001299C,492852,!XamlIlPopulate@20769,SYSTEM,系统,已译,中,设置页·页眉；SYSTEM 眉标，us=76188，偏移 492852；纯标签。 合并自 modules/settings.csv。,
 HF-76202,设置,76202,0x700129AA,492866,!XamlIlPopulate@20829,Settings and about,设置与关于,已译,中,设置页·页眉；页面一级标题 Settings and about，us=76202，偏移 492866。 合并自 modules/settings.csv。,
 HF-76240,设置,76240,0x700129D0,492904,!XamlIlPopulate@21043,INSTALLATION,安装,已译,中,设置页·安装卡；INSTALLATION 分区标题，us=76240，偏移 492904；同一字符串另用于安装引导页标题 @31196，两处共用此译名；与启动错误模块引用“设置 > 安装”一致。 合并自 modules/settings.csv。,
@@ -231,11 +231,11 @@ HF-78464,设置,78464,0x70013280,495128,!XamlIlPopulate@25004,Local PlayFab,本�
 HF-78492,设置,78492,0x7001329C,495156,!XamlIlPopulate@25076,Points the game's PlayFab login and profile calls at the local backend instead of playfabapi.com. The copied game stays blocked from the internet either way.,将游戏的 PlayFab 登录与档案调用指向本地后端，而不再指向 playfabapi.com。无论开关如何，复制后的游戏始终保持断网。,已译,中,设置页·多人游戏；Local PlayFab 说明，us=78492，偏移 495156；域名 playfabapi.com 保留原文。 合并自 modules/settings.csv。,
 HF-78809,设置,78809,0x700133D9,495473,!XamlIlPopulate@25157,Lobby and session through Steam friends,通过 Steam 好友进行大厅与会话,已译,中,设置页·多人游戏；复选框标签 SdkShimsBox，us=78809，偏移 495473。 合并自 modules/settings.csv。,
 HF-78889,设置,78889,0x70013429,495553,!XamlIlPopulate@25229,Replaces the copy's PlayFab Party and Lobby DLLs with HellForge stand-ins for the session; they never reach PlayFab and talk to friends' backends through Steam networking. Every call is logged to the session folder.,在会话期间用 HellForge 的替代组件替换游戏副本中的 PlayFab Party 与 Lobby DLL；它们不会连接到 PlayFab，而是通过 Steam 网络与好友的后端通信。每次调用都会记录到会话文件夹。,已译,中,设置页·多人游戏；上方复选框说明，us=78889，偏移 495553；DLL 与 PlayFab 保留英文技术名。 合并自 modules/settings.csv。,
-HF-80017,设置,80017,0x70013891,496681,!XamlIlPopulate@25555,Play with strangers,,待裁定,中,设置页·多人游戏；复选框标签 StrangersBox，us=80017，偏移 496681；strangers 取“陌生人”还是“非好友玩家”见 SET-01，候选语义有差别，本行暂留空。 合并自 modules/settings.csv。,PD-014
+HF-80017,设置,80017,0x70013891,496681,!XamlIlPopulate@25555,Play with strangers,与非好友玩家联机,已译,中,PD-014 关闭：Play with strangers。,
 HF-80057,设置,80057,0x700138B9,496721,!XamlIlPopulate@25746,Use default,使用默认值,已译,中,设置页·多人游戏；“使用默认值”按钮 StrangersDefaultButton，us=80057，偏移 496721；指恢复平台默认设置，非普通“恢复默认”。 合并自 modules/settings.csv。,
 HF-80081,设置,80081,0x700138D1,496745,!XamlIlPopulate@25831,"Friends always reach your backend. On: your public lobby is listed on the Galactic Map for HellForge players who are not your friends, and you can join theirs. Off: friends only.",好友始终可以连接到你的后端。开启：你的公开大厅会列在银河地图上，供不是你好友的 HellForge 玩家看到，你也可以加入他们的大厅。关闭：仅限好友。,已译,中,设置页·多人游戏；Play with strangers 的状态说明，us=80081，偏移 496745；沿用 SET-01 草稿“陌生人”，正式定名后需同步。 合并自 modules/settings.csv。,
 HF-80440,设置,80440,0x70013A38,497104,!XamlIlPopulate@26087,SANDBOX,沙箱,已译,中,设置页·沙箱；SANDBOX 分区标题，us=80440，偏移 497104；术语见 SET-02。 合并自 modules/settings.csv。,
-HF-80456,设置,80456,0x70013A48,497120,!XamlIlPopulate@26183,Run the game sandboxed,,待裁定,中,设置页·沙箱；复选框标签 SandboxBox，us=80456，偏移 497120；sandbox 取“沙箱”还是“沙盒”见 SET-02，本行暂留空。 合并自 modules/settings.csv。,PD-015
+HF-80456,设置,80456,0x70013A48,497120,!XamlIlPopulate@26183,Run the game sandboxed,在沙箱中运行游戏,已译,中,PD-015 关闭：沙箱。,
 HF-80502,设置,80502,0x70013A76,497166,!XamlIlPopulate@26255,"The game runs at Windows' low integrity level: code running inside it (a mod, or code that a crafted file or another player's game got it to run) cannot write your files, change other programs or start any. Steam reaches the game through HellForge's Steam broker, which passes only the calls the game needs. The game has no Steam overlay then (chat, Steam's invite dialog, screenshots); invitations from the game's social menu still work. Without the overlay there is no Steam Input either: a Steam Controller, the Steam Deck's controls and other controllers that work only through Steam Input do not work sandboxed, and the session says so. Xbox controllers work. Applies to the next session.",游戏以 Windows 的低完整性级别运行：在游戏内运行的代码（模组，或是恶意构造的文件、其他玩家的游戏诱使它运行的代码）无法写入你的文件、更改其他程序或启动任何程序。Steam 通过 HellForge 的 Steam broker 与游戏通信，只传递游戏所需的调用。此时游戏没有 Steam 覆盖层（聊天、Steam 邀请对话框、截图）；游戏社交菜单发出的邀请仍然有效。没有覆盖层也就没有 Steam 输入：Steam 控制器、Steam Deck 的操控以及其他只能通过 Steam 输入工作的控制器在沙箱下都无法使用，会话中会说明这一点。Xbox 控制器可用。在下一次会话生效。,已译,中,设置页·沙箱；SandboxBox 说明段落（693 字符），us=80502，偏移 497166；沙箱/沙盒按 SET-02 草稿取“沙箱”；Steam broker 保留英文技术名。 合并自 modules/settings.csv。,
 HF-81891,设置,81891,0x70013FE3,498555,!XamlIlPopulate@26366,"This HellForge was built without the Steam bridge, so the game cannot run sandboxed.",此 HellForge 构建未包含 Steam 桥接，因此游戏无法在沙箱中运行。,已译,中,设置页·沙箱；SandboxUnavailable 提示，us=81891，偏移 498555；Steam bridge 译“Steam 桥接”，与 Steam broker 区分。 合并自 modules/settings.csv。,
 HF-82533,设置,82533,0x70014265,499197,!XamlIlPopulate@26629,EXPERIMENTAL,实验性,已译,中,设置页·实验性；EXPERIMENTAL 分区标题，us=82533，偏移 499197。 合并自 modules/settings.csv。,
@@ -248,9 +248,9 @@ HF-83937,设置,83937,0x700147E1,500601,!XamlIlPopulate@27267,HellForge's frozen
 HF-83983,设置,83983,0x7001480F,500647,!XamlIlPopulate@27386,"A snapshot of the real war from 14 October 2026, built into HellForge: the same planets and campaigns every session, with no internet needed.",2026 年 10 月 14 日真实战争的快照，内置于 HellForge：每次会话都是相同的行星与战役，无需联网。,已译,中,设置页·银河战争；冻结战争说明，us=83983，偏移 500647；日期按原文 2026-10-14。 合并自 modules/settings.csv。,
 HF-84268,设置,84268,0x7001492C,500932,!XamlIlPopulate@27478,All planets open,所有行星开放,已译,中,设置页·银河战争；单选按钮 WarOpenRadio 标签，us=84268，偏移 500932。 合并自 modules/settings.csv。,
 HF-84302,设置,84302,0x7001494E,500966,!XamlIlPopulate@27597,"Every planet but Super Earth is a liberation campaign you can drop on. Planets Super Earth holds in the frozen war go to the enemy whose front lies that way from Super Earth, so each faction holds about a third of the galaxy. Planets get their enemy's subfactions (Predator Strain, Jet Brigade...) and SEAF allies, and Cyberstan's Megafactories can be attacked. Built from the frozen war, so it is the same on every PC and needs no internet. Applies to the next session.",除 Super Earth 外的每颗行星都是可降落的解放战役。冻结战争中由 Super Earth 掌控的行星，会归给阵线位于从 Super Earth 朝该行星方向的敌人，因此每个阵营各占约三分之一的银河。行星会获得其敌人的子阵营（Predator Strain、Jet Brigade……）与 SEAF 友军，Cyberstan 的巨型工厂也可以被攻击。数据构建自冻结战争，因此在每台电脑上都相同，且无需联网。在下一次会话生效。,已译,中,设置页·银河战争；说明段落（470 字符），us=84302，偏移 500966；Super Earth、SEAF、Cyberstan、Predator Strain、Jet Brigade 保留英文专名。 合并自 modules/settings.csv。,
-HF-85245,设置,85245,0x70014CFD,501909,!XamlIlPopulate@27679,Deal subfactions across the planets,,待裁定,中,设置页·银河战争；复选框标签 DealSubfactionsBox，us=85245，偏移 501909；deal 取“部署”还是“分配”见 SET-03，本行暂留空。 合并自 modules/settings.csv。,PD-016
+HF-85245,设置,85245,0x70014CFD,501909,!XamlIlPopulate@27679,Deal subfactions across the planets,将敌方子阵营分配到各星球,已译,中,PD-016 关闭：将……分配到各星球。,
 HF-85317,设置,85317,0x70014D45,501981,!XamlIlPopulate@27844,"Each planet gets one of its enemy's subfactions or none, from the seed: half of each enemy's planets have none. Off, planets keep the frozen war's. Illuminate planets always have one (their squads need it).",根据种子，每颗行星会获得其敌人子阵营中的一个，或没有：每个敌人约有一半行星没有子阵营。关闭时，行星保持冻结战争中的状态。Illuminate 的行星始终有一个（其小队需要）。,已译,中,设置页·银河战争；子阵营说明，us=85317，偏移 501981；Illuminate 保留英文专名。 合并自 modules/settings.csv。,
-HF-85732,设置,85732,0x70014EE4,502396,!XamlIlPopulate@27926,Deal SEAF allies across the planets,,待裁定,中,设置页·银河战争；复选框标签 DealSeafBox，us=85732，偏移 502396；与 HF-85245 同一 deal 用词，同属 SET-03，本行暂留空。 合并自 modules/settings.csv。,PD-016
+HF-85732,设置,85732,0x70014EE4,502396,!XamlIlPopulate@27926,Deal SEAF allies across the planets,将 SEAF 盟友分配到各星球,已译,中,PD-016 关闭。,
 HF-85804,设置,85804,0x70014F2C,502468,!XamlIlPopulate@28091,"About one planet in eight gets SEAF troops fighting beside you, from the seed. Off, they stay on the frozen war's planets.",根据种子，约每八颗行星有一颗会有 SEAF 部队与你并肩作战。关闭时，他们只出现在冻结战争的行星上。,已译,中,设置页·银河战争；SEAF 友军说明，us=85804，偏移 502468。 合并自 modules/settings.csv。,
 HF-86051,设置,86051,0x70015023,502715,!XamlIlPopulate@28244,Seed,种子,已译,中,设置页·银河战争；“种子”行标签，us=86051，偏移 502715。 合并自 modules/settings.csv。,
 HF-86061,设置,86061,0x7001502D,502725,!XamlIlPopulate@28423,Randomise,随机,已译,中,设置页·银河战争；SubfactionRandomiseButton 按钮，us=86061，偏移 502725。 合并自 modules/settings.csv。,
@@ -323,7 +323,7 @@ HF-103718,设置,103718,0x70019526,520382,MoveNext@945,"Type your password in th
 HF-104107,设置,104107,0x700196AB,520771,MoveNext@961,Stop SteamCMD,停止 SteamCMD,已译,低,安装引导页·SteamCMD 下载；停止按钮，us=104107，偏移 520771；SteamCMD 保留英文。 合并自 modules/settings.csv。,
 HF-104135,设置,104135,0x700196C7,520799,MoveNext@983,SteamCMD downloads build ,SteamCMD 会下载版本 ,已译,低,安装引导页·进度/版本拼接；SteamCMD 下载提示前段，us=104135，偏移 520799；后接版本号，保留尾空格。 合并自 modules/settings-followup.csv。,
 HF-104187,设置,104187,0x700196FB,520851,MoveNext@1004, for your account..., 到你的账户……,已译,低,安装引导页·进度/版本拼接；接在版本号之后，us=104187，偏移 520851；保留首空格，省略号改六点。 合并自 modules/settings-followup.csv。,
-HF-104229,设置,104229,0x70019725,520893,MoveNext@1723,it could not be set up (,,待裁定,低,安装引导页·进度/版本拼接；SteamCMD 失败分支的片段，us=104229，偏移 520893；后接共享的 “).” 分隔符（67808）；括号改用全角会牵动 Linux 前缀的同一分隔符，见 SET-F01，本行暂留空。 合并自 modules/settings-followup.csv。,PD-018
+HF-104229,设置,104229,0x70019725,520893,MoveNext@1723,it could not be set up (,无法完成配置(,已译,低,PD-018 关闭：保留半角左括号。,
 HF-104279,设置,104279,0x70019757,520943,MoveNext@1895,Start SteamCMD again,重新启动 SteamCMD,已译,低,安装引导页·SteamCMD 下载；重试按钮，us=104279，偏移 520943；SteamCMD 保留英文。 合并自 modules/settings.csv。,
 HF-104321,设置,104321,0x70019781,520985,MoveNext@2077,SteamCMD,SteamCMD,保留,低,安装引导页·SteamCMD 下载；区段标签为 Valve 工具名，按保留英文专名处理，不译；us=104321，偏移 520985。 合并自 modules/settings.csv。,
 HF-104339,设置,104339,0x70019793,521003,MoveNext@2161,SteamCMD closed before the download was complete: see the card below.,SteamCMD 在下载完成前关闭：请查看下方卡片。,已译,低,安装引导页·SteamCMD 下载；中途关闭的提示，us=104339，偏移 521003；句内冒号改全角。 合并自 modules/settings.csv。,
@@ -380,17 +380,17 @@ HF-1127,档案,1127,0x70000467,417791,MainWindow.UpdatePlaySync@129,),）,已译
 HF-3751,档案,3751,0x70000EA7,420415,UpdateSyncStatus@502,Clean up,清理,已译,高,按钮标签。,
 HF-3956,档案,3956,0x70000F74,420620,MainWindow.UpdatePlaySync@116,The last sync,上次同步,已译,低,同步状态卡起始片段，后接 4016 段（“属于另一个 Steam 账户”）。 合并自 modules/account-sync.csv。,
 HF-3984,档案,3984,0x70000F90,420648,MainWindow.UpdatePlaySync@123,The last sync (,上次同步（,已译,低,同步状态卡起始片段，后接时间与 1127 的右括号，再接 4277 段。 合并自 modules/account-sync.csv。,
-HF-4016,档案,4016,0x70000FB0,420680,MainWindow.UpdatePlaySync@191, is for another Steam account than the one signed in. Your premium content stays locked in the game until you sync with this one.,,待裁定,低,同步状态卡：上次同步属于另一个 Steam 账户；含 premium content 术语，转 AS-01。 合并自 modules/account-sync.csv。,PD-019
-HF-4277,档案,4277,0x700010B5,420941,MainWindow.UpdatePlaySync@204," cannot be checked on this PC: it changed since, or was made on another PC. Your premium content stays locked in the game until you sync again.",,待裁定,低,同步状态卡：上次同步无法在本机检查；含 premium content 术语，转 AS-01。 合并自 modules/account-sync.csv。,PD-019
+HF-4016,档案,4016,0x70000FB0,420680,MainWindow.UpdatePlaySync@191, is for another Steam account than the one signed in. Your premium content stays locked in the game until you sync with this one., 与当前登录的 Steam 账户不符。你拥有的付费内容会保持锁定，直到你与该账户同步。,已译,低,PD-019 关闭：premium content 付费内容。,
+HF-4277,档案,4277,0x700010B5,420941,MainWindow.UpdatePlaySync@204," cannot be checked on this PC: it changed since, or was made on another PC. Your premium content stays locked in the game until you sync again.", 无法在此电脑上核查：它在此之后发生了变化，或是在另一台电脑上生成的。你拥有的付费内容会保持锁定，直到你再次同步。,已译,低,PD-019 关闭。,
 HF-4566,档案,4566,0x700011D6,421230,MainWindow.UpdatePlaySync@216,"Warbonds, Superstore items and DLC gear you own stay locked in the game until you sync this profile with your HELLDIVERS 2 account. Sync opens the normal game through Steam and ",你拥有的战争债券、超级商店物品和 DLC装备会保持锁定，直到你用 HELLDIVERS 2 账户同步此档案。同步会通过 Steam 打开正常版游戏， ,已译,低,同步状态卡长说明；按裁定使用战争债券/超级商店物品/DLC 装备。片段末尾连接词并入 4923/4983，译文以逗号收尾，尾空格由全角逗号承接。 合并自 modules/account-sync.csv。,
 HF-4923,档案,4923,0x7000133B,421587,MainWindow.UpdatePlaySync@228,asks for administrator access,并请求管理员访问权限,已译,低,承接 4566：同步打开正常版游戏后的管理员权限提示；首字“并”承接上段。 合并自 modules/account-sync.csv。,
 HF-4983,档案,4983,0x70001377,421647,MainWindow.UpdatePlaySync@235,the first time asks for your password to install its helper,首次会要求你输入密码以安装其辅助程序,已译,低,承接 4566 的另一分支：第一次同步需输入密码安装辅助程序。 合并自 modules/account-sync.csv。,
 HF-5103,档案,5103,0x700013EF,421767,MainWindow.UpdatePlaySync@240,; log in and pass the title screen.,；登录并通过标题画面。,已译,低,同步流程说明收尾；title screen 译“标题画面”，与 7699/9666 一致。 合并自 modules/account-sync.csv。,
 HF-5175,档案,5175,0x70001437,421839,MainWindow.UpdatePlaySync@274,Profile synced,档案已同步,已译,低,同步状态卡状态词：最近一次同步成功。 合并自 modules/account-sync.csv。,
-HF-5205,档案,5205,0x70001455,421869,MainWindow.UpdatePlaySync@281,Your premium content is not in this profile,,待裁定,低,同步状态卡状态词：本档案不含 premium content，转 AS-01。 合并自 modules/account-sync.csv。,PD-019
-HF-5293,档案,5293,0x700014AD,421957,MainWindow.UpdatePlaySync@330,Premium content you owned ,,待裁定,低,同步状态卡片段：Premium content you owned，后接 5347/5381/日期/5389；术语转 AS-01，语序转 AS-02。 合并自 modules/account-sync.csv。,PD-019
-HF-5347,档案,5347,0x700014E3,422011,MainWindow.UpdatePlaySync@338,at the last sync,,待裁定,低,同步状态卡片段：at the last sync，位于 5293 与 5381 之间；语序转 AS-02。 合并自 modules/account-sync.csv。,PD-020
-HF-5381,档案,5381,0x70001505,422045,MainWindow.UpdatePlaySync@345,on ,,待裁定,低,同步状态卡片段：on + 运行期日期，位于 5347 与 5389 之间；语序转 AS-02。 合并自 modules/account-sync.csv。,PD-020
+HF-5205,档案,5205,0x70001455,421869,MainWindow.UpdatePlaySync@281,Your premium content is not in this profile,你的付费内容不在此档案中,已译,低,PD-019 关闭。,
+HF-5293,档案,5293,0x700014AD,421957,MainWindow.UpdatePlaySync@330,Premium content you owned ,你拥有的付费内容,已译,低,PD-020 关闭：与“在上次同步时”或“于 日期”分支拼接。,
+HF-5347,档案,5347,0x700014E3,422011,MainWindow.UpdatePlaySync@338,at the last sync,在上次同步时,已译,低,PD-020 关闭：无日期分支。,
+HF-5381,档案,5381,0x70001505,422045,MainWindow.UpdatePlaySync@345,on ,于 ,已译,低,PD-020 关闭：有日期分支，尾空格保留。,
 HF-5389,档案,5389,0x7000150D,422053,MainWindow.UpdatePlaySync@356, is unlocked. Bought or unlocked something since? Update the sync to bring it in., 已解锁。之后又购买或解锁了什么？更新同步即可将其带入。,已译,低,同步状态卡收尾；前导空格为接缝，保留。 合并自 modules/account-sync.csv。,
 HF-5554,档案,5554,0x700015B2,422218,MainWindow.UpdatePlaySync@418,Sync profile,同步档案,已译,低,同步状态卡按钮：从未同步或需重新同步时的主操作。 合并自 modules/account-sync.csv。,
 HF-5580,档案,5580,0x700015CC,422244,MainWindow.UpdatePlaySync@425,Update profile sync,更新档案同步,已译,低,同步状态卡按钮：已有同步记录时的更新操作。 合并自 modules/account-sync.csv。,
@@ -427,7 +427,7 @@ HF-30577,模组,30577,0x70007771,447241,HellForge.Launcher.MainWindow.ShowModBui
 HF-30645,模组,30645,0x700077B5,447309,MainWindow.BuildMod@84,Building ,正在构建 ,已译,低,模组构建状态片段，后接模组名；同 token 亦见 ShowModBuilds@278。 合并自 modules/residual-2.csv。,
 HF-30665,模组,30665,0x700077C9,447329,HellForge.Launcher.MainWindow.ShowModBuilds@285, from its sources., （从源代码构建）。,已译,低,编译进度末段，接在运行期名称后；首空格保留。 合并自 modules/residual-3.csv。,
 HF-38499,模组,38499,0x70009663,455163,HellForge.Launcher.MainWindow.ZipMod@98,Packing ,正在打包 ,已译,低,打包进度前缀；尾空格保留。 合并自 modules/residual-3.csv。,
-HF-39777,模组,39777,0x70009B61,456441,MainWindow.AddModSyncCard@2194, mod,,待裁定,低,模组页摘要（ModsSummaryText@98）与已下载模组数量（AddModSyncCard@2194）共用片段「 mod」；复数后缀「s」（0x70009B6B）与共享片段「 of 」（0x70007767，PM-04 未决）分别承载数词与量词，单独翻译会产生「模组s」或语序不完整。 合并自 modules/residual-2.csv。,PD-017
+HF-39777,模组,39777,0x70009B61,456441,MainWindow.AddModSyncCard@2194, mod, 个模组,已译,低,PD-017 关闭：复数后缀仍待后续处理。,
 HF-39791,模组,39791,0x70009B6F,456455,ModsSummaryText@133," on. Drag a mod to change the order: the bottom one loads first, the top one wins. ", 已开启。拖动模组可调整顺序：最下面的先加载，最上面的生效。 ,已译,低,模组页·概要；启用数量与拖拽排序说明，us=39791，偏移 456455；首尾空格保留；前接「{已启用}／{总数} 个模组」，故以「 已开启。」起句。 合并自 modules/residual-1.csv。,
 HF-43304,模组,43304,0x7000A928,459968,MainWindow.AddModSyncCard@544,the mod sync setting,模组同步设置,已译,低,模组同步卡片内指向设置页的超链接文本（the mod sync setting）；名词短语按设置名处理，是否处于句中被插入待实机确认。 合并自 modules/residual-2.csv。,
 HF-43540,模组,43540,0x7000AA14,460204,MainWindow.AddModSyncCard@594,the public lobby setting,公开大厅设置,已译,低,模组同步卡片内链接文本（the public lobby setting）；与设置页「公开大厅」用词一致。 合并自 modules/residual-2.csv。,
@@ -440,7 +440,7 @@ HF-45172,模组,45172,0x7000B074,461836,MainWindow.AddModSyncCard@1407,", from "
 HF-45188,模组,45188,0x7000B084,461852,MainWindow.AddModSyncCard@1438,. Content hash ,。内容哈希 ,已译,低,受信任模组条目末尾的内容哈希前缀；尾空格为接缝，保留。 合并自 modules/residual-2.csv。,
 HF-45575,模组,45575,0x7000B207,462239,MainWindow.AddModSyncCard@2234, from hosts (, 来自主机 (,已译,低,已下载模组数量说明片段，后接容量与 0x7000B22B；前导空格与半角括号保留（与 0x7000B22B 的右括号配对）。 合并自 modules/residual-2.csv。,
 HF-45611,模组,45611,0x7000B22B,462275,MainWindow.AddModSyncCard@2271," MB), used only when you play with their mods.", MB)，仅在你使用他们的模组游玩时使用。,已译,低,已下载模组容量说明末段；前导空格为接缝，半角右括号与 45575 左括号配对。 合并自 modules/residual-2.csv。,
-HF-45913,模组,45913,0x7000B359,462577,MainWindow.ModRow@1316, options on,,待裁定,低,模组行摘要片段「 options on」，与共享片段「 of 」（0x70007767，PM-04 未决）按固定顺序拼成「N of M options on」；中文需「M 个选项中 N 个已开启」的语序，跨片段移动信息与规则冲突。 合并自 modules/residual-2.csv。,PD-017
+HF-45913,模组,45913,0x7000B359,462577,MainWindow.ModRow@1316, options on, 个选项已启用,已译,低,PD-017 关闭。,
 HF-48131,模组,48131,0x7000BC03,464795,MainWindow.ModChanges@39,network field ,网络字段 ,已译,低,模组变更说明片段（ModChanges），后接字段名；尾空格为接缝，保留。 合并自 modules/residual-2.csv。,
 HF-48171,模组,48171,0x7000BC2B,464835,MainWindow.ModChanges@114, bits, 位,已译,低,模组变更说明片段：位宽/比特数；前导空格为接缝，保留。 合并自 modules/residual-2.csv。,
 HF-48183,模组,48183,0x7000BC37,464847,MainWindow.ModChanges@419, stats change, 属性变更,已译,低,模组变更说明片段：属性变更；前导空格为接缝，保留。 合并自 modules/residual-2.csv。,
@@ -549,11 +549,11 @@ HF-46365,未分类,46365,0x7000B51D,463029,MainWindow.Tags@223,NATIVE,原生,已
 HF-46395,未分类,46395,0x7000B53B,463059,MainWindow.Tags@258,STATS,属性,已译,低,模组行标签（Tags）：属性类模组标签（stats），与「属性变更」用词一致。 合并自 modules/residual-2.csv。,
 HF-46407,未分类,46407,0x7000B547,463071,MainWindow.Tags@301,DATA,数据,已译,低,模组行标签（Tags）：数据类模组标签。 合并自 modules/residual-2.csv。,
 HF-46433,未分类,46433,0x7000B561,463097,MainWindow.Tags@330,ZIP,ZIP,保留,低,模组行标签（Tags）：ZIP 包类型标签，格式专名，原样保留。 合并自 modules/residual-2.csv。,
-HF-46441,未分类,46441,0x7000B569,463105,HellForge.Launcher.MainWindow.PremiumTag@25,PREMIUM,,待裁定,低,模组/物品标签：Premium 术语未定。 合并自 modules/residual-3.csv。,PD-019
-HF-46473,未分类,46473,0x7000B589,463137,HellForge.Launcher.MainWindow.PremiumTag@41,PREMIUM: LOCKED,,待裁定,低,模组/物品标签：Premium 术语未定。 合并自 modules/residual-3.csv。,PD-019
-HF-46505,未分类,46505,0x7000B5A9,463169,HellForge.Launcher.MainWindow.PremiumTag@57,PREMIUM: CHECK AT SESSION,,待裁定,低,模组/物品标签：Premium 术语未定。 合并自 modules/residual-3.csv。,PD-019
+HF-46441,未分类,46441,0x7000B569,463105,HellForge.Launcher.MainWindow.PremiumTag@25,PREMIUM,付费内容,已译,低,PD-019 关闭：标签。,
+HF-46473,未分类,46473,0x7000B589,463137,HellForge.Launcher.MainWindow.PremiumTag@41,PREMIUM: LOCKED,付费内容：已锁定,已译,低,PD-019 关闭。,
+HF-46505,未分类,46505,0x7000B5A9,463169,HellForge.Launcher.MainWindow.PremiumTag@57,PREMIUM: CHECK AT SESSION,付费内容：会话开始时核查,已译,低,PD-019 关闭。,
 HF-46557,未分类,46557,0x7000B5DD,463221,HellForge.Launcher.MainWindow.PremiumText@8,Built on ,构建于 ,已译,低,高级内容面板（PremiumText）；尾空格保留，后接运行期构建信息。 合并自 modules/residual-3.csv。,
-HF-46577,未分类,46577,0x7000B5F1,463241,HellForge.Launcher.MainWindow.PremiumText@81,Premium items are checked against the signed-in Steam account when the session starts.,,待裁定,低,高级内容面板：Premium items 术语未定，与主表 Premium content 待裁定行同域。 合并自 modules/residual-3.csv。,PD-019
+HF-46577,未分类,46577,0x7000B5F1,463241,HellForge.Launcher.MainWindow.PremiumText@81,Premium items are checked against the signed-in Steam account when the session starts.,付费物品会在会话开始时按登录的 Steam 账户核查。,已译,低,PD-019 关闭：premium items 付费物品。,
 HF-46752,未分类,46752,0x7000B6A0,463416,HellForge.Launcher.MainWindow.PremiumText@101,"Your synced account owns it, so everything this mod adds is yours to use.",你的已同步账户拥有它，因此此模组添加的一切都可使用。,已译,低,高级内容面板说明。 合并自 modules/residual-3.csv。,
 HF-46919,未分类,46919,0x7000B747,463583,HellForge.Launcher.MainWindow.PremiumText@146,'s synced account lacks , 的已同步账户缺少 ,已译,低,高级内容面板片段，接在运行期档案名之后；首空格为中文排版有意添加（见 review 边界说明），尾空格保留。 合并自 modules/residual-3.csv。,
 HF-46969,未分类,46969,0x7000B779,463633,HellForge.Launcher.MainWindow.PremiumText@208,": the mod loads, but its weapons and stratagems stay locked.",：模组会加载，但其武器与战略配备仍保持锁定。,已译,低,高级内容面板片段，接在物品名之后。 合并自 modules/residual-3.csv。,
@@ -579,7 +579,7 @@ HF-66911,未分类,66911,0x7001055F,483575,HellForge.Launcher.MainWindow..cctor@
 HF-66973,未分类,66973,0x7001059D,483637,HellForge.Launcher.MainWindow..cctor@415,Block the copy from the internet,阻止副本访问互联网,已译,低,配置步骤名（静态字段）；副本沿用主表“复制后的游戏/副本”。 合并自 modules/residual-3.csv。,
 HF-67039,未分类,67039,0x700105DF,483703,HellForge.Launcher.MainWindow..cctor@423,Import earlier game data,导入此前的游戏数据,已译,低,配置步骤名（静态字段）。 合并自 modules/residual-3.csv。,
 HF-67089,未分类,67089,0x70010611,483753,HellForge.Launcher.MainWindow..cctor@431,Create shortcuts,创建快捷方式,已译,低,配置步骤名（静态字段）。 合并自 modules/residual-3.csv。,
-HF-67123,未分类,67123,0x70010633,483787,<InitializeAccountImport>b__4_2@13,Nothing imported. Premium items you own still follow the sync.,,待裁定,低,账户导入结果；无导入内容提示，us=67123，偏移 483787；Premium items 术语与已确认的「超级商店物品」「DLC装备」边界不明，见 R1-01，本行暂留空。 合并自 modules/residual-1.csv。,PD-019
+HF-67123,未分类,67123,0x70010633,483787,<InitializeAccountImport>b__4_2@13,Nothing imported. Premium items you own still follow the sync.,未导入任何内容。你拥有的付费物品仍跟随同步。,已译,低,PD-019 关闭。,
 HF-68316,未分类,68316,0x70010ADC,484980,MainWindow.<InitializeWeaponLevels>b__445_1@123,Saved. The next session uses these levels.,已保存。下次会话将使用这些等级。,已译,低,档案页武器等级保存成功提示。 合并自 modules/residual-2.csv。,
 HF-91402,未分类,91402,0x7001650A,508066,.ctor@1,The Steam app downloads the build.,Steam 客户端会下载该版本。,已译,低,安装下载方式；Steam 客户端下载说明，us=91402，偏移 508066。 合并自 modules/residual-1.csv。,
 HF-91472,未分类,91472,0x70016550,508136,<<InitializeAccountImport>b__4_0>d.MoveNext@23,Reviewing...,审核中……,已译,低,账户导入状态词。 合并自 modules/residual-3.csv。,
@@ -653,7 +653,7 @@ HF-30193,档案/模组,30193,0x700075F1,446857,MainWindow.ShowProfile@484,#,#,�
 HF-30197,档案/模组,30197,0x700075F5,446861,MainWindow.ShowProfile@506, + #, + #,保留,低,舰船名称拼接片段，前导空格为接缝，原样保留。 合并自 modules/profiles-mods.csv。,
 HF-30271,档案/模组,30271,0x7000763F,446935,MainWindow.ShowProfile@660,0x,0x,保留,低,新手引导标记十六进制显示前缀，属格式文本，原样保留。 合并自 modules/profiles-mods.csv。,
 HF-30277,档案/模组,30277,0x70007645,446941,MainWindow.ShowProfile@674,X,X,保留,低,十六进制格式说明符，属格式代码，原样保留。 合并自 modules/profiles-mods.csv。,
-HF-30567,档案/模组,30567,0x70007767,447231,MainWindow.ModsSummaryText@78, of ,,待裁定,低,共享数量拼接片段“ of ”，在 ShowModBuilds（编译 N of M）、ModsSummaryText、ModRow（N of M options on）等多处复用，中文语序随上下文不同，转 PM-04。 合并自 modules/profiles-mods.csv。,PD-017
+HF-30567,档案/模组,30567,0x70007767,447231,MainWindow.ModsSummaryText@78, of , / ,已译,低,PD-017 关闭：数量分隔用“ / ”。,
 HF-30587,档案/模组,30587,0x7000777B,447251,MainWindow.ShowModBuilds@259,Fetching the mod compiler...,正在获取模组编译器……,已译,低,模组页编译状态提示。 合并自 modules/profiles-mods.csv。,
 HF-30703,档案/模组,30703,0x700077EF,447367,MainWindow.ShowModBuilds@297,"Once per installation: HellForge's pinned Zig, to build mods that ship their sources.",每次安装仅一次：HellForge 固定版本的 Zig，用于构建随附源代码的模组。,已译,低,模组构建说明（Windows 版）。 合并自 modules/profiles-mods.csv。,
 HF-35926,档案/模组,35926,0x70008C56,452590,MainWindow.AddModKitCards@87,Install mod tools,安装模组工具,已译,低,模组工具卡片按钮（Windows 版）。 合并自 modules/profiles-mods.csv。,

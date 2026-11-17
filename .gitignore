@@ -1,7 +1,10 @@
 /launcher-0.4.0-beta-input/
+/preview-0.4.0-beta-zhcn/
 /work/*
 !/work/trial-entries.csv
 !/work/qa_check.py
 !/work/pe_meta.py
 !/work/dump_res.py
+!/work/build_launcher_preview.py
+!/work/smoke_launcher_preview.ps1
 **/__pycache__/

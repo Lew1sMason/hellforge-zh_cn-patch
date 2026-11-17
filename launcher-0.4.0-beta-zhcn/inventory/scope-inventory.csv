@@ -12,7 +12,7 @@ HF-22604,启动,22604,0x7000584C,439268,1,Preparing the session...,Start,低,已
 HF-22654,启动,22654,0x7000587E,439318,1,"Building mods that ship their sources, then checking the copied game.",Start,低,已译,批次 2 合并,
 HF-22795,启动,22795,0x7000590B,439459,1,Local backend,StartPreflight,低,已译,批次 2 合并,
 HF-22823,启动,22823,0x70005927,439487,2,Session runner,StartPreflight;BuildPaths,低,已译,批次 1,
-HF-22853,启动,22853,0x70005945,439517,2, is missing.,StartPreflight,低,待裁定,批次 2 合并,PD-009
+HF-22853,启动,22853,0x70005945,439517,2, is missing.,StartPreflight,低,已译,批次 2 合并 批次 4 裁定,
 HF-22879,启动,22879,0x7000595F,439543,2,Sessions run in installations made with HellForge-Setup.,StartPreflight;ShowEarlyFailure,高,已译,批次 1,
 HF-22993,启动,22993,0x700059D1,439657,1,Reinstall HellForge: ,StartPreflight,低,已译,批次 2 合并,
 HF-23037,启动,23037,0x700059FD,439701,1,Account Sync is finishing: it keeps the normal HELLDIVERS 2 connected until you close it.,StartPreflight,低,已译,批次 1,
@@ -20,7 +20,7 @@ HF-23218,启动,23218,0x70005AB2,439882,1,"Close HELLDIVERS 2, then press PLAY a
 HF-23304,启动,23304,0x70005B08,439968,1,"A game, anti-cheat or session process is still running.",StartPreflight,低,已译,批次 1,
 HF-23416,启动,23416,0x70005B78,440080,1,"End it on the play page, then press PLAY again.",StartPreflight,低,已译,批次 1,
 HF-23512,启动,23512,0x70005BD8,440176,1,Multiplayer needs Local PlayFab.,StartPreflight,低,已译,批次 2 合并,
-HF-23578,启动,23578,0x70005C1A,440242,1,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,StartPreflight,低,待裁定,批次 2 合并,PD-008
+HF-23578,启动,23578,0x70005C1A,440242,1,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,StartPreflight,低,已译,批次 2 合并 批次 4 裁定,
 HF-24800,启动,24800,0x700060E0,441464,1,HellForge cannot start inside this container.,ShowEarlyFailure,高,已译,批次 1,
 HF-24892,启动,24892,0x7000613C,441556,1,See ,ShowEarlyFailure,高,已译,批次 2 合并,
 HF-24950,启动,24950,0x70006176,441614,1, for why.,ShowEarlyFailure,高,已译,批次 2 合并,
@@ -70,8 +70,8 @@ HF-13816,控制台,13816,0x700035F8,430480,1,  - Steam's download folder once em
 HF-13973,控制台,13973,0x70003695,430637,1,  - Steam's download state file (kept unless you tick the Steam box): ,AppendSteamLeft,低,已译,批次 4 合并,
 HF-14300,控制台,14300,0x700037DC,430964,1,  - the removed shell installer's files: none found,AppendOldScriptRemovals,低,待译,,
 HF-14404,控制台,14404,0x70003844,431068,1,  - the removed shell installer's ,AppendOldScriptRemovals,低,待译,,
-HF-23893,控制台,23893,0x70005D55,440557,1,Co-op over Steam relays is off (Settings > Multiplayer): other players' lobbies show but can't be joined; the lobby browser can turn it on.,AppendCoopRelaysLine,低,待裁定,批次 4 合并,PD-012
-HF-24174,控制台,24174,0x70005E6E,440838,1, Until then this session plays without co-op.,AppendCoopRelaysLine,低,待裁定,批次 4 合并,PD-012
+HF-23893,控制台,23893,0x70005D55,440557,1,Co-op over Steam relays is off (Settings > Multiplayer): other players' lobbies show but can't be joined; the lobby browser can turn it on.,AppendCoopRelaysLine,低,已译,批次 4 合并 批次 4 裁定,
+HF-24174,控制台,24174,0x70005E6E,440838,1, Until then this session plays without co-op.,AppendCoopRelaysLine,低,已译,批次 4 合并 批次 4 裁定,
 HF-30297,控制台,30297,0x70007659,446961,1,--:--:--,AppendRequest,低,待译,,
 HF-30315,控制台,30315,0x7000766B,446979,1,HH:mm:ss,AppendRequest,低,待译,,
 HF-31460,控制台,31460,0x70007AE4,448124,1,No session logs yet: play a session first.,SaveLogsToDesktop,低,已译,批次 4 合并,
@@ -79,10 +79,10 @@ HF-31546,控制台,31546,0x70007B3A,448210,1,HellForge-logs-,SaveLogsToDesktop,�
 HF-31578,控制台,31578,0x70007B5A,448242,4,yyyyMMdd-HHmmss,SaveLogsToDesktop;MoveNext,低,待译,,
 HF-31638,控制台,31638,0x70007B96,448302,1,Saved the latest session's logs to ,SaveLogsToDesktop,低,已译,批次 4 合并,
 HF-31716,控制台,31716,0x70007BE4,448380,2, files in use were left out),SaveLogsToDesktop;MoveNext,低,已译,批次 4 合并,
-HF-33203,控制台,33203,0x700081B3,449867,1,"Sandboxed (Settings > Sandbox): the game runs at low integrity, with Steam through the Steam broker.",AppendSandboxLine,低,待裁定,批次 4 合并,PD-011
-HF-33611,控制台,33611,0x7000834B,450275,3,Settings > Sandbox is off,AppendSandboxLine;SandboxOffReason,低,待裁定,批次 4 合并,PD-011
-HF-33663,控制台,33663,0x7000837F,450327,1,This session is not sandboxed (,AppendSandboxLine,低,待裁定,批次 4 合并,PD-011
-HF-33727,控制台,33727,0x700083BF,450391,1,"). The game, its mods and anything they run can write your files.",AppendSandboxLine,低,待裁定,批次 4 合并,PD-011
+HF-33203,控制台,33203,0x700081B3,449867,1,"Sandboxed (Settings > Sandbox): the game runs at low integrity, with Steam through the Steam broker.",AppendSandboxLine,低,已译,批次 4 合并 批次 4 裁定,
+HF-33611,控制台,33611,0x7000834B,450275,3,Settings > Sandbox is off,AppendSandboxLine;SandboxOffReason,低,已译,批次 4 合并 批次 4 裁定,
+HF-33663,控制台,33663,0x7000837F,450327,1,This session is not sandboxed (,AppendSandboxLine,低,已译,批次 4 合并 批次 4 裁定,
+HF-33727,控制台,33727,0x700083BF,450391,1,"). The game, its mods and anything they run can write your files.",AppendSandboxLine,低,已译,批次 4 合并 批次 4 裁定,
 HF-55655,控制台,55655,0x7000D967,472319,2,steam://open/console,OpenSteamConsole,低,待译,,
 HF-55697,控制台,55697,0x7000D991,472361,1,xdg-open,OpenSteamConsole,低,待译,,
 HF-55715,控制台,55715,0x7000D9A3,472379,1,No process was started.,OpenSteamConsole,低,已译,批次 4 合并,
@@ -209,12 +209,12 @@ HF-46395,未分类,46395,0x7000B53B,463059,1,STATS,Tags,低,已译,批次 4 合�
 HF-46407,未分类,46407,0x7000B547,463071,1,DATA,Tags,低,已译,批次 4 合并,
 HF-46417,未分类,46417,0x7000B551,463081,2,#5FD08A,Tags;.cctor,低,待译,,
 HF-46433,未分类,46433,0x7000B561,463097,1,ZIP,Tags,低,保留,批次 4 合并,
-HF-46441,未分类,46441,0x7000B569,463105,1,PREMIUM,PremiumTag,低,待裁定,批次 4 合并,PD-019
+HF-46441,未分类,46441,0x7000B569,463105,1,PREMIUM,PremiumTag,低,已译,批次 4 合并 批次 4 裁定,
 HF-46457,未分类,46457,0x7000B579,463121,3,#FFC72C,PremiumTag;.cctor,低,待译,,
-HF-46473,未分类,46473,0x7000B589,463137,1,PREMIUM: LOCKED,PremiumTag,低,待裁定,批次 4 合并,PD-019
-HF-46505,未分类,46505,0x7000B5A9,463169,1,PREMIUM: CHECK AT SESSION,PremiumTag,低,待裁定,批次 4 合并,PD-019
+HF-46473,未分类,46473,0x7000B589,463137,1,PREMIUM: LOCKED,PremiumTag,低,已译,批次 4 合并 批次 4 裁定,
+HF-46505,未分类,46505,0x7000B5A9,463169,1,PREMIUM: CHECK AT SESSION,PremiumTag,低,已译,批次 4 合并 批次 4 裁定,
 HF-46557,未分类,46557,0x7000B5DD,463221,1,Built on ,PremiumText,低,已译,批次 4 合并,
-HF-46577,未分类,46577,0x7000B5F1,463241,1,Premium items are checked against the signed-in Steam account when the session starts.,PremiumText,低,待裁定,批次 4 合并,PD-019
+HF-46577,未分类,46577,0x7000B5F1,463241,1,Premium items are checked against the signed-in Steam account when the session starts.,PremiumText,低,已译,批次 4 合并 批次 4 裁定,
 HF-46752,未分类,46752,0x7000B6A0,463416,1,"Your synced account owns it, so everything this mod adds is yours to use.",PremiumText,低,已译,批次 4 合并,
 HF-46919,未分类,46919,0x7000B747,463583,1,'s synced account lacks ,PremiumText,低,已译,批次 4 合并,
 HF-46969,未分类,46969,0x7000B779,463633,1,": the mod loads, but its weapons and stratagems stay locked.",PremiumText,低,已译,批次 4 合并,
@@ -281,7 +281,7 @@ HF-66911,未分类,66911,0x7001055F,483575,1,Copy the game into this folder,.cct
 HF-66973,未分类,66973,0x7001059D,483637,1,Block the copy from the internet,.cctor,低,已译,批次 4 合并,
 HF-67039,未分类,67039,0x700105DF,483703,1,Import earlier game data,.cctor,低,已译,批次 4 合并,
 HF-67089,未分类,67089,0x70010611,483753,1,Create shortcuts,.cctor,低,已译,批次 4 合并,
-HF-67123,未分类,67123,0x70010633,483787,1,Nothing imported. Premium items you own still follow the sync.,<InitializeAccountImport>b__4_2,低,待裁定,批次 4 合并,PD-019
+HF-67123,未分类,67123,0x70010633,483787,1,Nothing imported. Premium items you own still follow the sync.,<InitializeAccountImport>b__4_2,低,已译,批次 4 合并 批次 4 裁定,
 HF-68316,未分类,68316,0x70010ADC,484980,1,Saved. The next session uses these levels.,<InitializeWeaponLevels>b__445_1,低,已译,批次 4 合并,
 HF-91128,未分类,91128,0x700163F8,507792,3, { ,ToString,低,待译,,
 HF-91136,未分类,91136,0x70016400,507800,2,Build = ,PrintMembers,低,待译,,
@@ -617,17 +617,17 @@ HF-125320,未分类,125320,0x7001E988,541984,1,arsenal.tsv,Names,低,待译,,
 HF-125624,未分类,125624,0x7001EAB8,542288,1,Value,"Avalonia.Styling.Setter,Avalonia.Base.Value!Property",低,待译,,
 HF-3956,档案,3956,0x70000F74,420620,1,The last sync,UpdatePlaySync,低,已译,批次 4 合并,
 HF-3984,档案,3984,0x70000F90,420648,1,The last sync (,UpdatePlaySync,低,已译,批次 4 合并,
-HF-4016,档案,4016,0x70000FB0,420680,1, is for another Steam account than the one signed in. Your premium content stays locked in the game until you sync with this one.,UpdatePlaySync,低,待裁定,批次 4 合并,PD-019
-HF-4277,档案,4277,0x700010B5,420941,1," cannot be checked on this PC: it changed since, or was made on another PC. Your premium content stays locked in the game until you sync again.",UpdatePlaySync,低,待裁定,批次 4 合并,PD-019
+HF-4016,档案,4016,0x70000FB0,420680,1, is for another Steam account than the one signed in. Your premium content stays locked in the game until you sync with this one.,UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
+HF-4277,档案,4277,0x700010B5,420941,1," cannot be checked on this PC: it changed since, or was made on another PC. Your premium content stays locked in the game until you sync again.",UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
 HF-4566,档案,4566,0x700011D6,421230,1,"Warbonds, Superstore items and DLC gear you own stay locked in the game until you sync this profile with your HELLDIVERS 2 account. Sync opens the normal game through Steam and ",UpdatePlaySync,低,已译,批次 4 合并,
 HF-4923,档案,4923,0x7000133B,421587,1,asks for administrator access,UpdatePlaySync,低,已译,批次 4 合并,
 HF-4983,档案,4983,0x70001377,421647,1,the first time asks for your password to install its helper,UpdatePlaySync,低,已译,批次 4 合并,
 HF-5103,档案,5103,0x700013EF,421767,1,; log in and pass the title screen.,UpdatePlaySync,低,已译,批次 4 合并,
 HF-5175,档案,5175,0x70001437,421839,1,Profile synced,UpdatePlaySync,低,已译,批次 4 合并,
-HF-5205,档案,5205,0x70001455,421869,1,Your premium content is not in this profile,UpdatePlaySync,低,待裁定,批次 4 合并,PD-019
-HF-5293,档案,5293,0x700014AD,421957,1,Premium content you owned ,UpdatePlaySync,低,待裁定,批次 4 合并,PD-019
-HF-5347,档案,5347,0x700014E3,422011,1,at the last sync,UpdatePlaySync,低,待裁定,批次 4 合并,PD-020
-HF-5381,档案,5381,0x70001505,422045,1,on ,UpdatePlaySync,低,待裁定,批次 4 合并,PD-020
+HF-5205,档案,5205,0x70001455,421869,1,Your premium content is not in this profile,UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
+HF-5293,档案,5293,0x700014AD,421957,1,Premium content you owned ,UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
+HF-5347,档案,5347,0x700014E3,422011,1,at the last sync,UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
+HF-5381,档案,5381,0x70001505,422045,1,on ,UpdatePlaySync,低,已译,批次 4 合并 批次 4 裁定,
 HF-5389,档案,5389,0x7000150D,422053,1, is unlocked. Bought or unlocked something since? Update the sync to bring it in.,UpdatePlaySync,低,已译,批次 4 合并,
 HF-5554,档案,5554,0x700015B2,422218,1,Sync profile,UpdatePlaySync,低,已译,批次 4 合并,
 HF-5580,档案,5580,0x700015CC,422244,1,Update profile sync,UpdatePlaySync,低,已译,批次 4 合并,
@@ -676,7 +676,7 @@ HF-24479,模组,24479,0x70005F9F,441143,1,mod-sync,TryModSyncRestart,低,待译,
 HF-24497,档案/模组,24497,0x70005FB1,441161,1,"Restarting with the host's mods (mod sync). Once the game is on the ship, the host's invitation to their lobby waits in game.",TryModSyncRestart,低,已译,批次 4 合并,
 HF-25388,档案/模组,25388,0x7000632C,442052,1,Mod left out of this session: ,ShowModProblems,低,已译,批次 4 合并,
 HF-30533,模组,30533,0x70007745,447197,1,Compiling mods (,ShowModBuilds,低,已译,批次 4 合并,
-HF-30567,档案/模组,30567,0x70007767,447231,7, of ,ShowModBuilds;ModsSummaryText;ModRow;<ShowDepotProgress>b__376_2,低,待裁定,批次 4 合并,PD-017
+HF-30567,档案/模组,30567,0x70007767,447231,7, of ,ShowModBuilds;ModsSummaryText;ModRow;<ShowDepotProgress>b__376_2,低,已译,批次 4 合并 批次 4 裁定,
 HF-30577,模组,30577,0x70007771,447241,1,)...,ShowModBuilds,低,已译,批次 4 合并,
 HF-30587,档案/模组,30587,0x7000777B,447251,1,Fetching the mod compiler...,ShowModBuilds,低,已译,批次 4 合并,
 HF-30645,模组,30645,0x700077B5,447309,2,Building ,ShowModBuilds;BuildMod,低,已译,批次 4 合并,
@@ -696,7 +696,7 @@ HF-38863,档案/模组,38863,0x700097CF,455527,1,"No mods yet. Add mods... takes
 HF-39292,档案/模组,39292,0x7000997C,455956,1,Changes apply to the next session,ModsSummaryText,低,已译,批次 4 合并,
 HF-39360,档案/模组,39360,0x700099C0,456024,1,; the running session keeps the mods it started with.,ModsSummaryText,低,已译,批次 4 合并,
 HF-39468,档案/模组,39468,0x70009A2C,456132,1,"While the game runs, switching a mod or changing its settings applies to it at once when the game can take it; anything else applies to the next session.",ModsSummaryText,低,已译,批次 4 合并,
-HF-39777,模组,39777,0x70009B61,456441,2, mod,ModsSummaryText;AddModSyncCard,低,待裁定,批次 4 合并,PD-017
+HF-39777,模组,39777,0x70009B61,456441,2, mod,ModsSummaryText;AddModSyncCard,低,已译,批次 4 合并 批次 4 裁定,
 HF-39791,模组,39791,0x70009B6F,456455,1," on. Drag a mod to change the order: the bottom one loads first, the top one wins. ",ModsSummaryText,低,已译,批次 4 合并,
 HF-39964,档案/模组,39964,0x70009C1C,456628,1,"Mods load in installations made with HellForge-Setup, from the installation's mods folder.",RefreshMods,低,已译,批次 4 合并,
 HF-40147,档案/模组,40147,0x70009CD3,456811,1,Could not read the mods folder: ,RefreshMods,低,已译,批次 4 合并,
@@ -762,7 +762,7 @@ HF-45705,模组,45705,0x7000B289,462369,2,#282C33,AddModGroup;.cctor,低,待译,
 HF-45721,模组,45721,0x7000B299,462385,1,"Auto,Auto,Auto,Auto,*,Auto,Auto",ModRow,低,待译,,
 HF-45805,模组,45805,0x7000B2ED,462469,1,⠿,ModRow,低,待译,,
 HF-45809,档案/模组,45809,0x7000B2F1,462473,1,Drag the mod to change the load order: higher wins.,ModRow,低,已译,批次 4 合并,
-HF-45913,模组,45913,0x7000B359,462577,1, options on,ModRow,低,待裁定,批次 4 合并,PD-017
+HF-45913,模组,45913,0x7000B359,462577,1, options on,ModRow,低,已译,批次 4 合并 批次 4 裁定,
 HF-45937,模组,45937,0x7000B371,462601,1, · ,ModRow,低,待译,,
 HF-45945,档案/模组,45945,0x7000B379,462609,1,Last session: ,ModRow,低,已译,批次 4 合并,
 HF-45975,档案/模组,45975,0x7000B397,462639,1,In game: ,ModRow,低,已译,批次 4 合并,
@@ -838,7 +838,7 @@ HF-3329,状态,3329,0x70000D01,419993,1," items, ",UpdateSyncStatus,高,已译,�
 HF-3347,状态,3347,0x70000D13,420011,1,progression captured.,UpdateSyncStatus,高,已译,批次 1 PD-004 批次 4 裁定,
 HF-3391,状态,3391,0x70000D3F,420055,1, XP.,UpdateSyncStatus,高,已译,批次 1 PD-004 批次 4 裁定,
 HF-3401,状态,3401,0x70000D49,420065,1,Last sync failed ,UpdateSyncStatus,高,已译锁定,批次 1,
-HF-3437,状态,3437,0x70000D6D,420101,1," items, no progression. Sync again to get your level, unlocks and ship.",UpdateSyncStatus,高,待裁定,批次 1 PD-004,PD-004
+HF-3437,状态,3437,0x70000D6D,420101,1," items, no progression. Sync again to get your level, unlocks and ship.",UpdateSyncStatus,高,已译,批次 1 PD-004 批次 4 裁定,
 HF-3582,状态,3582,0x70000DFE,420246,1,No snapshot yet. Sync to copy your real inventory into this profile.,UpdateSyncStatus,高,已译,批次 1,
 HF-3721,档案/模组,3721,0x70000E89,420385,2,Sync Inventory,UpdateSyncStatus;!XamlIlPopulate,高,已译,批次 1,
 HF-3751,档案,3751,0x70000EA7,420415,2,Clean up,UpdateSyncStatus,高,已译,批次 1,
@@ -957,7 +957,7 @@ HF-75793,档案/模组,75793,0x70012811,492457,1,Mods,!XamlIlPopulate,中,已译
 HF-75803,档案/模组,75803,0x7001281B,492467,1,Open mods folder,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-75837,档案/模组,75837,0x7001283D,492501,1,Refresh,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-75853,档案/模组,75853,0x7001284D,492517,1,Add mods...,!XamlIlPopulate,中,已译,批次 4 合并,
-HF-75877,控制台,75877,0x70012865,492541,1,BACKEND,!XamlIlPopulate,中,待裁定,批次 4 合并,PD-010
+HF-75877,控制台,75877,0x70012865,492541,1,BACKEND,!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-75893,控制台,75893,0x70012875,492557,1,Console,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-75909,控制台,75909,0x70012885,492573,1,Auto-scroll,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-75933,控制台,75933,0x7001289D,492597,1,Clear,!XamlIlPopulate,中,已译,批次 4 合并,
@@ -983,11 +983,11 @@ HF-78492,设置,78492,0x7001329C,495156,1,Points the game's PlayFab login and pr
 HF-78809,设置,78809,0x700133D9,495473,1,Lobby and session through Steam friends,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-78889,设置,78889,0x70013429,495553,1,Replaces the copy's PlayFab Party and Lobby DLLs with HellForge stand-ins for the session; they never reach PlayFab and talk to friends' backends through Steam networking. Every call is logged to the session folder.,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-79322,界面静态,79322,0x700135DA,495986,1,Co-op over Steam relays (UDP to Valve's relays only),!XamlIlPopulate,中,已译,批次 4 合并,
-HF-80017,设置,80017,0x70013891,496681,1,Play with strangers,!XamlIlPopulate,中,待裁定,批次 4 合并,PD-014
+HF-80017,设置,80017,0x70013891,496681,1,Play with strangers,!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-80057,设置,80057,0x700138B9,496721,1,Use default,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-80081,设置,80081,0x700138D1,496745,1,"Friends always reach your backend. On: your public lobby is listed on the Galactic Map for HellForge players who are not your friends, and you can join theirs. Off: friends only.",!XamlIlPopulate,中,已译,批次 4 合并,
 HF-80440,设置,80440,0x70013A38,497104,1,SANDBOX,!XamlIlPopulate,中,已译,批次 4 合并,
-HF-80456,设置,80456,0x70013A48,497120,1,Run the game sandboxed,!XamlIlPopulate,中,待裁定,批次 4 合并,PD-015
+HF-80456,设置,80456,0x70013A48,497120,1,Run the game sandboxed,!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-82533,设置,82533,0x70014265,499197,1,EXPERIMENTAL,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-82559,设置,82559,0x7001427F,499223,1,Change mods without restarting,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-82621,设置,82621,0x700142BD,499285,1,"Takes effect from the next session. Stats mods, data mods and code mods that declare they can change live switch while the game runs, on the Mods page and when you join a friend with other mods. Everything else still restarts, and a mod that adds weapons often will. Off: every change waits for a restart.",!XamlIlPopulate,中,已译,批次 4 合并,
@@ -998,9 +998,9 @@ HF-83937,设置,83937,0x700147E1,500601,1,HellForge's frozen war,!XamlIlPopulate
 HF-83983,设置,83983,0x7001480F,500647,1,"A snapshot of the real war from 14 October 2026, built into HellForge: the same planets and campaigns every session, with no internet needed.",!XamlIlPopulate,中,已译,批次 4 合并,
 HF-84268,设置,84268,0x7001492C,500932,1,All planets open,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-84302,设置,84302,0x7001494E,500966,1,"Every planet but Super Earth is a liberation campaign you can drop on. Planets Super Earth holds in the frozen war go to the enemy whose front lies that way from Super Earth, so each faction holds about a third of the galaxy. Planets get their enemy's subfactions (Predator Strain, Jet Brigade...) and SEAF allies, and Cyberstan's Megafactories can be attacked. Built from the frozen war, so it is the same on every PC and needs no internet. Applies to the next session.",!XamlIlPopulate,中,已译,批次 4 合并,
-HF-85245,设置,85245,0x70014CFD,501909,1,Deal subfactions across the planets,!XamlIlPopulate,中,待裁定,批次 4 合并,PD-016
+HF-85245,设置,85245,0x70014CFD,501909,1,Deal subfactions across the planets,!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-85317,设置,85317,0x70014D45,501981,1,"Each planet gets one of its enemy's subfactions or none, from the seed: half of each enemy's planets have none. Off, planets keep the frozen war's. Illuminate planets always have one (their squads need it).",!XamlIlPopulate,中,已译,批次 4 合并,
-HF-85732,设置,85732,0x70014EE4,502396,1,Deal SEAF allies across the planets,!XamlIlPopulate,中,待裁定,批次 4 合并,PD-016
+HF-85732,设置,85732,0x70014EE4,502396,1,Deal SEAF allies across the planets,!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-85804,设置,85804,0x70014F2C,502468,1,"About one planet in eight gets SEAF troops fighting beside you, from the seed. Off, they stay on the frozen war's planets.",!XamlIlPopulate,中,已译,批次 4 合并,
 HF-86051,设置,86051,0x70015023,502715,1,Seed,!XamlIlPopulate,中,已译,批次 4 合并,
 HF-86061,设置,86061,0x7001502D,502725,1,Randomise,!XamlIlPopulate,中,已译,批次 4 合并,
@@ -1051,7 +1051,7 @@ HF-120067,界面静态,120067,0x7001D503,536731,3,:disabled,!XamlIlPopulate,中,
 HF-1807,设置,1807,0x7000070F,418471,1,Stop the session first: the game writes its settings when it closes.,UpdateSettingsImport,低,已译,批次 4 合并,
 HF-34270,设置,34270,0x700085DE,450934,1,Off by default: ,ApplyStrangersSetting,低,已译,批次 4 合并,
 HF-34304,设置,34304,0x70008600,450968,1,On by default while your game is sandboxed,ApplyStrangersSetting,低,已译,批次 4 合并,
-HF-34564,设置,34564,0x70008704,451228,2,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",ShowStrangersDefaultNotice;!XamlIlPopulate,中,已译,批次 4 合并,
+HF-34564,设置,34564,0x70008704,451228,2,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",ShowStrangersDefaultNotice;!XamlIlPopulate,中,已译,批次 4 合并 批次 4 裁定,
 HF-35089,设置,35089,0x70008911,451753,1,Could not save that the stranger warning was shown: ,ShowStrangersDefaultNotice,低,已译,批次 4 合并,
 HF-46901,设置,46901,0x7000B735,463565,3,Profile ,PremiumText;<InitializeSettingsImport>b__30_0;MoveNext,低,已译,批次 4 合并,
 HF-48483,设置,48483,0x7000BD63,465147,2,OPTIONS,PackOptions;!XamlIlPopulate,中,已译,批次 4 合并,
@@ -1086,7 +1086,7 @@ HF-67814,设置,67814,0x700108E6,484478,1,The settings could not be imported: ,<
 HF-67888,设置,67888,0x70010930,484552,1,There was no import to take back.,<InitializeSettingsImport>b__30_1,低,已译,批次 4 合并,
 HF-67956,设置,67956,0x70010974,484620,1,The profile's own settings are back.,<InitializeSettingsImport>b__30_1,低,已译,批次 4 合并,
 HF-68030,设置,68030,0x700109BE,484694,1,The import could not be taken back: ,<InitializeSettingsImport>b__30_1,低,已译,批次 4 合并,
-HF-68200,设置,68200,0x70010A68,484864,2,Could not save Play with strangers: ,<InitializeStrangers>b__231_0;<InitializeStrangers>b__231_1,低,已译,批次 4 合并,
+HF-68200,设置,68200,0x70010A68,484864,2,Could not save Play with strangers: ,<InitializeStrangers>b__231_0;<InitializeStrangers>b__231_1,低,已译,批次 4 合并 批次 4 裁定,
 HF-94526,设置,94526,0x7001713E,511190,1,Could not save ,<SettingSwitch>b__0,低,已译,批次 4 合并,
 HF-94622,设置,94622,0x7001719E,511286,1,Could not save the pack's options: ,<PackOptions>g__Save|0,低,已译,批次 4 合并,
 HF-3769,错误,3769,0x70000EB9,420433,1,An earlier sync did not finish: the normal game cannot reach its servers until you clean up.,UpdateSyncStatus,高,已译,批次 1,
@@ -1125,7 +1125,7 @@ HF-97511,设置,97511,0x70017CE7,514175,2,Could not check the download: ,MoveNex
 HF-101416,错误,101416,0x70018C28,518080,2,Clean up failed: ,MoveNext,低,已译,批次 2 合并,
 HF-101694,错误,101694,0x70018D3E,518358,1,Inventory sync: leftover Linux cleanup failed: ,MoveNext,低,待译,,
 HF-102115,错误,102115,0x70018EE3,518779,1,The session did not stop in time and could not be ended: ,MoveNext,低,已译,批次 2 合并,
-HF-104229,设置,104229,0x70019725,520893,1,it could not be set up (,MoveNext,低,待裁定,批次 4 合并,PD-018
+HF-104229,设置,104229,0x70019725,520893,1,it could not be set up (,MoveNext,低,已译,批次 4 合并 批次 4 裁定,
 HF-105447,错误,105447,0x70019BE7,522111,1,The Account Sync helper could not be installed: ,MoveNext,低,待译,,
 HF-105700,错误,105700,0x70019CE4,522364,1,The session did not stop and could not be ended: ,MoveNext,低,已译,批次 2 合并,
 HF-105800,错误,105800,0x70019D48,522464,1,The session did not stop and could not be ended.,MoveNext,低,已译,批次 2 合并,
