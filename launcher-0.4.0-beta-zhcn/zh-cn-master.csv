@@ -1,0 +1,77 @@
+﻿item_id,module,us_index,token,file_offset,locator,original,translation,status,confidence,note,pending_id
+HF-3317,共享格式,3317,0x70000CF5,419981,MainWindow.UpdateSyncStatus@172,: ,: ,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-21824,启动,21824,0x70005540,438488,Start@260,Starting play session.,正在启动游戏会话。,已译,低,状态区提示。,
+HF-22444,启动,22444,0x700057AC,439108,Start@881,Windows blocked HellForge's session runner.,Windows 阻止了 HellForge 的会话启动程序。,已译,低,预检错误说明。,
+HF-22604,启动,22604,0x7000584C,439268,Start@1028,Preparing the session...,正在准备会话……,已译,低,启动过程提示，省略号统一六点。,
+HF-22823,启动,22823,0x70005927,439487,StartPreflight@63,Session runner,会话启动程序,已译,低,与第 10 条锁定译名一致，作设置页路径标签。,
+HF-22879,启动,22879,0x7000595F,439543,StartPreflight@153,Sessions run in installations made with HellForge-Setup.,会话只在通过 HellForge-Setup 安装的环境中运行。,已译,高,预检失败说明。,
+HF-23037,启动,23037,0x700059FD,439701,StartPreflight@211,Account Sync is finishing: it keeps the normal HELLDIVERS 2 connected until you close it.,账户同步正在完成：它会保持与正常 HELLDIVERS 2 的连接，直到你关闭游戏。,已译,低,Account Sync 暂译“账户同步”，术语待确认。,
+HF-23218,启动,23218,0x70005AB2,439882,StartPreflight@217,"Close HELLDIVERS 2, then press PLAY again.",请关闭 HELLDIVERS 2，然后再次按“开始游戏”。,已译,低,PLAY 指按钮标签，按锁定译名引用。,
+HF-23304,启动,23304,0x70005B08,439968,StartPreflight@239,"A game, anti-cheat or session process is still running.",游戏、反作弊或会话进程仍在运行。,已译,低,预检提示，只译显示文本。,
+HF-23416,启动,23416,0x70005B78,440080,StartPreflight@245,"End it on the play page, then press PLAY again.",请在开始页结束该进程，然后再次按“开始游戏”。,已译,低,与上一条同组提示。,
+HF-24800,启动,24800,0x700060E0,441464,ShowEarlyFailure@37,HellForge cannot start inside this container.,HellForge 无法在此容器内启动。,已译,高,容器环境启动失败。,
+HF-25200,启动,25200,0x70006270,441864,ShowEarlyFailure@223,The session runner exited before starting.,会话启动程序在启动前退出。,已译,高,早期失败说明。,
+HF-51743,启动,51743,0x7000CA1F,468407,InitializeSetup@216,Find supported game files,查找受支持的游戏文件,已译,中,安装流程文件查找入口。,
+HF-52101,启动,52101,0x7000CB85,468765,EnterSetup@258,Back,返回,已译,中,引导流程返回按钮。,
+HF-52111,启动,52111,0x7000CB8F,468775,EnterSetup@296,Set up HellForge,配置 HellForge,已译,中,安装引导标题。,
+HF-52145,启动,52145,0x7000CBB1,468809,MainWindow.!XamlIlPopulate@4229,Check and repair,检查并修复,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-52179,启动,52179,0x7000CBD3,468843,EnterSetup@322,Start setup,开始配置,已译,中,引导流程主按钮。,
+HF-59222,启动,59222,0x7000E756,475886,ReadyToPlay@19,Ready to play,可以开始游戏,已译,高,启动前就绪状态。,
+HF-59250,启动,59250,0x7000E772,475914,ReadyToPlay@47,Continue,继续,已译,高,就绪后继续按钮。,
+HF-71567,启动,71567,0x7001178F,488231,!XamlIlPopulate@3265,DEPLOYMENT,,待裁定,中,启动页眉标，功能语境不明。,PD-001
+HF-71605,启动,71605,0x700117B5,488269,!XamlIlPopulate@3325,Local session,,待裁定,中,功能语境不明，候选差异实质。,PD-002
+HF-71805,启动,71805,0x7001187D,488469,MainWindow.!XamlIlPopulate@5875,"Name, e.g. my-run",名称，例如 my-run,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-71951,启动,71951,0x7001190F,488615,MainWindow.!XamlIlPopulate@8876,Review import,查看导入,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-72029,启动,72029,0x7001195D,488693,!XamlIlPopulate@10337,HELLDIVER,,待裁定,中,涉及游戏社群称谓，须委托方裁定。,PD-003
+HF-31078,导航,31078,0x70007966,447742,!XamlIlPopulate@10074,PLAY,开始游戏,已译,中,播放按钮标签，与导航 PLAY 使用同一译名；控件位置待实机确认。,
+HF-71447,导航,71447,0x70011717,488111,MainWindow.!XamlIlPopulate@2665,01   PLAY,01   开始游戏,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-71467,导航,71467,0x7001172B,488131,!XamlIlPopulate@2711,02   PROFILE,02   档案,已译,中,与 01 导航同格式，保留两位编号与三个空格。,
+HF-71493,导航,71493,0x70011745,488157,!XamlIlPopulate@2757,03   MODS,03   模组,已译,中,同上。,
+HF-71513,导航,71513,0x70011759,488177,!XamlIlPopulate@2803,04   CONSOLE,04   控制台,已译,中,同上。,
+HF-71539,导航,71539,0x70011773,488203,MainWindow.!XamlIlPopulate@2848,05   SETTINGS,05   设置,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-167,状态,167,0x700000A7,416831,MainWindow.get_CloseGameNote@29, Close HELLDIVERS 2 to finish: until then the sync keeps it connected., 请关闭 HELLDIVERS 2 以完成同步，在此之前同步会保持连接。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-3249,状态,3249,0x70000CB1,419913,UpdateSyncStatus@91,Last synced ,,待裁定,高,拼接片段，跨片段语序待定。,PD-004
+HF-3279,状态,3279,0x70000CCF,419943,UpdateSyncStatus@155,at an unknown time,,待裁定,高,同上。,PD-004
+HF-3329,状态,3329,0x70000D01,419993,UpdateSyncStatus@202," items, ",,待裁定,高,量词与语序待定。,PD-004
+HF-3347,状态,3347,0x70000D13,420011,UpdateSyncStatus@246,progression captured.,,待裁定,高,同上。,PD-004
+HF-3391,状态,3391,0x70000D3F,420055,UpdateSyncStatus@277, XP.,,待裁定,高,XP 术语未定。,PD-004
+HF-3401,状态,3401,0x70000D49,420065,MainWindow.UpdateSyncStatus@304,Last sync failed ,上次同步失败 ,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-3437,状态,3437,0x70000D6D,420101,UpdateSyncStatus@415," items, no progression. Sync again to get your level, unlocks and ship.",,待裁定,高,跨片段语序待定。,PD-004
+HF-3582,状态,3582,0x70000DFE,420246,UpdateSyncStatus@439,No snapshot yet. Sync to copy your real inventory into this profile.,尚无快照。同步后可将真实库存复制到此档案。,已译,高,同步状态说明。,
+HF-3721,状态,3721,0x70000E89,420385,UpdateSyncStatus@495,Sync Inventory,同步库存,已译,高,按钮标签。,
+HF-3751,状态,3751,0x70000EA7,420415,UpdateSyncStatus@502,Clean up,清理,已译,高,按钮标签。,
+HF-24750,状态,24750,0x700060AE,441414,RequestStop@319,Cancelled before launch.,启动前已取消。,已译,低,取消结果。,
+HF-25860,状态,25860,0x70006504,442524,ShowState@462,Approve the Windows prompt to install the network block.,请在 Windows 提示中允许安装网络阻断。,已译,高,“网络阻断”为暂定译法，术语待确认。,PD-005
+HF-25974,状态,25974,0x70006576,442638,ShowState@468,Asked once: the network block keeps the copied game off the internet. Later sessions need no prompt.,只需确认一次。网络阻断会让复制后的游戏离网，之后的会话不再提示。,已译,高,同上。,PD-005
+HF-26177,状态,26177,0x70006641,442841,ShowState@510,Approve the Windows prompt to place a network block for this session.,请在 Windows 提示中允许为本次会话设置网络阻断。,已译,高,同上。,PD-005
+HF-26318,状态,26318,0x700066CE,442982,ShowState@516,It keeps the copied game off the internet until the session ends.,它会让复制后的游戏在会话结束前保持离网。,已译,高,同上。,PD-005
+HF-26451,状态,26451,0x70006753,443115,ShowState@555,Waiting for Steam...,正在等待 Steam……,已译,高,进度提示。,
+HF-26666,状态,26666,0x7000682A,443330,ShowState@600,Launching the game...,正在启动游戏……,已译,高,进度提示。,
+HF-26710,状态,26710,0x70006856,443374,ShowState@606,Starting the copied game against the local backend.,正在以本地后端启动复制后的游戏。,已译,高,进度提示，local backend 暂译“本地后端”。,
+HF-26814,状态,26814,0x700068BE,443478,ShowState@651,Cleanup failed.,清理失败。,已译,高,失败状态。,
+HF-26846,状态,26846,0x700068DE,443510,ShowState@662,Cleanup failed. Check the session logs before playing again.,清理失败。再次开始游戏前，请检查会话日志。,已译,高,失败状态加动作。,
+HF-27933,状态,27933,0x70006D1D,444597,SetStatus@223,Running,运行中,已译,高,状态词。,
+HF-30876,状态,30876,0x7000789C,447540,SetStatus@14,Compiling mods,正在编译模组,已译,高,状态词，尽量短。,
+HF-30906,状态,30906,0x700078BA,447570,SetStatus@28,Fetching the mod compiler,正在获取模组编译器,已译,高,状态词。,
+HF-30958,状态,30958,0x700078EE,447622,SetStatus@183,Working,处理中,已译,高,状态词。,
+HF-30974,状态,30974,0x700078FE,447638,MainWindow.SetStatus@203,Action needed,需要操作,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-31002,状态,31002,0x7000791A,447666,SetStatus@243,Ended,已结束,已译,高,状态词。,
+HF-31014,状态,31014,0x70007926,447678,SetStatus@263,Failed,失败,已译,高,状态词。,
+HF-31028,状态,31028,0x70007934,447692,MainWindow.SetStatus@283,Idle,空闲,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-33029,状态,33029,0x70008105,449693,RequestStop@161,Stopping: closing the game...,正在停止：关闭游戏……,已译,低,停止进度提示。,
+HF-33161,状态,33161,0x70008189,449825,RequestStop@325,Nothing was started.,未启动任何内容。,已译,低,取消结果。,
+HF-34078,状态,34078,0x7000851E,450742,EndLeftoverProcesses@48,No leftover session processes were found.,未发现残留的会话进程。,已译,低,残留进程检查结果。,
+HF-3769,错误,3769,0x70000EB9,420433,UpdateSyncStatus@533,An earlier sync did not finish: the normal game cannot reach its servers until you clean up.,上次同步未完成：在清理之前，正常游戏无法连接其服务器。,已译,高,同步未完成的后果说明。,
+HF-22284,错误,22284,0x7000570C,438948,MainWindow.Start@482,The launch options cannot be used.,启动选项不可用。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-22532,错误,22532,0x70005804,439196,MainWindow.Start@984,Could not start the session runner.,无法运行会话启动程序。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-28362,错误,28362,0x70006ECA,445026,ShowFailed@90,The session did not stop; HellForge ended it.,会话未能停止，HellForge 已将其结束。,已译,高,失败说明。,
+HF-28454,错误,28454,0x70006F26,445118,ShowFailed@96,Its own cleanup may not have finished. Check the session logs before playing again.,它自身的清理可能没有完成。再次开始游戏前，请检查会话日志。,已译,高,失败说明加动作。,
+HF-28727,错误,28727,0x70007037,445391,MainWindow.ShowFailed@124,Session failed. Cleaning up...,会话失败，正在清理……,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-28789,错误,28789,0x70007075,445453,ShowFailed@131,Session failed.,会话失败。,已译,高,失败结论。,
+HF-28821,错误,28821,0x70007095,445485,MainWindow.ShowFailed@143,Open the session logs for details.,打开会话日志查看详情。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-28891,错误,28891,0x700070DB,445555,MainWindow.ShowFailed@150,The bad file is named here. Check and repair verifies and replaces it.,此处会指出有问题的文件。“检查并修复”会校验并替换有问题的文件。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-31774,错误,31774,0x70007C1E,448438,MainWindow.SaveLogsToDesktop@372,Could not save the logs: ,无法保存日志: ,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-32961,错误,32961,0x700080C1,449625,RequestStop@129,Could not write the stop signal: ,无法写入停止信号: ,已译,低,后接异常详情，按第 12 条先例保留 ASCII 冒号与尾空格。,
+HF-33089,错误,33089,0x70008141,449753,RequestStop@264,Could not stop the session runner: ,无法停止会话启动程序: ,已译,低,同上。,
+HF-33982,错误,33982,0x700084BE,450646,ShowLeftoverProcesses@206,Could not look for leftover session processes: ,无法查找残留的会话进程: ,已译,低,同上。,
+HF-34176,错误,34176,0x70008580,450840,EndLeftoverProcesses@168,Could not end the leftover session processes: ,无法结束残留的会话进程: ,已译,低,同上。,
