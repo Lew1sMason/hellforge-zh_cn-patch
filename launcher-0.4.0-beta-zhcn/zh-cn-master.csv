@@ -42,7 +42,7 @@ HF-71567,启动,71567,0x7001178F,488231,!XamlIlPopulate@3265,DEPLOYMENT,部署,�
 HF-71605,启动,71605,0x700117B5,488269,!XamlIlPopulate@3325,Local session,本地会话,已译,中,用户裁定 PD-002：本地会话。启动页内，位于 Local session@3325。,
 HF-71805,启动,71805,0x7001187D,488469,MainWindow.!XamlIlPopulate@5875,"Name, e.g. my-run",名称，例如 my-run,锁定,试译确认,阶段 3 确认样本，原样锁定。,
 HF-71951,启动,71951,0x7001190F,488615,MainWindow.!XamlIlPopulate@8876,Review import,查看导入,锁定,试译确认,阶段 3 确认样本，原样锁定。,
-HF-72029,启动,72029,0x7001195D,488693,!XamlIlPopulate@10337,HELLDIVER,,待裁定,中,静态位于 ProfilePage@10337，为当前档案名（原型 default）上方眉标，邻近 Open profile folder；需实际界面确认后定。,PD-003
+HF-72029,启动,72029,0x7001195D,488693,!XamlIlPopulate@10337,HELLDIVER,HELLDIVER 副本档案,已译,中,用户裁定 PD-003：HELLDIVER 副本档案。Profile 页用于创建早期 HELLDIVER 游戏副本，保留一个半角空格；静态位置 !XamlIlPopulate@10337。,
 HF-167,状态,167,0x700000A7,416831,MainWindow.get_CloseGameNote@29, Close HELLDIVERS 2 to finish: until then the sync keeps it connected., 请关闭 HELLDIVERS 2 以完成同步，在此之前同步会保持连接。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
 HF-3249,状态,3249,0x70000CB1,419913,UpdateSyncStatus@91,Last synced ,,待裁定,高,拼接片段，跨片段语序待定。,PD-004
 HF-3279,状态,3279,0x70000CCF,419943,UpdateSyncStatus@155,at an unknown time,,待裁定,高,同上。,PD-004
@@ -98,3 +98,30 @@ HF-107662,错误,107662,0x7001A48E,524326,<FindLinuxGame>d__354.MoveNext@171,The
 HF-107809,错误,107809,0x7001A521,524473,<FindLinuxGame>d__354.MoveNext@236,The game copy has a data file that cannot be used: ,游戏副本中存在无法使用的数据文件: ,已译,低,用户可见。后接文件信息；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
 HF-110120,错误,110120,0x7001AE28,526784,<OpenFolder>d__215.MoveNext@142,Could not open ,无法打开 ,已译,低,用户可见。后接路径或链接；尾空格保留。 合并自 launch-errors.csv。,
 HF-116587,错误,116587,0x7001C76B,533251,<StopSyncForCloseAsync>d__84.MoveNext@349,cleanup before closing failed: ,关闭前清理失败: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-1015,控制台,1015,0x700003F7,417679,MainWindow.BackendMessage@19,HellForge local backend: ,HellForge 本地后端: ,已译,低,控制台日志行前缀，后接后端输出；尾空格保留，冒号沿用拼接片的 ASCII 格式。同 token 亦见 RunBackendAsync IL 760。 合并自 modules/console.csv。,
+HF-8658,控制台,8658,0x700021D2,425322,MainWindow.AppendGameClosing@27,Inventory sync: HellForge is closing the normal game it opened for the sync; start it from Steam again to play normally.,,待裁定,低,控制台诊断行，库存同步期间追加；Inventory sync 术语跨模块未定。 合并自 modules/console.csv。,PD-013
+HF-8901,控制台,8901,0x700022C5,425565,MainWindow.AppendGameClosing@34,Inventory sync: the game stays connected through the capture until you close it; then the hosts line and certificate are removed.,,待裁定,低,控制台诊断行，库存同步期间追加；capture、hosts 行术语跨模块未定。 合并自 modules/console.csv。,PD-013
+HF-23893,控制台,23893,0x70005D55,440557,MainWindow.AppendCoopRelaysLine@30,Co-op over Steam relays is off (Settings > Multiplayer): other players' lobbies show but can't be joined; the lobby browser can turn it on.,,待裁定,低,控制台诊断行，多人合作关闭时追加；多人合作、Steam 中继、大厅浏览器术语跨模块未定。 合并自 modules/console.csv。,PD-012
+HF-24174,控制台,24174,0x70005E6E,440838,MainWindow.AppendCoopRelaysLine@58, Until then this session plays without co-op.,,待裁定,低,控制台诊断行后段；首空格保留。 合并自 modules/console.csv。,PD-012
+HF-31460,控制台,31460,0x70007AE4,448124,MainWindow.SaveLogsToDesktop@110,No session logs yet: play a session first.,尚无会话日志：请先进行一次会话。,已译,低,保存日志按钮的提示，无会话日志时显示。 合并自 modules/console.csv。,
+HF-31638,控制台,31638,0x70007B96,448302,MainWindow.SaveLogsToDesktop@240,Saved the latest session's logs to ,已将最近一次会话的日志保存到 ,已译,低,保存日志成功提示前段，后接保存路径；尾空格保留。 合并自 modules/console.csv。,
+HF-31710,控制台,31710,0x70007BDE,448374,MainWindow.SaveLogsToDesktop@269, (, (,保留,低,共享格式片段「 (」，用于引出括号内数量；保存日志、崩溃报告、模组打包等 11 处引用，按首版规则保留 ASCII 空格与括号。 合并自 modules/console.csv。,
+HF-31716,控制台,31716,0x70007BE4,448380,MainWindow.SaveLogsToDesktop@289, files in use were left out), 个正在使用而略过的文件),已译,低,保存日志成功提示后段，前接数量；首空格保留。同 token 亦见 SaveCrashReport IL 557。 合并自 modules/console.csv。,
+HF-33203,控制台,33203,0x700081B3,449867,MainWindow.AppendSandboxLine@29,"Sandboxed (Settings > Sandbox): the game runs at low integrity, with Steam through the Steam broker.",,待裁定,低,控制台诊断行，沙箱会话追加；沙箱、低完整性、Steam 中转术语跨模块未定。 合并自 modules/console.csv。,PD-011
+HF-33611,控制台,33611,0x7000834B,450275,MainWindow.AppendSandboxLine@115,Settings > Sandbox is off,,待裁定,低,沙箱关闭原因片段；AppendSandboxLine 与 SandboxOffReason 共用，共 3 处引用，设置页也会显示。 合并自 modules/console.csv。,PD-011
+HF-33663,控制台,33663,0x7000837F,450327,MainWindow.AppendSandboxLine@122,This session is not sandboxed (,,待裁定,低,控制台诊断行前段，后接关闭原因；与 0x700083BF 拼接。 合并自 modules/console.csv。,PD-011
+HF-33727,控制台,33727,0x700083BF,450391,MainWindow.AppendSandboxLine@128,"). The game, its mods and anything they run can write your files.",,待裁定,低,控制台诊断行后段，接于关闭原因之后；首字符为右括号。 合并自 modules/console.csv。,PD-011
+HF-38591,控制台,38591,0x700096BF,455255,MainWindow.ShowLiveResult@87,Applied to the running game: ,已应用到运行中的游戏: ,已译,低,"控制台日志行前缀，后接改动列表；尾空格保留，列表分隔符为共享 ASCII「, 」「. 」，不改。 合并自 modules/console.csv。",
+HF-38651,控制台,38651,0x700096FB,455315,MainWindow.ShowLiveResult@125, Friends need the same mods to join., 好友需要相同的模组才能加入。,已译,低,控制台日志行后段，接于模组列表之后；首空格保留。 合并自 modules/console.csv。,
+HF-38725,控制台,38725,0x70009745,455389,MainWindow.ShowLiveResult@220,Mods: ,模组: ,已译,低,控制台日志行前缀；尾空格保留，冒号沿用拼接片的 ASCII 格式。 合并自 modules/console.csv。,
+HF-71663,控制台,71663,0x700117EF,488327,MainWindow.!XamlIlPopulate@19803,Save logs to Desktop,保存日志到桌面,已译,中,控制台页按钮；同 token 亦用于崩溃/日志区 IL 4727。 合并自 modules/console.csv。,
+HF-75877,控制台,75877,0x70012865,492541,MainWindow.!XamlIlPopulate@19290,BACKEND,,待裁定,中,控制台页眉标（eyebrow），位于一级标题「控制台」上方；装饰性小标题，与 DEPLOYMENT/HELLDIVER 等眉标同属待统一项。 合并自 modules/console.csv。,PD-010
+HF-75893,控制台,75893,0x70012875,492557,MainWindow.!XamlIlPopulate@19350,Console,控制台,已译,中,控制台页一级标题；与导航「04   控制台」用词一致。 合并自 modules/console.csv。,
+HF-75909,控制台,75909,0x70012885,492573,MainWindow.!XamlIlPopulate@19513,Auto-scroll,自动滚动,已译,中,控制台页复选框标签，控制日志列表自动滚动。 合并自 modules/console.csv。,
+HF-75933,控制台,75933,0x7001289D,492597,MainWindow.!XamlIlPopulate@19617,Clear,清除,已译,中,控制台页按钮，清空控制台列表。 合并自 modules/console.csv。,
+HF-75945,控制台,75945,0x700128A9,492609,MainWindow.!XamlIlPopulate@19710,Open session logs,打开会话日志,已译,中,控制台页按钮；同 token 亦用于设置页 IL 30208，两处译文须一致。 合并自 modules/console.csv。,
+HF-75981,控制台,75981,0x700128CD,492645,MainWindow.!XamlIlPopulate@19989,"Live backend requests for the current session. 2xx in green, 501 (not implemented yet) in red.",本次会话的实时后端请求。2xx 显示为绿色，501（尚未实现）显示为红色。,已译,中,控制台页说明文字；2xx、501 为 HTTP 状态码，保留原样。 合并自 modules/console.csv。,
+HF-92499,控制台,92499,0x70016953,509163,MainWindow.<>c__DisplayClass162_1.<PruneSessionLogs>b__2@23,Removed the logs of ,已删除 ,已译,低,日志清理提示前段；后接数量。 合并自 modules/console.csv。,
+HF-92541,控制台,92541,0x7001697D,509205,MainWindow.<>c__DisplayClass162_1.<PruneSessionLogs>b__2@53, older session(s) (, 个较早会话的日志（,已译,低,日志清理提示，接数量后；首空格保留。 合并自 modules/console.csv。,
+HF-92581,控制台,92581,0x700169A5,509245,MainWindow.<>c__DisplayClass162_1.<PruneSessionLogs>b__2@99, MB); the newest , MB）；最新的 ,已译,低,日志清理提示，接容量后；单位 MB 保留，首尾空格保留。 合并自 modules/console.csv。,
+HF-92617,控制台,92617,0x700169C9,509281,MainWindow.<>c__DisplayClass162_1.<PruneSessionLogs>b__2@120, stay., 个保留。,已译,低,日志清理提示末段，接最新日志数量；首空格保留。 合并自 modules/console.csv。,
