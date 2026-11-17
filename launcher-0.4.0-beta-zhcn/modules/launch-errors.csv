@@ -1,0 +1,24 @@
+﻿token,method_il,original,translation,status,context,decision_id
+0x700055A6,MainWindow.Start@401,Local PlayFab is off (Settings > Multiplayer): co-op with friends needs it.,,待裁定,用户可见。启动预检提示，引用“设置 > 多人游戏”标签名，依赖设置模块译名。,ERR-01
+0x7000563F,MainWindow.Start@439,Lobby and session through Steam friends is off (Settings > Multiplayer): co-op with friends needs it.,,待裁定,用户可见。与上一条同组，引用“设置 > 多人游戏”。,ERR-01
+0x70005945,MainWindow.StartPreflight@124, is missing.,,待裁定,用户可见。与“本地后端”拼接；中文片段间是否保留前导空格待定。,ERR-03
+0x70005C1A,MainWindow.StartPreflight@314,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,,待裁定,用户可见。引用设置页分区名 Experiments，该标签译名未定。,ERR-02
+0x70005752,MainWindow.Start@500," (Settings, Launch options)", （设置，启动选项）,已译,用户可见。追加在“启动选项不可用。”之后，前导空格保留；设置页标签名以设置模块为准。,
+0x7000587E,MainWindow.Start@1034,"Building mods that ship their sources, then checking the copied game.",正在编译随源分发的模组，然后检查复制后的游戏。,已译,用户可见。启动进度提示。,
+0x7000590B,MainWindow.StartPreflight@35,Local backend,本地后端,已译,用户可见。预检失败前缀，后接“ 缺失。”。,
+0x700059D1,MainWindow.StartPreflight@160,Reinstall HellForge: ,重新安装 HellForge: ,已译,用户可见。预检修复指引，后接安装路径或命令；保留 ASCII 冒号与尾空格。,
+0x70005BD8,MainWindow.StartPreflight@303,Multiplayer needs Local PlayFab.,多人游戏需要 Local PlayFab。,已译,用户可见。预检提示；Local PlayFab 为功能名，保留英文。,
+0x7000613C,MainWindow.ShowEarlyFailure@78,See ,请参阅 ,已译,用户可见。早期失败提示前段，后接日志路径；尾空格保留。,
+0x70006176,MainWindow.ShowEarlyFailure@109, for why., 了解原因。,已译,用户可见。与“请参阅 ”和日志路径拼接；前导空格保留。,
+0x7000618A,MainWindow.ShowEarlyFailure@129,Check ,请查看 ,已译,用户可见。早期失败提示前段，后接日志路径；尾空格保留。,
+0x70006206,MainWindow.ShowEarlyFailure@203, for errors after the Windows session runner starts., 了解 Windows 会话启动程序启动后出现的错误。,已译,用户可见。与“请查看 ”和日志路径拼接；前导空格保留。,
+0x700062C6,MainWindow.ShowEarlyFailure@264,The launch process exited with code ,启动进程退出，代码为 ,已译,用户可见。后接退出码与句点；尾空格保留。,
+0x70016AD1,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@91,Co-op over Steam relays could not open in this session: ,本次会话无法开启 Steam 中继联机: ,已译,用户可见。后接错误详情；按锁定样本先例保留 ASCII 冒号与尾空格。,
+0x70018C28,<CleanUpSync>d__85.MoveNext@715,Clean up failed: ,清理失败: ,已译,用户可见。后接详情；保留 ASCII 冒号与尾空格。,
+0x70018EE3,<ConfirmCloseAsync>d__217.MoveNext@527,The session did not stop in time and could not be ended: ,会话未能及时停止，也无法结束: ,已译,用户可见。后接详情；保留 ASCII 冒号与尾空格。,
+0x70019CE4,<EscalateStopAsync>d__227.MoveNext@264,The session did not stop and could not be ended: ,会话未能停止，也无法结束: ,已译,用户可见。后接详情；保留 ASCII 冒号与尾空格。,
+0x70019D48,<EscalateStopAsync>d__227.MoveNext@291,The session did not stop and could not be ended.,会话未能停止，也无法结束。,已译,用户可见。完整句，无拼接。,
+0x7001A48E,<FindLinuxGame>d__354.MoveNext@171,The SDK stand-ins left by an interrupted session could not be restored: ,被中断的会话留下的 SDK 替代组件无法恢复: ,已译,用户可见。后接详情；保留 ASCII 冒号与尾空格。,
+0x7001A521,<FindLinuxGame>d__354.MoveNext@236,The game copy has a data file that cannot be used: ,游戏副本中存在无法使用的数据文件: ,已译,用户可见。后接文件信息；保留 ASCII 冒号与尾空格。,
+0x7001AE28,<OpenFolder>d__215.MoveNext@142,Could not open ,无法打开 ,已译,用户可见。后接路径或链接；尾空格保留。,
+0x7001C76B,<StopSyncForCloseAsync>d__84.MoveNext@349,cleanup before closing failed: ,关闭前清理失败: ,已译,用户可见。后接详情；保留 ASCII 冒号与尾空格。,

@@ -1,16 +1,36 @@
 ﻿item_id,module,us_index,token,file_offset,locator,original,translation,status,confidence,note,pending_id
 HF-3317,共享格式,3317,0x70000CF5,419981,MainWindow.UpdateSyncStatus@172,: ,: ,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-31078,导航,31078,0x70007966,447742,!XamlIlPopulate@10074,PLAY,开始游戏,已译,中,播放按钮标签，与导航 PLAY 使用同一译名；控件位置待实机确认。,
+HF-71447,导航,71447,0x70011717,488111,MainWindow.!XamlIlPopulate@2665,01   PLAY,01   开始游戏,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-71467,导航,71467,0x7001172B,488131,!XamlIlPopulate@2711,02   PROFILE,02   档案,已译,中,与 01 导航同格式，保留两位编号与三个空格。,
+HF-71493,导航,71493,0x70011745,488157,!XamlIlPopulate@2757,03   MODS,03   模组,已译,中,同上。,
+HF-71513,导航,71513,0x70011759,488177,!XamlIlPopulate@2803,04   CONSOLE,04   控制台,已译,中,同上。,
+HF-71539,导航,71539,0x70011773,488203,MainWindow.!XamlIlPopulate@2848,05   SETTINGS,05   设置,锁定,试译确认,阶段 3 确认样本，原样锁定。,
 HF-21824,启动,21824,0x70005540,438488,Start@260,Starting play session.,正在启动游戏会话。,已译,低,状态区提示。,
+HF-21926,启动,21926,0x700055A6,438590,MainWindow.Start@401,Local PlayFab is off (Settings > Multiplayer): co-op with friends needs it.,,待裁定,低,用户可见。启动预检提示，引用“设置 > 多人游戏”标签名，依赖设置模块译名。 合并自 launch-errors.csv。,PD-007
+HF-22079,启动,22079,0x7000563F,438743,MainWindow.Start@439,Lobby and session through Steam friends is off (Settings > Multiplayer): co-op with friends needs it.,,待裁定,低,用户可见。与上一条同组，引用“设置 > 多人游戏”。 合并自 launch-errors.csv。,PD-007
+HF-22354,启动,22354,0x70005752,439018,MainWindow.Start@500," (Settings, Launch options)", （设置，启动选项）,已译,低,用户可见。追加在“启动选项不可用。”之后，前导空格保留；设置页标签名以设置模块为准。 合并自 launch-errors.csv。,
 HF-22444,启动,22444,0x700057AC,439108,Start@881,Windows blocked HellForge's session runner.,Windows 阻止了 HellForge 的会话启动程序。,已译,低,预检错误说明。,
 HF-22604,启动,22604,0x7000584C,439268,Start@1028,Preparing the session...,正在准备会话……,已译,低,启动过程提示，省略号统一六点。,
+HF-22654,启动,22654,0x7000587E,439318,MainWindow.Start@1034,"Building mods that ship their sources, then checking the copied game.",正在编译随源分发的模组，然后检查复制后的游戏。,已译,低,用户可见。启动进度提示。 合并自 launch-errors.csv。,
+HF-22795,启动,22795,0x7000590B,439459,MainWindow.StartPreflight@35,Local backend,本地后端,已译,低,用户可见。预检失败前缀，后接“ 缺失。”。 合并自 launch-errors.csv。,
 HF-22823,启动,22823,0x70005927,439487,StartPreflight@63,Session runner,会话启动程序,已译,低,与第 10 条锁定译名一致，作设置页路径标签。,
+HF-22853,启动,22853,0x70005945,439517,MainWindow.StartPreflight@124, is missing.,,待裁定,低,用户可见。与“本地后端”拼接；中文片段间是否保留前导空格待定。 合并自 launch-errors.csv。,PD-009
 HF-22879,启动,22879,0x7000595F,439543,StartPreflight@153,Sessions run in installations made with HellForge-Setup.,会话只在通过 HellForge-Setup 安装的环境中运行。,已译,高,预检失败说明。,
+HF-22993,启动,22993,0x700059D1,439657,MainWindow.StartPreflight@160,Reinstall HellForge: ,重新安装 HellForge: ,已译,低,用户可见。预检修复指引，后接安装路径或命令；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
 HF-23037,启动,23037,0x700059FD,439701,StartPreflight@211,Account Sync is finishing: it keeps the normal HELLDIVERS 2 connected until you close it.,账户同步正在完成：它会保持与正常 HELLDIVERS 2 的连接，直到你关闭游戏。,已译,低,Account Sync 暂译“账户同步”，术语待确认。,
 HF-23218,启动,23218,0x70005AB2,439882,StartPreflight@217,"Close HELLDIVERS 2, then press PLAY again.",请关闭 HELLDIVERS 2，然后再次按“开始游戏”。,已译,低,PLAY 指按钮标签，按锁定译名引用。,
 HF-23304,启动,23304,0x70005B08,439968,StartPreflight@239,"A game, anti-cheat or session process is still running.",游戏、反作弊或会话进程仍在运行。,已译,低,预检提示，只译显示文本。,
 HF-23416,启动,23416,0x70005B78,440080,StartPreflight@245,"End it on the play page, then press PLAY again.",请在开始页结束该进程，然后再次按“开始游戏”。,已译,低,与上一条同组提示。,
+HF-23512,启动,23512,0x70005BD8,440176,MainWindow.StartPreflight@303,Multiplayer needs Local PlayFab.,多人游戏需要 Local PlayFab。,已译,低,用户可见。预检提示；Local PlayFab 为功能名，保留英文。 合并自 launch-errors.csv。,
+HF-23578,启动,23578,0x70005C1A,440242,MainWindow.StartPreflight@314,Turn on Experiments > Local PlayFab (or turn off the PlayFab SDK stand-ins) and press PLAY again.,,待裁定,低,用户可见。引用设置页分区名 Experiments，该标签译名未定。 合并自 launch-errors.csv。,PD-008
 HF-24800,启动,24800,0x700060E0,441464,ShowEarlyFailure@37,HellForge cannot start inside this container.,HellForge 无法在此容器内启动。,已译,高,容器环境启动失败。,
+HF-24892,启动,24892,0x7000613C,441556,MainWindow.ShowEarlyFailure@78,See ,请参阅 ,已译,高,用户可见。早期失败提示前段，后接日志路径；尾空格保留。 合并自 launch-errors.csv。,
+HF-24950,启动,24950,0x70006176,441614,MainWindow.ShowEarlyFailure@109, for why., 了解原因。,已译,高,用户可见。与“请参阅 ”和日志路径拼接；前导空格保留。 合并自 launch-errors.csv。,
+HF-24970,启动,24970,0x7000618A,441634,MainWindow.ShowEarlyFailure@129,Check ,请查看 ,已译,高,用户可见。早期失败提示前段，后接日志路径；尾空格保留。 合并自 launch-errors.csv。,
+HF-25094,启动,25094,0x70006206,441758,MainWindow.ShowEarlyFailure@203, for errors after the Windows session runner starts., 了解 Windows 会话启动程序启动后出现的错误。,已译,高,用户可见。与“请查看 ”和日志路径拼接；前导空格保留。 合并自 launch-errors.csv。,
 HF-25200,启动,25200,0x70006270,441864,ShowEarlyFailure@223,The session runner exited before starting.,会话启动程序在启动前退出。,已译,高,早期失败说明。,
+HF-25286,启动,25286,0x700062C6,441950,MainWindow.ShowEarlyFailure@264,The launch process exited with code ,启动进程退出，代码为 ,已译,高,用户可见。后接退出码与句点；尾空格保留。 合并自 launch-errors.csv。,
 HF-51743,启动,51743,0x7000CA1F,468407,InitializeSetup@216,Find supported game files,查找受支持的游戏文件,已译,中,安装流程文件查找入口。,
 HF-52101,启动,52101,0x7000CB85,468765,EnterSetup@258,Back,返回,已译,中,引导流程返回按钮。,
 HF-52111,启动,52111,0x7000CB8F,468775,EnterSetup@296,Set up HellForge,配置 HellForge,已译,中,安装引导标题。,
@@ -18,17 +38,11 @@ HF-52145,启动,52145,0x7000CBB1,468809,MainWindow.!XamlIlPopulate@4229,Check an
 HF-52179,启动,52179,0x7000CBD3,468843,EnterSetup@322,Start setup,开始配置,已译,中,引导流程主按钮。,
 HF-59222,启动,59222,0x7000E756,475886,ReadyToPlay@19,Ready to play,可以开始游戏,已译,高,启动前就绪状态。,
 HF-59250,启动,59250,0x7000E772,475914,ReadyToPlay@47,Continue,继续,已译,高,就绪后继续按钮。,
-HF-71567,启动,71567,0x7001178F,488231,!XamlIlPopulate@3265,DEPLOYMENT,,待裁定,中,启动页眉标，功能语境不明。,PD-001
-HF-71605,启动,71605,0x700117B5,488269,!XamlIlPopulate@3325,Local session,,待裁定,中,功能语境不明，候选差异实质。,PD-002
+HF-71567,启动,71567,0x7001178F,488231,!XamlIlPopulate@3265,DEPLOYMENT,部署,已译,中,用户裁定 PD-001：部署。启动页眉标，PlayPage@3026 后 DEPLOYMENT@3265；Mod Deployment 译“模组部署”，与 install 的“安装”区分。,
+HF-71605,启动,71605,0x700117B5,488269,!XamlIlPopulate@3325,Local session,本地会话,已译,中,用户裁定 PD-002：本地会话。启动页内，位于 Local session@3325。,
 HF-71805,启动,71805,0x7001187D,488469,MainWindow.!XamlIlPopulate@5875,"Name, e.g. my-run",名称，例如 my-run,锁定,试译确认,阶段 3 确认样本，原样锁定。,
 HF-71951,启动,71951,0x7001190F,488615,MainWindow.!XamlIlPopulate@8876,Review import,查看导入,锁定,试译确认,阶段 3 确认样本，原样锁定。,
-HF-72029,启动,72029,0x7001195D,488693,!XamlIlPopulate@10337,HELLDIVER,,待裁定,中,涉及游戏社群称谓，须委托方裁定。,PD-003
-HF-31078,导航,31078,0x70007966,447742,!XamlIlPopulate@10074,PLAY,开始游戏,已译,中,播放按钮标签，与导航 PLAY 使用同一译名；控件位置待实机确认。,
-HF-71447,导航,71447,0x70011717,488111,MainWindow.!XamlIlPopulate@2665,01   PLAY,01   开始游戏,锁定,试译确认,阶段 3 确认样本，原样锁定。,
-HF-71467,导航,71467,0x7001172B,488131,!XamlIlPopulate@2711,02   PROFILE,02   档案,已译,中,与 01 导航同格式，保留两位编号与三个空格。,
-HF-71493,导航,71493,0x70011745,488157,!XamlIlPopulate@2757,03   MODS,03   模组,已译,中,同上。,
-HF-71513,导航,71513,0x70011759,488177,!XamlIlPopulate@2803,04   CONSOLE,04   控制台,已译,中,同上。,
-HF-71539,导航,71539,0x70011773,488203,MainWindow.!XamlIlPopulate@2848,05   SETTINGS,05   设置,锁定,试译确认,阶段 3 确认样本，原样锁定。,
+HF-72029,启动,72029,0x7001195D,488693,!XamlIlPopulate@10337,HELLDIVER,,待裁定,中,静态位于 ProfilePage@10337，为当前档案名（原型 default）上方眉标，邻近 Open profile folder；需实际界面确认后定。,PD-003
 HF-167,状态,167,0x700000A7,416831,MainWindow.get_CloseGameNote@29, Close HELLDIVERS 2 to finish: until then the sync keeps it connected., 请关闭 HELLDIVERS 2 以完成同步，在此之前同步会保持连接。,锁定,试译确认,阶段 3 确认样本，原样锁定。,
 HF-3249,状态,3249,0x70000CB1,419913,UpdateSyncStatus@91,Last synced ,,待裁定,高,拼接片段，跨片段语序待定。,PD-004
 HF-3279,状态,3279,0x70000CCF,419943,UpdateSyncStatus@155,at an unknown time,,待裁定,高,同上。,PD-004
@@ -75,3 +89,12 @@ HF-32961,错误,32961,0x700080C1,449625,RequestStop@129,Could not write the stop
 HF-33089,错误,33089,0x70008141,449753,RequestStop@264,Could not stop the session runner: ,无法停止会话启动程序: ,已译,低,同上。,
 HF-33982,错误,33982,0x700084BE,450646,ShowLeftoverProcesses@206,Could not look for leftover session processes: ,无法查找残留的会话进程: ,已译,低,同上。,
 HF-34176,错误,34176,0x70008580,450840,EndLeftoverProcesses@168,Could not end the leftover session processes: ,无法结束残留的会话进程: ,已译,低,同上。,
+HF-92881,错误,92881,0x70016AD1,509545,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@91,Co-op over Steam relays could not open in this session: ,本次会话无法开启 Steam 中继联机: ,已译,低,用户可见。后接错误详情；按锁定样本先例保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-101416,错误,101416,0x70018C28,518080,<CleanUpSync>d__85.MoveNext@715,Clean up failed: ,清理失败: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-102115,错误,102115,0x70018EE3,518779,<ConfirmCloseAsync>d__217.MoveNext@527,The session did not stop in time and could not be ended: ,会话未能及时停止，也无法结束: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-105700,错误,105700,0x70019CE4,522364,<EscalateStopAsync>d__227.MoveNext@264,The session did not stop and could not be ended: ,会话未能停止，也无法结束: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-105800,错误,105800,0x70019D48,522464,<EscalateStopAsync>d__227.MoveNext@291,The session did not stop and could not be ended.,会话未能停止，也无法结束。,已译,低,用户可见。完整句，无拼接。 合并自 launch-errors.csv。,
+HF-107662,错误,107662,0x7001A48E,524326,<FindLinuxGame>d__354.MoveNext@171,The SDK stand-ins left by an interrupted session could not be restored: ,被中断的会话留下的 SDK 替代组件无法恢复: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-107809,错误,107809,0x7001A521,524473,<FindLinuxGame>d__354.MoveNext@236,The game copy has a data file that cannot be used: ,游戏副本中存在无法使用的数据文件: ,已译,低,用户可见。后接文件信息；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
+HF-110120,错误,110120,0x7001AE28,526784,<OpenFolder>d__215.MoveNext@142,Could not open ,无法打开 ,已译,低,用户可见。后接路径或链接；尾空格保留。 合并自 launch-errors.csv。,
+HF-116587,错误,116587,0x7001C76B,533251,<StopSyncForCloseAsync>d__84.MoveNext@349,cleanup before closing failed: ,关闭前清理失败: ,已译,低,用户可见。后接详情；保留 ASCII 冒号与尾空格。 合并自 launch-errors.csv。,
