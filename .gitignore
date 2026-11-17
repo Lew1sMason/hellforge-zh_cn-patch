@@ -1,0 +1,7 @@
+/launcher-0.4.0-beta-input/
+/work/*
+!/work/trial-entries.csv
+!/work/qa_check.py
+!/work/pe_meta.py
+!/work/dump_res.py
+**/__pycache__/

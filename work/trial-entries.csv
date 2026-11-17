@@ -1,0 +1,17 @@
+﻿entry_id,category,us_index,token,method_il,file_offset,original,translation,note,status
+1,菜单/导航,71447,0x70011717,MainWindow.!XamlIlPopulate@2665,488111,01   PLAY,01   开始游戏,采纳批注。保留编号及编号后的三个空格，实际导航宽度待验。 （用户注：应译为“开始游戏”）,试译已确认
+2,菜单/导航,71539,0x70011773,MainWindow.!XamlIlPopulate@2848,488203,05   SETTINGS,05   设置,XAML 编译产物。与其余导航统一字数,试译已确认
+3,按钮,52145,0x7000CBB1,MainWindow.!XamlIlPopulate@4229,468809,Check and repair,检查并修复,XAML 编译产物。文案偏长，组内按钮中最长，宽度待实机确认。备选「检查修复」,试译已确认
+4,按钮,71951,0x7001190F,MainWindow.!XamlIlPopulate@8876,488615,Review import,查看导入,XAML 编译产物。review 取「查看」，不取「复核」，避免与 sync 的复核语义混淆,试译已确认
+5,状态,31028,0x70007934,MainWindow.SetStatus@283,447692,Idle,空闲,状态词尽量短。同时是 XAML 初始状态文本（同 token 见 !XamlIlPopulate@2346）,试译已确认
+6,状态,30974,0x700078FE,MainWindow.SetStatus@203,447638,Action needed,需要操作,动宾结构，避免「需注意」一类含糊表达,试译已确认
+7,状态拼接前段,3401,0x70000D49,MainWindow.UpdateSyncStatus@304,420065,Last sync failed ,上次同步失败 ,末尾一个空格必须保留，后接时间戳与分隔符。语序已按中文调整，时间仍在后,试译已确认
+8,提示拼接,167,0x700000A7,MainWindow.get_CloseGameNote@29,416831, Close HELLDIVERS 2 to finish: until then the sync keeps it connected., 请关闭 HELLDIVERS 2 以完成同步，在此之前同步会保持连接。,首空格保留。原文冒号改为逗号分句。本条保留英文，随试译确认,试译已确认
+9,保留格式,3317,0x70000CF5,MainWindow.UpdateSyncStatus@172,419981,: ,: ,保留格式项，不译。共享分隔符 13 个引用点，跨 UpdateSyncStatus、ModChanges、OpenFolder、AddModSyncCard 等；改动影响面大，首版保持 ASCII 冒号与尾空格，与拼接片段首尾兼容,保留格式（已确认）
+10,错误,22532,0x70005804,MainWindow.Start@984,439196,Could not start the session runner.,无法运行会话启动程序。,启动游戏时若会话辅助程序启动失败，主窗口状态区显示此提示，并附异常详情。设置页「路径」区也列出 Session runner 的程序路径。委托方已确认 Session runner 统一译为「会话启动程序」。 （用户注：如果可以，请告知我其在应用的具体位置，例如位于什么选项，哪个界面，由我来确认译名）,试译已确认
+11,错误,22284,0x7000570C,MainWindow.Start@482,438948,The launch options cannot be used.,启动选项不可用。,代码路径内，用途按方法名推断。保留短句，不补原因，原因由后续片段给出,试译已确认
+12,错误拼接前段,31774,0x70007C1E,MainWindow.SaveLogsToDesktop@372,448438,Could not save the logs: ,无法保存日志: ,保留原始 ASCII 冒号与尾空格，与后续拼接的异常文本保持首尾兼容；CSV 中为真实空格,试译已确认
+13,错误/状态,28727,0x70007037,MainWindow.ShowFailed@124,445391,Session failed. Cleaning up...,会话失败，正在清理……,原文两点并句，中文用逗号连接。省略号改六点,试译已确认
+14,说明,28891,0x700070DB,MainWindow.ShowFailed@150,445555,The bad file is named here. Check and repair verifies and replaces it.,此处会指出有问题的文件。“检查并修复”会校验并替换有问题的文件。,采纳批注。引号内文字与第 3 条按钮标签一致，明确校验和替换的对象。 （用户注：此句可译作“此处会指出有问题的文件。“检查并修复”会校验并替换有问题的文件。”）,试译已确认
+15,说明/水印,71805,0x7001187D,MainWindow.!XamlIlPopulate@5875,488469,"Name, e.g. my-run",名称，例如 my-run,示例值 `my-run` 是用户输入样例，保留原样,试译已确认
+16,说明,28821,0x70007095,MainWindow.ShowFailed@143,445485,Open the session logs for details.,打开会话日志查看详情。,「会话日志」与 session 术语一致,试译已确认
