@@ -1,0 +1,637 @@
+token,method_il,original,module,confidence,class,reason
+0x700031CE,HellForge.Launcher.MainWindow.AppendSteamRemovals@11,"  - Steam's download of the supported build: Steam's folder was not found, so none was removed",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x7000328D,HellForge.Launcher.MainWindow.AppendSteamRemovals@71,"  - Steam's depot download and state files for build ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x700032F9,HellForge.Launcher.MainWindow.AppendSteamRemovals@87,: only if you tick the Steam box below,控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x70003347,HellForge.Launcher.MainWindow.AppendSteamRemovals@115,: none found,控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x70003361,HellForge.Launcher.MainWindow.AppendSteamRemovals@174,"  - Steam's depot download for build ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x700033AD,HellForge.Launcher.MainWindow.AppendSteamRemovals@261,"  - Steam's depot download: ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x700033E7,HellForge.Launcher.MainWindow.AppendSteamRemovals@355,"  - Steam's download folder once empty: ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x70003439,HellForge.Launcher.MainWindow.AppendSteamRemovals@439,"  - Steam's download state files in or next to its content/app_",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x700034B9,HellForge.Launcher.MainWindow.AppendSteamRemovals@469," folder: none found",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x700034E1,HellForge.Launcher.MainWindow.AppendSteamRemovals@526,"  - Steam's download state file in or next to its content/app_",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x7000355F,HellForge.Launcher.MainWindow.AppendSteamRemovals@556," folder: ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamRemovals），现有模块未覆盖
+0x70003573,HellForge.Launcher.MainWindow.AppendSteamLeft@56,"  - Steam's depot download (kept unless you tick the Steam box): ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamLeft），现有模块未覆盖
+0x700035F8,HellForge.Launcher.MainWindow.AppendSteamLeft@145,"  - Steam's download folder once empty (kept unless you tick the Steam box): ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamLeft），现有模块未覆盖
+0x70003695,HellForge.Launcher.MainWindow.AppendSteamLeft@235,"  - Steam's download state file (kept unless you tick the Steam box): ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendSteamLeft），现有模块未覆盖
+0x700037DC,HellForge.Launcher.MainWindow.AppendOldScriptRemovals@9,"  - the removed shell installer's files: none found",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendOldScriptRemovals），现有模块未覆盖
+0x70003844,HellForge.Launcher.MainWindow.AppendOldScriptRemovals@52,"  - the removed shell installer's ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.AppendOldScriptRemovals），现有模块未覆盖
+0x7000D9A3,HellForge.Launcher.MainWindow.OpenSteamConsole@55,No process was started.,控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.OpenSteamConsole），现有模块未覆盖
+0x7000D9D3,HellForge.Launcher.MainWindow.OpenSteamConsole@119,"Could not open the Steam console: ",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.OpenSteamConsole），现有模块未覆盖
+0x7000DA19,HellForge.Launcher.MainWindow.OpenSteamConsole@130," Start Steam with -console, then try again.",控制台,低,可见,界面文本（HellForge.Launcher.MainWindow.OpenSteamConsole），现有模块未覆盖
+0x7000001B,HellForge.Launcher.MainWindow.RuleLabel@74,As in vanilla,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RuleLabel），现有模块未覆盖
+0x70000037,HellForge.Launcher.MainWindow.RuleLabel@82,Every item,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RuleLabel），现有模块未覆盖
+0x7000004D,HellForge.Launcher.MainWindow.RuleLabel@90,None,未分类,低,可见,规则下拉选项 None（RuleLabel）
+0x70000057,HellForge.Launcher.MainWindow.RuleLabel@98,Keep the higher,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RuleLabel），现有模块未覆盖
+0x7000008D,HellForge.Launcher.MainWindow.RuleLabel@114,Use vanilla,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RuleLabel），现有模块未覆盖
+0x7000014C,HellForge.Launcher.MainWindow.BuildReview@43,"Always synced: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildReview），现有模块未覆盖
+0x7000017C,HellForge.Launcher.MainWindow.BuildReview@69," you own. Super Credits are never imported.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildReview），现有模块未覆盖
+0x70000202,HellForge.Launcher.MainWindow.BuildReview@165,. Owning them always follows the sync.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildReview），现有模块未覆盖
+0x70000264,HellForge.Launcher.MainWindow.AddReviewHeader@45,VANILLA,未分类,低,可见,导入复核表头 VANILLA
+0x70000274,HellForge.Launcher.MainWindow.AddReviewHeader@53,IMPORT,未分类,低,可见,导入复核表头 IMPORT
+0x700002C2,HellForge.Launcher.MainWindow.AccountCheckNote@13," (checking the signed-in Steam account first takes about 20 seconds)",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AccountCheckNote），现有模块未覆盖
+0x7000034D,HellForge.Launcher.MainWindow.ImportRefusal@23,Wait for the sync to finish.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ImportRefusal），现有模块未覆盖
+0x70000387,HellForge.Launcher.MainWindow.ImportRefusal@29,Stop the HellForge session first: it holds the profile.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ImportRefusal），现有模块未覆盖
+0x7000042B,HellForge.Launcher.MainWindow.OfferCrashReport@75,The game crashed,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.OfferCrashReport），现有模块未覆盖
+0x7000044D,HellForge.Launcher.MainWindow.OfferCrashReport@95," (exit code ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.OfferCrashReport），现有模块未覆盖
+0x7000046B,HellForge.Launcher.MainWindow.OfferCrashReport@116,". Save logs to Desktop keeps this session's logs for whoever helps you; Save crash report (on the Play page) puts them, scrubbed for a public bug report, in one zip on your Desktop to attach to a GitHub issue.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.OfferCrashReport），现有模块未覆盖
+0x70000610,HellForge.Launcher.MainWindow.OfferCrashReport@147,"Known cause: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.OfferCrashReport），现有模块未覆盖
+0x7000062C,HellForge.Launcher.MainWindow.ShowCrashEnding@30,The game crashed.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowCrashEnding），现有模块未覆盖
+0x70000650,HellForge.Launcher.MainWindow.ShowCrashEnding@51,"It ended with ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowCrashEnding），现有模块未覆盖
+0x70000674,HellForge.Launcher.MainWindow.ShowCrashEnding@72,"Save logs or a crash report below, then press PLAY to start another session.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowCrashEnding），现有模块未覆盖
+0x70001EC6,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@49,"the game is still running ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.WarnIfGameStillOpen），现有模块未覆盖
+0x70001EFC,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@72," s after the capture was taken",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.WarnIfGameStillOpen），现有模块未覆盖
+0x70001F3A,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@88,"Inventory sync: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.WarnIfGameStillOpen），现有模块未覆盖
+0x7000525F,HellForge.Launcher.MainWindow..ctor@620,"Support, news and mods: the HellForge Discord (https://discord.gg/3Yye92xCzh)",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow..ctor），现有模块未覆盖
+0x70005360,HellForge.Launcher.MainWindow..ctor@2309,"HellForge ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow..ctor），现有模块未覆盖
+0x700053A0,HellForge.Launcher.MainWindow..ctor@2352,Ready. Steam must be running and signed in.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow..ctor），现有模块未覆盖
+0x700053F8,HellForge.Launcher.MainWindow..ctor@2358,Press PLAY to verify the game files and launch the game.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow..ctor），现有模块未覆盖
+0x7000546A,HellForge.Launcher.MainWindow..ctor@2447,"Profile, console and settings still work on this system.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow..ctor），现有模块未覆盖
+0x700054DC,HellForge.Launcher.MainWindow.PlayClicked@29,Inventory sync is running. Play once it finishes.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PlayClicked），现有模块未覆盖
+0x70005ECA,HellForge.Launcher.MainWindow.ServeCoopRelays@93,The game's lobby browser asked to turn co-op over Steam relays on; opening it for this session...,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ServeCoopRelays），现有模块未覆盖
+0x70006958,HellForge.Launcher.MainWindow.ShowPreparing@54,Verifying game files...,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowPreparing），现有模块未覆盖
+0x70006988,HellForge.Launcher.MainWindow.ShowPreparing@60,Checking the copied game against its pinned hashes.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowPreparing），现有模块未覆盖
+0x700069F0,HellForge.Launcher.MainWindow.ShowObserving@56,"Building the shader cache (first start only, this can take a few minutes)...",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006A8B,HellForge.Launcher.MainWindow.ShowObserving@62,The game window stays black until it is done. Later starts are quick. Press STOP or close the game to end the session.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006B7A,HellForge.Launcher.MainWindow.ShowObserving@170,The game seems stuck in the cryo pod.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006BC6,HellForge.Launcher.MainWindow.ShowObserving@176,"This can happen on the first launch of a new installation. Press STOP, then PLAY again: the next launch goes through.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006CB3,HellForge.Launcher.MainWindow.ShowObserving@201,Running. Steam Input can't reach the sandboxed game.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006D2D,HellForge.Launcher.MainWindow.ShowObserving@223,Press STOP or close the game to end the session.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserving），现有模块未覆盖
+0x70006DCF,HellForge.Launcher.MainWindow.ShowObserved@72,"The game closed its window but did not exit, so HellForge ended it and finished the session as usual. ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserved），现有模块未覆盖
+0x70006E9E,HellForge.Launcher.MainWindow.ShowObserved@82,Ending the session...,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserved），现有模块未覆盖
+0x70006FCF,HellForge.Launcher.MainWindow.ShowObserved@149,Session ended.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserved），现有模块未覆盖
+0x70006FED,HellForge.Launcher.MainWindow.ShowObserved@162,Press PLAY to start another session.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowObserved），现有模块未覆盖
+0x7000717A,HellForge.Launcher.MainWindow.ShowRunnerEnded@84,The session ended without finishing cleanup.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowRunnerEnded），现有模块未覆盖
+0x700071D4,HellForge.Launcher.MainWindow.ShowRunnerEnded@93,The session runner exited before writing completedUtc. Check the session logs before playing again.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowRunnerEnded），现有模块未覆盖
+0x700072BD,HellForge.Launcher.MainWindow.Cleanup@16,"The session's network block removed: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.Cleanup），现有模块未覆盖
+0x7000738F,HellForge.Launcher.MainWindow.ShowTemplateDescription@39,"No templates found in ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowTemplateDescription），现有模块未覆盖
+0x7000794A,HellForge.Launcher.MainWindow.UpdateButton@37,STOP,未分类,低,可见,状态/按钮词 STOP（UpdateButton）
+0x70007954,HellForge.Launcher.MainWindow.UpdateButton@44,STOPPING,未分类,低,可见,状态/按钮词 STOPPING（UpdateButton）
+0x70007970,HellForge.Launcher.MainWindow.UpdateButton@58,INSTALLING,未分类,低,可见,状态/按钮词 INSTALLING（UpdateButton）
+0x70007A14,HellForge.Launcher.MainWindow.BuildPaths@21,Project,未分类,低,可见,设置页路径标签 Project（BuildPaths）
+0x70007A24,HellForge.Launcher.MainWindow.BuildPaths@28,Installation,未分类,低,可见,设置页路径标签 Installation（BuildPaths）
+0x70007A3E,HellForge.Launcher.MainWindow.BuildPaths@84,Data folder,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildPaths），现有模块未覆盖
+0x70007A56,HellForge.Launcher.MainWindow.BuildPaths@112,Profiles,未分类,低,可见,设置页路径标签 Profiles（BuildPaths）
+0x70007A68,HellForge.Launcher.MainWindow.BuildPaths@140,Templates,未分类,低,可见,设置页路径标签 Templates（BuildPaths）
+0x70007A7C,HellForge.Launcher.MainWindow.BuildPaths@168,Selected profile,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildPaths），现有模块未覆盖
+0x70007A9E,HellForge.Launcher.MainWindow.BuildPaths@190,Current run,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildPaths），现有模块未覆盖
+0x70007AB6,HellForge.Launcher.MainWindow.BuildPaths@195,No session started yet,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildPaths），现有模块未覆盖
+0x700086A0,HellForge.Launcher.MainWindow.SandboxOffReason@66,this HellForge was built without the Steam bridge,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.SandboxOffReason），现有模块未覆盖
+0x70008993,HellForge.Launcher.MainWindow.AddPendingCard@249,ADD MODS,未分类,低,可见,模组页按钮 ADD MODS（AddPendingCard）
+0x700089AB,HellForge.Launcher.MainWindow.AddPendingCard@483,": replaces the installed one, whose files are deleted (",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AddPendingCard），现有模块未覆盖
+0x70008A1B,HellForge.Launcher.MainWindow.AddPendingCard@584,"Not a mod: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AddPendingCard），现有模块未覆盖
+0x70008A33,HellForge.Launcher.MainWindow.AddPendingCard@655,Add,未分类,低,可见,按钮 Add（AddPendingCard）
+0x70008A49,HellForge.Launcher.MainWindow.RemoveItem@26,Remove...,未分类,低,可见,模组行按钮 Remove...（RemoveItem）
+0x70008A5D,HellForge.Launcher.MainWindow.RemoveItem@78,Deletes the mod's files from the mods folder (asks first).,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveItem），现有模块未覆盖
+0x70008AD3,HellForge.Launcher.MainWindow.RemoveItem@85,Removing waits until the session ends: the game has the mods loaded.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveItem），现有模块未覆盖
+0x70008B5E,HellForge.Launcher.MainWindow.AskUninstall@204,"This deletes ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AskUninstall），现有模块未覆盖
+0x70008B7A,HellForge.Launcher.MainWindow.RemoveConfirmation@217," permanently: the mod's files",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveConfirmation），现有模块未覆盖
+0x70008BB6,HellForge.Launcher.MainWindow.RemoveConfirmation@249,", its sources included",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveConfirmation），现有模块未覆盖
+0x70008BE4,HellForge.Launcher.MainWindow.RemoveConfirmation@261,. Keep a copy if you may want it back.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveConfirmation），现有模块未覆盖
+0x70008C32,HellForge.Launcher.MainWindow.RemoveConfirmation@294,Delete mod,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.RemoveConfirmation），现有模块未覆盖
+0x70009048,HellForge.Launcher.MainWindow.BuildItem@127,Build now,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildItem），现有模块未覆盖
+0x70009393,HellForge.Launcher.MainWindow.BuildItem@256,Builds wait until the session ends: the game has the mod loaded.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildItem），现有模块未覆盖
+0x7000941E,HellForge.Launcher.MainWindow.ZipItem@38,Zip to share,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ZipItem），现有模块未覆盖
+0x70009438,HellForge.Launcher.MainWindow.ZipItem@118,"Packs the mod to share, into the installation's exports folder: drop the zip into a mods folder as it is. ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ZipItem），现有模块未覆盖
+0x7000950F,HellForge.Launcher.MainWindow.ZipItem@133,"It is built first, so a mod that does not compile is not packed; the zip holds its sources, not a DLL.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ZipItem），现有模块未覆盖
+0x700095DE,HellForge.Launcher.MainWindow.ZipItem@145,"Zipping builds the mod first, which waits until the session ends.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ZipItem），现有模块未覆盖
+0x7000B469,HellForge.Launcher.MainWindow.Tags@38,DID NOT COMPILE,未分类,低,可见,模组标签 DID NOT COMPILE（Tags）
+0x7000B499,HellForge.Launcher.MainWindow.Tags@67,UNSUPPORTED,未分类,低,可见,模组标签 UNSUPPORTED（Tags）
+0x7000B4B1,HellForge.Launcher.MainWindow.Tags@101,BUNDLED,未分类,低,可见,模组标签 BUNDLED（Tags）
+0x7000B4D1,HellForge.Launcher.MainWindow.Tags@136,PACK,未分类,低,可见,模组标签 PACK（Tags）
+0x7000B4EB,HellForge.Launcher.MainWindow.Tags@165,LUA,未分类,低,可见,模组标签 LUA（Tags）
+0x7000B51D,HellForge.Launcher.MainWindow.Tags@223,NATIVE,未分类,低,可见,模组标签 NATIVE（Tags）
+0x7000B53B,HellForge.Launcher.MainWindow.Tags@258,STATS,未分类,低,可见,模组标签 STATS（Tags）
+0x7000B547,HellForge.Launcher.MainWindow.Tags@301,DATA,未分类,低,可见,模组标签 DATA（Tags）
+0x7000B561,HellForge.Launcher.MainWindow.Tags@330,ZIP,未分类,低,可见,模组标签 ZIP（Tags）
+0x7000B569,HellForge.Launcher.MainWindow.PremiumTag@25,PREMIUM,未分类,低,可见,模组标签 PREMIUM（PremiumTag）
+0x7000B589,HellForge.Launcher.MainWindow.PremiumTag@41,PREMIUM: LOCKED,未分类,低,可见,模组标签 PREMIUM: LOCKED（PremiumTag）
+0x7000B5A9,HellForge.Launcher.MainWindow.PremiumTag@57,PREMIUM: CHECK AT SESSION,未分类,低,可见,模组标签 PREMIUM: CHECK AT SESSION（PremiumTag）
+0x7000B5DD,HellForge.Launcher.MainWindow.PremiumText@8,"Built on ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B5F1,HellForge.Launcher.MainWindow.PremiumText@81,Premium items are checked against the signed-in Steam account when the session starts.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B6A0,HellForge.Launcher.MainWindow.PremiumText@101,"Your synced account owns it, so everything this mod adds is yours to use.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B747,HellForge.Launcher.MainWindow.PremiumText@146,"'s synced account lacks ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B779,HellForge.Launcher.MainWindow.PremiumText@208,": the mod loads, but its weapons and stratagems stay locked.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B7F3,HellForge.Launcher.MainWindow.PremiumText@215,: this mod is not loaded for it.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000B835,HellForge.Launcher.MainWindow.PremiumText@223," Buy it in the normal game and sync (Profile > Account sync).",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.PremiumText），现有模块未覆盖
+0x7000BBA7,HellForge.Launcher.MainWindow.Details@616,Where to get this mod: opens in your browser.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.Details），现有模块未覆盖
+0x7000D25F,HellForge.Launcher.MainWindow.SteamHas@19,no HELLDIVERS 2 setup can copy from,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.SteamHas），现有模块未覆盖
+0x7000D8FF,HellForge.Launcher.MainWindow.ShowDownload@404,Copy,未分类,低,可见,按钮 Copy（ShowDownload 命令复制）
+0x7000D931,HellForge.Launcher.MainWindow.ShowDepotProgress@137," downloads: ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowDepotProgress），现有模块未覆盖
+0x7000DAAF,HellForge.Launcher.MainWindow.AskUninstall@105,": this deletes the game copy, every profile and every mod in it",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AskUninstall），现有模块未覆盖
+0x7000DB55,HellForge.Launcher.MainWindow.AskUninstall@215," and everything in it: the game copy (about 24 GB), your HellForge profiles and progress, every mod in its mods folder (your own too), saves and logs. Copy anything you want to keep first. HellForge closes when it is done.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.AskUninstall），现有模块未覆盖
+0x7000DD54,HellForge.Launcher.MainWindow.UninstallSafety@54,This folder is not a HellForge installation; nothing was removed.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.UninstallSafety），现有模块未覆盖
+0x7000DDD9,HellForge.Launcher.MainWindow.UninstallSafety@153,"HellForge is installed directly in ",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.UninstallSafety），现有模块未覆盖
+0x7000DE21,HellForge.Launcher.MainWindow.UninstallSafety@164,; delete its files by hand instead.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.UninstallSafety），现有模块未覆盖
+0x7000DF7B,HellForge.Launcher.MainWindow.CreateShortcuts@83,Start menu,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.CreateShortcuts），现有模块未覆盖
+0x7000E05F,HellForge.Launcher.MainWindow.Describe@55," Something on this PC may be blocking or inspecting HTTPS (an antivirus web shield, a VPN or a proxy); allow it, then try again.",未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.Describe），现有模块未覆盖
+0x700103B1,HellForge.Launcher.MainWindow..cctor@21,Build mods,未分类,低,可见,配置步骤名 Build mods（MainWindow 静态字段，步骤列表）
+0x700103C7,HellForge.Launcher.MainWindow..cctor@29,Verify files,未分类,低,可见,配置步骤名 Verify files（同上）
+0x700103E1,HellForge.Launcher.MainWindow..cctor@37,Network block,未分类,低,可见,配置步骤名 Network block（同上）
+0x700103FD,HellForge.Launcher.MainWindow..cctor@45,Launching,未分类,低,可见,状态词 Launching（MainWindow 静态字段）
+0x700104F7,HellForge.Launcher.MainWindow..cctor@391,Find HELLDIVERS 2 in Steam,未分类,低,可见,配置步骤名 Find HELLDIVERS 2 in Steam（同上）
+0x7001052D,HellForge.Launcher.MainWindow..cctor@399,Confirm you own the game,未分类,低,可见,配置步骤名 Confirm you own the game（同上）
+0x7001055F,HellForge.Launcher.MainWindow..cctor@407,Copy the game into this folder,未分类,低,可见,配置步骤名 Copy the game into this folder（同上）
+0x7001059D,HellForge.Launcher.MainWindow..cctor@415,Block the copy from the internet,未分类,低,可见,配置步骤名 Block the copy from the internet（同上）
+0x700105DF,HellForge.Launcher.MainWindow..cctor@423,Import earlier game data,未分类,低,可见,配置步骤名 Import earlier game data（同上）
+0x70010611,HellForge.Launcher.MainWindow..cctor@431,Create shortcuts,未分类,低,可见,配置步骤名 Create shortcuts（同上）
+0x70010633,HellForge.Launcher.MainWindow.<InitializeAccountImport>b__4_2@13,Nothing imported. Premium items you own still follow the sync.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.<InitializeAccountImport>b__4_2），现有模块未覆盖
+0x70010ADC,HellForge.Launcher.MainWindow.<InitializeWeaponLevels>b__445_1@123,Saved. The next session uses these levels.,未分类,低,可见,界面文本（HellForge.Launcher.MainWindow.<InitializeWeaponLevels>b__445_1），现有模块未覆盖
+0x7001650A,SteamAppChosen..ctor@1,The Steam app downloads the build.,未分类,低,可见,界面文本（SteamAppChosen..ctor），现有模块未覆盖
+0x70016550,<<InitializeAccountImport>b__4_0>d.MoveNext@23,Reviewing...,未分类,低,可见,导入流程状态词 Reviewing...（InitializeAccountImport 状态）
+0x7001656A,<<InitializeAccountImport>b__4_1>d.MoveNext@23,Importing...,未分类,低,可见,导入流程状态词 Importing...（同上）
+0x70016584,<<InitializeAccountImport>b__4_3>d.MoveNext@23,Restoring...,未分类,低,可见,导入流程状态词 Restoring...（同上）
+0x7001659E,<>c.<UpdateImportControls>b__6_0@32," — before ",未分类,低,可见,界面文本（<>c.<UpdateImportControls>b__6_0），现有模块未覆盖
+0x7001667C,<>c.<ShowDepotProgress>b__376_2@11,"depot ",未分类,低,可见,界面文本（<>c.<ShowDepotProgress>b__376_2），现有模块未覆盖
+0x700166E6,<>c.<ShowDepotProgress>b__376_5@196,: another build's file; delete it and run the download_depot command again),未分类,低,可见,界面文本（<>c.<ShowDepotProgress>b__376_5），现有模块未覆盖
+0x7001677F,<>c.<ShowDepotProgress>b__376_5@215," (not there yet)",未分类,低,可见,界面文本（<>c.<ShowDepotProgress>b__376_5），现有模块未覆盖
+0x70016883,<<-ctor>b__37>d.MoveNext@121,Compiling mods (3 of 5)...,未分类,低,可见,界面文本（<<-ctor>b__37>d.MoveNext），现有模块未覆盖
+0x700168B9,<<-ctor>b__37>d.MoveNext@127,Building Stratagem Compendium from its sources.,未分类,低,可见,界面文本（<<-ctor>b__37>d.MoveNext），现有模块未覆盖
+0x70016A1B,<>c__DisplayClass173_0.<ServeCoopRelays>b__0@83,". It is on from the next session: STOP, then PLAY, to join",未分类,低,可见,界面文本（<>c__DisplayClass173_0.<ServeCoopRelays>b__0），现有模块未覆盖
+0x70016B43,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@102,. It is on from the next session.,未分类,低,可见,界面文本（<>c__DisplayClass173_1.<ServeCoopRelays>b__1），现有模块未覆盖
+0x70016B87,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@114,Co-op over Steam relays is on for this session (UDP to Valve's relays only) and stays on (Settings > Multiplayer).,未分类,低,可见,界面文本（<>c__DisplayClass173_1.<ServeCoopRelays>b__1），现有模块未覆盖
+0x70016C6E,<>c__DisplayClass247_0.<RemoveConfirmation>b__0@46,"Removed ",未分类,低,可见,界面文本（<>c__DisplayClass247_0.<RemoveConfirmation>b__0），现有模块未覆盖
+0x70016C88,<>c__DisplayClass247_0.<RemoveConfirmation>b__0@131," is deleted.",未分类,低,可见,界面文本（<>c__DisplayClass247_0.<RemoveConfirmation>b__0），现有模块未覆盖
+0x70016CA2,<>c__DisplayClass247_0.<RemoveConfirmation>b__0@227," was not removed: ",未分类,低,可见,界面文本（<>c__DisplayClass247_0.<RemoveConfirmation>b__0），现有模块未覆盖
+0x700171E6,<<InitializeSetup>b__8>d.MoveNext@202,Copied,未分类,低,可见,配置流程状态词 Copied（InitializeSetup 闭包）
+0x70017256,<>c__DisplayClass372_1.<DownloadFromSteam>b__3@236," GB downloaded (",未分类,低,可见,界面文本（<>c__DisplayClass372_1.<DownloadFromSteam>b__3），现有模块未覆盖
+0x7001728A,<>c__DisplayClass372_1.<DownloadFromSteam>b__3@312," GB copied from your install  ·  ",未分类,低,可见,界面文本（<>c__DisplayClass372_1.<DownloadFromSteam>b__3），现有模块未覆盖
+0x7001736C,<>c__DisplayClass432_1.<DownloadWithSteamCmd>b__5@11,"SteamCMD: ",未分类,低,可见,界面文本（<>c__DisplayClass432_1.<DownloadWithSteamCmd>b__5），现有模块未覆盖
+0x7001741E,<AddMods>d__243.MoveNext@228,"Adding ",未分类,低,可见,界面文本（<AddMods>d__243.MoveNext），现有模块未覆盖
+0x7001742E,<AddMods>d__243.MoveNext@392,"Added ",未分类,低,可见,界面文本（<AddMods>d__243.MoveNext），现有模块未覆盖
+0x7001743C,<AddMods>d__243.MoveNext@534,", replacing the one installed",未分类,低,可见,界面文本（<AddMods>d__243.MoveNext），现有模块未覆盖
+0x70017478,<AddMods>d__243.MoveNext@649," was not added: ",未分类,低,可见,界面文本（<AddMods>d__243.MoveNext），现有模块未覆盖
+0x7001749A,<AfterCaptureAsync>d__9.MoveNext@59,Synced. Choose what to import below.,未分类,低,可见,界面文本（<AfterCaptureAsync>d__9.MoveNext），现有模块未覆盖
+0x700174E4,<AfterCaptureAsync>d__9.MoveNext@80,Synced. Review import to choose what else to bring into the profile.,未分类,低,可见,界面文本（<AfterCaptureAsync>d__9.MoveNext），现有模块未覆盖
+0x7001756F,<AfterCaptureAsync>d__9.MoveNext@289,Synced and imported with your saved choices. A backup was made first.,未分类,低,可见,界面文本（<AfterCaptureAsync>d__9.MoveNext），现有模块未覆盖
+0x70017745,<ApplyLive>d__268.MoveNext@536,); the changes apply to the next session.,未分类,低,可见,界面文本（<ApplyLive>d__268.MoveNext），现有模块未覆盖
+0x700177E1,<ApplyReviewAsync>d__17.MoveNext@431,Imported. The profile was backed up first; Restore backup puts it back.,未分类,低,可见,界面文本（<ApplyReviewAsync>d__17.MoveNext），现有模块未覆盖
+0x70017872,<AskAboutDump>d__29.MoveNext@46,Add the crash dump?,未分类,低,可见,界面文本（<AskAboutDump>d__29.MoveNext），现有模块未覆盖
+0x70017AD5,<AskAboutDump>d__29.MoveNext@85,Without the dump,未分类,低,可见,界面文本（<AskAboutDump>d__29.MoveNext），现有模块未覆盖
+0x70017AF7,<AskAboutDump>d__29.MoveNext@92,Add the dump,未分类,低,可见,界面文本（<AskAboutDump>d__29.MoveNext），现有模块未覆盖
+0x70017DB2,<CheckFilteringEngine>d__378.MoveNext@116,"The Windows Base Filtering Engine (BFE) service is off. HellForge needs it to keep its copy of the game off the internet. Turn it back on (Services > Base Filtering Engine, or run 'net start BFE' as administrator), then start setup again.",未分类,低,可见,界面文本（<CheckFilteringEngine>d__378.MoveNext），现有模块未覆盖
+0x70018B72,<CleanUpSync>d__85.MoveNext@148,The installation folder is missing.,未分类,低,可见,界面文本（<CleanUpSync>d__85.MoveNext），现有模块未覆盖
+0x70018BD6,<CleanUpSync>d__85.MoveNext@685,Clean up needs the administrator prompt.,未分类,低,可见,界面文本（<CleanUpSync>d__85.MoveNext），现有模块未覆盖
+0x70018C4C,<CleanUpSync>d__85.MoveNext@780,"see ",未分类,低,可见,界面文本（<CleanUpSync>d__85.MoveNext），现有模块未覆盖
+0x70018C56,<CleanUpSync>d__85.MoveNext@813,remove the HellForge-CaptureProxy lines from the hosts file.,未分类,低,可见,界面文本（<CleanUpSync>d__85.MoveNext），现有模块未覆盖
+0x70018CD0,<CleanUpSync>d__85.MoveNext@837,Cleaned up: the normal game reaches its servers again.,未分类,低,可见,界面文本（<CleanUpSync>d__85.MoveNext），现有模块未覆盖
+0x70019F37,<FindGameStep>d__360.MoveNext@230,start setup again.,未分类,低,可见,界面文本（<FindGameStep>d__360.MoveNext），现有模块未覆盖
+0x7001A0E0,<FindGameStep>d__360.MoveNext@1212,". Setup ",未分类,低,可见,界面文本（<FindGameStep>d__360.MoveNext），现有模块未覆盖
+0x7001B0C4,<PickMods>d__242.MoveNext@131,"Mods and cosmetic packs (.zip, .rar, .7z, hellforge-mod.json, manifest.json)",未分类,低,可见,界面文本（<PickMods>d__242.MoveNext），现有模块未覆盖
+0x7001B19D,<PickMods>d__242.MoveNext@433,"Reading ",未分类,低,可见,界面文本（<PickMods>d__242.MoveNext），现有模块未覆盖
+0x7001B1AF,<PickMods>d__242.MoveNext@468," files...",未分类,低,可见,界面文本（<PickMods>d__242.MoveNext），现有模块未覆盖
+0x7001B3FC,<ReportStartFailure>d__78.MoveNext@333,"; security programs: ",未分类,低,可见,界面文本（<ReportStartFailure>d__78.MoveNext），现有模块未覆盖
+0x7001B428,<ReportStartFailure>d__78.MoveNext@359,"none besides Microsoft Defender, or not asked",未分类,低,可见,界面文本（<ReportStartFailure>d__78.MoveNext），现有模块未覆盖
+0x7001B4CC,<RestoreBackupAsync>d__19.MoveNext@338,Restored. The profile it replaced is the newest backup.,未分类,低,可见,界面文本（<RestoreBackupAsync>d__19.MoveNext），现有模块未覆盖
+0x7001B53C,<RestoreBackupAsync>d__19.MoveNext@371," restored from a backup.",未分类,低,可见,界面文本（<RestoreBackupAsync>d__19.MoveNext），现有模块未覆盖
+0x7001B670,<RunBackendAsync>d__23.MoveNext@51,HellForge local backend: account import runs in installations made with HellForge-Setup.,未分类,低,可见,界面文本（<RunBackendAsync>d__23.MoveNext），现有模块未覆盖
+0x7001B85E,<RunBackendAsync>d__23.MoveNext@256,The local backend did not start.,未分类,低,可见,界面文本（<RunBackendAsync>d__23.MoveNext），现有模块未覆盖
+0x7001C113,<SaveCrashReport>d__28.MoveNext@456,"Saved the crash report to ",未分类,低,可见,界面文本（<SaveCrashReport>d__28.MoveNext），现有模块未覆盖
+0x7001C149,<SaveCrashReport>d__28.MoveNext@494,", with the crash dump",未分类,低,可见,界面文本（<SaveCrashReport>d__28.MoveNext），现有模块未覆盖
+0x7001C175,<SaveCrashReport>d__28.MoveNext@577,". Read its summary.txt, then attach the zip to a GitHub issue (Open a GitHub issue).",未分类,低,可见,界面文本（<SaveCrashReport>d__28.MoveNext），现有模块未覆盖
+0x7001C378,<StartSync>d__62.MoveNext@278,The last sync still keeps HELLDIVERS 2 connected: close the game first.,未分类,低,可见,界面文本（<StartSync>d__62.MoveNext），现有模块未覆盖
+0x7001C47F,<StartSync>d__62.MoveNext@1600,Starting the capture...,未分类,低,可见,界面文本（<StartSync>d__62.MoveNext），现有模块未覆盖
+0x7001C509,<StartSync>d__62.MoveNext@1633,. HELLDIVERS 2 opens through Steam; take it past the title screen.,未分类,低,可见,界面文本（<StartSync>d__62.MoveNext），现有模块未覆盖
+0x7001C7AB,<SyncAccountAsync>d__63.MoveNext@36,Checking the signed-in Steam account...,未分类,低,可见,界面文本（<SyncAccountAsync>d__63.MoveNext），现有模块未覆盖
+0x7001C7FB,<SyncAccountAsync>d__63.MoveNext@179,Sign in to Steam first: the sync is sealed for your Steam account.,未分类,低,可见,界面文本（<SyncAccountAsync>d__63.MoveNext），现有模块未覆盖
+0x7001D1B8,HellForge.Launcher.App.OnFrameworkInitializationCompleted@140,HellForge Launcher,未分类,低,可见,界面文本（HellForge.Launcher.App.OnFrameworkInitializationCompleted），现有模块未覆盖
+0x7001D1DE,HellForge.Launcher.App.OnFrameworkInitializationCompleted@194,Run the launcher from a HellForge installation or the HellForge repository.,未分类,低,可见,界面文本（HellForge.Launcher.App.OnFrameworkInitializationCompleted），现有模块未覆盖
+0x70007745,HellForge.Launcher.MainWindow.ShowModBuilds@198,Compiling mods (,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowModBuilds），现有模块未覆盖
+0x70007771,HellForge.Launcher.MainWindow.ShowModBuilds@240,)...,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowModBuilds），现有模块未覆盖
+0x700077B5,HellForge.Launcher.MainWindow.BuildMod@84,"Building ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildMod），现有模块未覆盖
+0x700077C9,HellForge.Launcher.MainWindow.ShowModBuilds@285," from its sources.",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowModBuilds），现有模块未覆盖
+0x70009663,HellForge.Launcher.MainWindow.ZipMod@98,"Packing ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ZipMod），现有模块未覆盖
+0x70009B61,HellForge.Launcher.MainWindow.AddModSyncCard@2194," mod",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x70009B6F,HellForge.Launcher.MainWindow.ModsSummaryText@133," on. Drag a mod to change the order: the bottom one loads first, the top one wins. ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModsSummaryText），现有模块未覆盖
+0x7000A928,HellForge.Launcher.MainWindow.AddModSyncCard@544,the mod sync setting,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000AA14,HellForge.Launcher.MainWindow.AddModSyncCard@594,the public lobby setting,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000AAE6,HellForge.Launcher.MainWindow.AddModSyncCard@644,the shared stats setting,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000ABF6,HellForge.Launcher.MainWindow.AddModSyncCard@761,Trusted mods (,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000AFC6,HellForge.Launcher.MainWindow.AddModSyncCard@1265,"from ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000AFD2,HellForge.Launcher.MainWindow.AddModSyncCard@1307," (trusted in a sandboxed game; sandbox only)",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B02C,HellForge.Launcher.MainWindow.AddModSyncCard@1314," (not a Steam friend; sandbox only)",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B074,HellForge.Launcher.MainWindow.AddModSyncCard@1407,", from ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B084,HellForge.Launcher.MainWindow.AddModSyncCard@1438,". Content hash ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B207,HellForge.Launcher.MainWindow.AddModSyncCard@2234," from hosts (",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B22B,HellForge.Launcher.MainWindow.AddModSyncCard@2271," MB), used only when you play with their mods.",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.AddModSyncCard），现有模块未覆盖
+0x7000B359,HellForge.Launcher.MainWindow.ModRow@1316," options on",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModRow），现有模块未覆盖
+0x7000BC03,HellForge.Launcher.MainWindow.ModChanges@39,"network field ",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModChanges），现有模块未覆盖
+0x7000BC2B,HellForge.Launcher.MainWindow.ModChanges@114," bits",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModChanges），现有模块未覆盖
+0x7000BC37,HellForge.Launcher.MainWindow.ModChanges@419," stats change",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModChanges），现有模块未覆盖
+0x7000BC53,HellForge.Launcher.MainWindow.ModChanges@519," game data file",模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModChanges），现有模块未覆盖
+0x7000BE9F,HellForge.Launcher.MainWindow.AnswerModSync@107,"MOD SYNC: ",模组,低,可见,控制台行前缀 MOD SYNC: （AnswerModSync）
+0x7000C881,HellForge.Launcher.MainWindow.ModSyncRow@589,downloads (,模组,低,可见,界面文本（HellForge.Launcher.MainWindow.ModSyncRow），现有模块未覆盖
+0x70016D58,<>c__DisplayClass256_0.<BuildMod>b__0@120,--mod,模组,低,可见,界面文本（<>c__DisplayClass256_0.<BuildMod>b__0），现有模块未覆盖
+0x70016E56,<>c__DisplayClass256_2.<BuildMod>b__6@46," is built (",模组,低,可见,界面文本（<>c__DisplayClass256_2.<BuildMod>b__6），现有模块未覆盖
+0x70016E6E,<>c__DisplayClass256_2.<BuildMod>b__6@88," KB); the next session loads it.",模组,低,可见,界面文本（<>c__DisplayClass256_2.<BuildMod>b__6），现有模块未覆盖
+0x70016EB0,<>c__DisplayClass258_1.<ZipMod>b__3@46," packed: ",模组,低,可见,界面文本（<>c__DisplayClass258_1.<ZipMod>b__3），现有模块未覆盖
+0x70016EC4,<>c__DisplayClass258_1.<ZipMod>b__3@113," KB). Share that file; players drop it into their mods folder.",模组,低,可见,界面文本（<>c__DisplayClass258_1.<ZipMod>b__3），现有模块未覆盖
+0x70016F70,<>c__DisplayClass258_3.<ZipMod>b__5@27," was not packed: ",模组,低,可见,界面文本（<>c__DisplayClass258_3.<ZipMod>b__5），现有模块未覆盖
+0x70016FC4,<>c__DisplayClass259_2.<InstallModTools>b__5@11,"Not installed: ",模组,低,可见,界面文本（<>c__DisplayClass259_2.<InstallModTools>b__5），现有模块未覆盖
+0x70016FE4,<>c__DisplayClass259_2.<InstallModTools>b__5@48,"Mod tools not installed: ",模组,低,可见,界面文本（<>c__DisplayClass259_2.<InstallModTools>b__5），现有模块未覆盖
+0x700170F2,<>c__DisplayClass295_1.<AddModSyncCard>b__6@131,"Could not untrust ",模组,低,可见,界面文本（<>c__DisplayClass295_1.<AddModSyncCard>b__6），现有模块未覆盖
+0x70017118,<>c__DisplayClass295_2.<AddModSyncCard>b__7@78,"Could not unblock ",模组,低,可见,界面文本（<>c__DisplayClass295_2.<AddModSyncCard>b__7），现有模块未覆盖
+0x7000677D,HellForge.Launcher.MainWindow.ShowState@561,"The sandboxed game reaches Steam through HellForge's Steam broker, which is starting.",状态,高,可见,状态区提示（ShowState@561）：沙箱游戏经 Steam 中转连接 Steam，中转启动中
+0x70008444,HellForge.Launcher.MainWindow.ShowLeftoverProcesses@104,"Still running: ",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowLeftoverProcesses），现有模块未覆盖
+0x70008464,HellForge.Launcher.MainWindow.ShowLeftoverProcesses@120,. End them before starting the next session.,状态,低,可见,界面文本（HellForge.Launcher.MainWindow.ShowLeftoverProcesses），现有模块未覆盖
+0x70008572,HellForge.Launcher.MainWindow.EndLeftoverProcesses@55,"Ended ",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.EndLeftoverProcesses），现有模块未覆盖
+0x7000B8C1,HellForge.Launcher.MainWindow.BuildState@174,"Its sources could not be read: ",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x7000B901,HellForge.Launcher.MainWindow.BuildState@256,"Its sources, the SDK or the game build changed: the next session builds it again.",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x7000B9A6,HellForge.Launcher.MainWindow.BuildState@288,"Built ",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x7000B9B4,HellForge.Launcher.MainWindow.BuildState@327,; sessions reuse this build until its sources change.,状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x7000BA20,HellForge.Launcher.MainWindow.BuildState@356,"Its last build did not compile; the sources changed since, so the next session builds it again.",状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x7000BB39,HellForge.Launcher.MainWindow.BuildState@401,Built from its sources when a session starts.,状态,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildState），现有模块未覆盖
+0x70008A3B,HellForge.Launcher.MainWindow.!XamlIlPopulate@6159,Cancel,界面静态,中,可见,XAML 按钮内容 Cancel（!XamlIlPopulate@6159/22845/24650 多处），非控件名
+0x70010CC2,HellForge.Launcher.MainWindow.!XamlIlPopulate@1223,Local HELLDIVERS 2,界面静态,中,可见,标题区标签 Local HELLDIVERS 2（IL 1223，HELL/FORGE 标识下方）
+0x700116E9,HellForge.Launcher.MainWindow.!XamlIlPopulate@1994,SESSION,界面静态,中,可见,侧栏区块标题 SESSION（IL 1994，h2 样式）
+0x70011819,HellForge.Launcher.MainWindow.!XamlIlPopulate@4820,Save crash report,界面静态,中,可见,播放页按钮保存崩溃报告 Save crash report（IL 4820）
+0x7001183D,HellForge.Launcher.MainWindow.!XamlIlPopulate@4913,Open a GitHub issue,界面静态,中,可见,播放页链接 Open a GitHub issue（IL 4913）
+0x700118AF,HellForge.Launcher.MainWindow.!XamlIlPopulate@7028,End these processes,界面静态,中,可见,播放页按钮 End these processes（IL 7028）
+0x700118E7,HellForge.Launcher.MainWindow.!XamlIlPopulate@7406,PLAY WITH STRANGERS,界面静态,中,可见,播放页卡片标题 PLAY WITH STRANGERS（IL 7406，h2）
+0x700135DA,HellForge.Launcher.MainWindow.!XamlIlPopulate@25398,Co-op over Steam relays (UDP to Valve's relays only),界面静态,中,可见,设置页复选框标签 Co-op over Steam relays (UDP…)（IL 25398）
+0x700085DE,HellForge.Launcher.MainWindow.ApplyStrangersSetting@125,"Off by default: ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.ApplyStrangersSetting），现有模块未覆盖
+0x70008600,HellForge.Launcher.MainWindow.ApplyStrangersSetting@143,On by default while your game is sandboxed,设置,低,可见,界面文本（HellForge.Launcher.MainWindow.ApplyStrangersSetting），现有模块未覆盖
+0x7000B735,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@304,"Profile ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0），现有模块未覆盖
+0x7000BD73,HellForge.Launcher.MainWindow.PackOptions@216,All on,设置,低,可见,模组打包选项按钮 All on（PackOptions）
+0x7000BD81,HellForge.Launcher.MainWindow.PackOptions@280,All off,设置,低,可见,界面文本（HellForge.Launcher.MainWindow.PackOptions），现有模块未覆盖
+0x7000BF9B,HellForge.Launcher.MainWindow.RenderTrust@118,the host,设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000BFB5,HellForge.Launcher.MainWindow.RenderTrust@174," runs its own code on your PC. A mod like this can do anything your Windows account can: read and change your files, or install other programs.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C0D6,HellForge.Launcher.MainWindow.RenderTrust@187," carries game data HellForge cannot check, which goes straight to the game. Data like this can break your game, or through a flaw in the game run code on your PC that can do anything your Windows account can.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C279,HellForge.Launcher.MainWindow.RenderTrust@197," Only trust it if you trust ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C2B3,HellForge.Launcher.MainWindow.RenderTrust@203," and know where the mod comes from.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C2FB,HellForge.Launcher.MainWindow.RenderTrust@239," runs its own code on your PC, and ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C343,HellForge.Launcher.MainWindow.RenderTrust@245," is not your Steam friend.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C379,HellForge.Launcher.MainWindow.RenderTrust@258," carries game data HellForge cannot check, and ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C3D9,HellForge.Launcher.MainWindow.RenderTrust@264," is not your Steam friend. Through a flaw in the game, data like this can run code on your PC.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C498,HellForge.Launcher.MainWindow.RenderTrust@274," Your game is sandboxed: the mod cannot change your files or reach the internet, but it can read your files and send what it reads to ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C5A7,HellForge.Launcher.MainWindow.RenderTrust@280," through the game. Only trust it if you know where the mod comes from. It will run only while the sandbox is on.",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C68A,HellForge.Launcher.MainWindow.RenderTrust@308,TRUST THIS MOD?,设置,低,可见,模组信任对话框标题 TRUST THIS MOD?（RenderTrust）
+0x7000C6BA,HellForge.Launcher.MainWindow.RenderTrust@427,"HellForge still checks that every file you download is exactly the one ",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C74B,HellForge.Launcher.MainWindow.RenderTrust@433," has. You can take the trust back on the Mods page (MOD SYNC).",设置,低,可见,界面文本（HellForge.Launcher.MainWindow.RenderTrust），现有模块未覆盖
+0x7000C7C9,HellForge.Launcher.MainWindow.RenderTrust@559,TRUST THIS MOD,设置,低,可见,模组信任对话框按钮 TRUST THIS MOD（RenderTrust）
+0x7000C7E7,HellForge.Launcher.MainWindow.RenderTrust@626,BACK,设置,低,可见,模组信任对话框按钮 BACK（RenderTrust）
+0x70010886,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@334,: game settings imported from HELLDIVERS 2 (,设置,低,可见,界面文本（HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0），现有模块未覆盖
+0x7001719E,<>c__DisplayClass314_0.<PackOptions>g__Save|0@116,"Could not save the pack's options: ",设置,低,可见,界面文本（<>c__DisplayClass314_0.<PackOptions>g__Save|0），现有模块未覆盖
+0x7000905C,HellForge.Launcher.MainWindow.BuildItem@228,"Compiles src/ with HellForge's pinned Zig now, as a session would (sessions build it anyway; this shows errors early).",错误,低,可见,界面文本（HellForge.Launcher.MainWindow.BuildItem），现有模块未覆盖
+0x7000BE35,HellForge.Launcher.MainWindow.NoteSessionEditor@161,"Could not read the mods folder for mod sync: ",错误,低,可见,界面文本（HellForge.Launcher.MainWindow.NoteSessionEditor），现有模块未覆盖
+0x7001764E,<ApplyLive>d__268.MoveNext@388,The running game cannot take mod changes; they apply to the next session.,错误,低,可见,界面文本（<ApplyLive>d__268.MoveNext），现有模块未覆盖
+0x700176E3,<ApplyLive>d__268.MoveNext@524,Could not reach the session to change its mods (,错误,低,可见,界面文本（<ApplyLive>d__268.MoveNext），现有模块未覆盖
+0x70017799,<ApplyReviewAsync>d__17.MoveNext@289,"Could not save the import choices: ",错误,低,可见,界面文本（<ApplyReviewAsync>d__17.MoveNext），现有模块未覆盖
+0x7001789A,<AskAboutDump>d__29.MoveNext@62,"This session wrote a crash dump. A dump is the game's memory as it crashed: HellForge cannot scrub it, and it can hold your Steam account name and your friends' names. Add it only if you are fine with whoever reads the issue seeing that. The rest of the report is scrubbed either way.",错误,低,可见,界面文本（<AskAboutDump>d__29.MoveNext），现有模块未覆盖
+0x7001A0F2,<FindGameStep>d__360.MoveNext@1229,runs inside HellForge's network namespace and cannot reach Steam's servers itself; the Steam client can download that exact build for your account: follow the steps below. Setup continues by itself when the download is complete.,错误,低,可见,界面文本（<FindGameStep>d__360.MoveNext），现有模块未覆盖
+0x7001B4A4,<RestoreBackupAsync>d__19.MoveNext@314,The restore failed.,错误,低,可见,界面文本（<RestoreBackupAsync>d__19.MoveNext），现有模块未覆盖
+0x7001C220,<SaveCrashReport>d__28.MoveNext@667,"Could not save the crash report: ",错误,低,可见,界面文本（<SaveCrashReport>d__28.MoveNext），现有模块未覆盖
+0x7001C963,<SyncAccountAsync>d__63.MoveNext@264,"The signed-in Steam account could not be read: ",错误,低,可见,界面文本（<SyncAccountAsync>d__63.MoveNext），现有模块未覆盖
+0x70001F5C,HellForge.Launcher.MainWindow.TakeCapture@32,"capture not taken: ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70001F84,HellForge.Launcher.MainWindow.TakeCapture@98,"capture taken into ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70001FAC,HellForge.Launcher.MainWindow.TakeCapture@149," items, progression ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70001FDC,HellForge.Launcher.MainWindow.TakeCapture@195,"capture ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70001FFC,HellForge.Launcher.MainWindow.TakeCapture@235,still forwarding the game,未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70002030,HellForge.Launcher.MainWindow.TakeCapture@261,"The capture got your inventory but not your progression (see ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x700020AC,HellForge.Launcher.MainWindow.TakeCapture@277,). Nothing was imported; sync again.,未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x700020F6,HellForge.Launcher.MainWindow.TakeCapture@300,"Inventory sync complete for profile ",未分类,低,待查,方法 HellForge.Launcher.MainWindow.TakeCapture 的显示位置或文本用途证据不足
+0x70005CDF,HellForge.Launcher.MainWindow.Refresh@10,"Launcher status error: ",状态,低,待查,方法 HellForge.Launcher.MainWindow.Refresh 的显示位置或文本用途证据不足
+0x7000556E,HellForge.Launcher.MainWindow.Start@288,"Profile: ",启动,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7000559A,HellForge.Launcher.MainWindow.Start@338,") in ",启动,低,排除,内部日志片段 ) in （Start 内，launch-errors 已证前缀不入界面）
+0x7000578A,HellForge.Launcher.MainWindow.Start@530,"Launch options: ",启动,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7000CAD7,HellForge.Launcher.MainWindow.InitializeSetup@790,user_settings.config,启动,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70007659,HellForge.Launcher.MainWindow.AppendRequest@50,--:--:--,控制台,低,排除,时间格式 --:--:--
+0x7000766B,HellForge.Launcher.MainWindow.AppendRequest@68,HH:mm:ss,控制台,低,排除,时间格式 HH:mm:ss
+0x70007B3A,HellForge.Launcher.MainWindow.SaveLogsToDesktop@137,HellForge-logs-,控制台,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70007B5A,HellForge.Launcher.MainWindow.SaveLogsToDesktop@151,yyyyMMdd-HHmmss,控制台,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000D967,HellForge.Launcher.MainWindow.OpenSteamConsole@7,steam://open/console,控制台,低,排除,路径/URL steam://open/console
+0x7000D991,HellForge.Launcher.MainWindow.OpenSteamConsole@26,xdg-open,控制台,低,排除,Linux 命令 xdg-open
+0x7001EAE8,"CompiledAvaloniaXaml.XamlIlHelpers.HellForge.Launcher.LogLine,HellForge.Launcher.Text!Property@16",Text,控制台,低,排除,XAML 属性绑定辅助（数据键）
+0x70000077,HellForge.Launcher.MainWindow.RuleLabel@106,Merge both,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x700001D4,HellForge.Launcher.MainWindow.BuildReview@117,"1.3*,*,*,Auto",未分类,低,排除,"行模板配置 1.3*,*,*,Auto（非文本）"
+0x70000250,HellForge.Launcher.MainWindow.AddReviewHeader@37,HELLFORGE,未分类,低,排除,品牌名 HELLFORGE（导入复核表头），保留原文
+0x7000028E,HellForge.Launcher.MainWindow.AddReviewRow@52,#2E3138,未分类,低,排除,颜色值（导入复核行样式）
+0x70002436,HellForge.Launcher.MainWindow.ProxyClosedLine@30,"Inventory sync: the game is closed, and the capture removed its hosts line and certificate.",未分类,低,排除,内部同步日志行（launch-errors 已证不入界面）
+0x7000276D,HellForge.Launcher.MainWindow.UninstallLocations@7,XDG_CONFIG_HOME,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000278D,HellForge.Launcher.MainWindow.UninstallLocations@17,XDG_DATA_HOME,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000531E,HellForge.Launcher.MainWindow..ctor@2185,HELLFORGE_LAUNCHER_SHOT,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000534E,HellForge.Launcher.MainWindow..ctor@2269," · .NET ",未分类,低,排除,格式字面量/符号，无待译文本
+0x700079AA,HellForge.Launcher.MainWindow.RenderSteps@214,"M 0,0 L 11,11 M 11,0 L 0,11",未分类,低,排除,SVG 路径（步骤勾选图标）
+0x700079E2,HellForge.Launcher.MainWindow.RenderSteps@221,"M 0,6 L 5,11 L 14,1",未分类,低,排除,SVG 路径（步骤勾选图标）
+0x70008656,HellForge.Launcher.MainWindow.SandboxOffReason@20,the Linux sandbox is not available (,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000914B,HellForge.Launcher.MainWindow.BuildItem@235,"Compiles src/ with the pinned native Linux Zig, into the build the next session loads.",未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70009317,HellForge.Launcher.MainWindow.BuildItem@249,The native Linux build agent is missing; reinstall HellForge.,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000B489,HellForge.Launcher.MainWindow..cctor@109,#FF6054,未分类,低,排除,颜色/样式值，非文本
+0x7000B4C1,HellForge.Launcher.MainWindow..cctor@139,#9AA0A8,未分类,低,排除,颜色值（标签色）
+0x7000B4DB,HellForge.Launcher.MainWindow.Details@584,#4FA3FF,未分类,低,排除,颜色值 #4FA3FF（Details）
+0x7000B52B,HellForge.Launcher.MainWindow.Tags@228,#9B85FF,未分类,低,排除,颜色/样式值，非文本
+0x7000B551,HellForge.Launcher.MainWindow..cctor@94,#5FD08A,未分类,低,排除,颜色值（标签色）
+0x7000B579,HellForge.Launcher.MainWindow..cctor@79,#FFC72C,未分类,低,排除,颜色值（标签色）
+0x7000B8B1,HellForge.Launcher.MainWindow.Thumbnail@63,#23262C,未分类,低,排除,颜色值（Thumbnail）
+0x7000BB95,HellForge.Launcher.MainWindow.Details@410,Consolas,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000C9DF,HellForge.Launcher.MainWindow.get_EarlierGameData@7,Arrowhead,未分类,低,排除,游戏数据标识符
+0x7000C9F3,HellForge.Launcher.MainWindow.get_EarlierGameData@12,HD2BeyondTheStars,未分类,低,排除,游戏数据标识符
+0x7000D909,HellForge.Launcher.MainWindow.ShowDownload@508,"Consolas, monospace",未分类,低,排除,字体名，非界面文本
+0x7000DE69,HellForge.Launcher.MainWindow.CreateShortcuts@169,WScript.Shell,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000DEB7,HellForge.Launcher.MainWindow.CreateShortcuts@209,CreateShortcut,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000DF23,HellForge.Launcher.MainWindow.CreateShortcuts@398,WorkingDirectory,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000DF45,HellForge.Launcher.MainWindow.CreateShortcuts@491,Description,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000DF71,HellForge.Launcher.MainWindow.CreateShortcuts@587,Save,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7000DFD9,HellForge.Launcher.MainWindow.get_PowerShell@7,WindowsPowerShell,未分类,低,排除,PowerShell 路径常量
+0x7000DFFD,HellForge.Launcher.MainWindow.get_PowerShell@12,v1.0,未分类,低,排除,PowerShell 路径常量
+0x7000E025,HellForge.Launcher.MainWindow.Quote@0,',未分类,低,排除,命令行单引号
+0x7000E029,HellForge.Launcher.MainWindow.Quote@11,'',未分类,低,排除,命令行双单引号
+0x70010411,HellForge.Launcher.MainWindow..cctor@64,#E5392B,未分类,低,排除,颜色/样式值，非文本
+0x70010421,HellForge.Launcher.MainWindow..cctor@124,#FFA235,未分类,低,排除,颜色/样式值，非文本
+0x70010431,HellForge.Launcher.MainWindow..cctor@154,#C9CDD3,未分类,低,排除,颜色/样式值，非文本
+0x70010441,HellForge.Launcher.MainWindow..cctor@169,#E6E6E0,未分类,低,排除,颜色/样式值，非文本
+0x70010451,HellForge.Launcher.MainWindow..cctor@184,#3A3E46,未分类,低,排除,颜色/样式值，非文本
+0x70010461,HellForge.Launcher.MainWindow..cctor@199,#FFFFFF,未分类,低,排除,颜色/样式值，非文本
+0x70010471,HellForge.Launcher.MainWindow..cctor@214,#F08A7E,未分类,低,排除,颜色/样式值，非文本
+0x70010481,HellForge.Launcher.MainWindow..cctor@229,#26E5392B,未分类,低,排除,颜色/样式值，非文本
+0x70010495,HellForge.Launcher.MainWindow..cctor@293,0 -4 0 0 #E5392B,未分类,低,排除,样式值 0 -4 0 0 #E5392B（阴影）
+0x700104B7,HellForge.Launcher.MainWindow..cctor@308,0 4 0 0 #E5392B,未分类,低,排除,样式值 0 4 0 0 #E5392B（阴影）
+0x700104D7,HellForge.Launcher.MainWindow..cctor@323,#191C21,未分类,低,排除,颜色/样式值，非文本
+0x700104E7,HellForge.Launcher.MainWindow..cctor@353,#2A1714,未分类,低,排除,颜色/样式值，非文本
+0x700163F8,HellForge.Launcher.WeaponMastery.ToString@19," { ",未分类,低,排除,格式字面量/符号，无待译文本
+0x70016400,LinuxSetupSource.PrintMembers@6,"Build = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x70016412,LinuxSetupSource.PrintMembers@31,", SteamRoot = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x70016430,SetupSource.PrintMembers@56,", Game = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x70016444,LinuxSetupSource.PrintMembers@95,", FromDepots = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x70016464,SetupSource.PrintMembers@120,", FromSteamServers = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x700164B2,LinuxSetupSource.PrintMembers@56,", ExistingGame = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x700164D6,LinuxSetupSource.PrintMembers@134,", Source = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x700164EE,LinuxSetupSource.PrintMembers@159,", SteamApi = ",未分类,低,排除,非 Windows：方法 LinuxSetupSource.PrintMembers 属 Linux/Proton 专属流程
+0x70016632,<>c.<NoteSessionEditor>b__326_0@6,hellforge.editor,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001668A,<>c.<ShowDepotProgress>b__376_2@142," GB",未分类,低,排除,格式字面量/符号，无待译文本
+0x70016692,<>c.<ShowDepotProgress>b__376_5@105," bytes)",未分类,低,排除,格式字面量/符号，无待译文本
+0x700166A2,<>c.<ShowDepotProgress>b__376_5@166," bytes, larger than this build's ",未分类,低,排除,格式字面量/符号，无待译文本
+0x700167A1,<>c.<RunPowerShell>b__397_2@10,"At ",未分类,低,排除,格式字面量/符号，无待译文本
+0x70016849,<<-ctor>b__37>d.MoveNext@27,HELLFORGE_LAUNCHER_SHOT_PAGE,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70016919,<<-ctor>b__37>d.MoveNext@288,HELLFORGE_LAUNCHER_SHOT_SHOW,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70016C80,<>c__DisplayClass247_0.<RemoveConfirmation>b__0@106,"): ",未分类,低,排除,格式字面量/符号，无待译文本
+0x70017208,<>c__DisplayClass368_0.<ImportStep>b__0@17,no-repository,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70017224,<>c__DisplayClass371_1.<GameFilesProgress>b__1@313," GB  ·  ",未分类,低,排除,格式字面量/符号，无待译文本
+0x70017236,<>c__DisplayClass371_1.<GameFilesProgress>b__1@338," MB/s  ·  ",未分类,低,排除,格式字面量/符号，无待译文本
+0x70017278,<>c__DisplayClass372_1.<DownloadFromSteam>b__3@266," MB/s), ",未分类,低,排除,格式字面量/符号，无待译文本
+0x700172CE,<>c__DisplayClass389_0.<InstallNetworkBlock>b__0@15,Windows PowerShell did not start.,未分类,低,排除,网络阻断脚本参数，非界面文本
+0x70017312,<>c__DisplayClass397_0.<RunPowerShell>b__0@5,"-NoProfile -ExecutionPolicy Bypass ",未分类,低,排除,PowerShell 调用参数，非界面文本
+0x7001735A,<>c__DisplayClass397_0.<RunPowerShell>b__0@78,TEMP,未分类,低,排除,格式字面量/符号，无待译文本
+0x70017364,<>c__DisplayClass397_0.<RunPowerShell>b__0@89,TMP,未分类,低,排除,格式字面量/符号，无待译文本
+0x70017626,<ApplyLive>d__268.MoveNext@110,{},未分类,低,排除,格式字面量/符号，无待译文本
+0x7001762C,<ApplyLive>d__268.MoveNext@120,application/json,未分类,低,排除,格式字面量/符号，无待译文本
+0x70017B57,<BackupLinuxPrefix>d__92.MoveNext@187,Choose a folder for the backup.,未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017B97,<BackupLinuxPrefix>d__92.MoveNext@403,"Measuring ",未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017BAD,<BackupLinuxPrefix>d__92.MoveNext@685," from ",未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017BBB,<BackupLinuxPrefix>d__92.MoveNext@955,"Saved ",未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017BC9,<BackupLinuxPrefix>d__92.MoveNext@1012,). Restore it from this page.,未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017C05,<BackupLinuxPrefix>d__92.MoveNext@1050,Backup cancelled; the partial archive was deleted.,未分类,低,排除,非 Windows：方法 <BackupLinuxPrefix>d__92.MoveNext 属 Linux/Proton 专属流程
+0x70017C6B,<CheckDownload>d__375.MoveNext@178,Steam,未分类,低,排除,品牌名 Steam，保留原文
+0x70017D25,<CheckFilteringEngine>d__378.MoveNext@10,"-Command ""if((Get-Service BFE).Status -ne 'Running'){exit 3}; exit 0""",未分类,低,排除,脚本参数，非界面文本
+0x70017F91,<CheckLinuxNetworkBlock>d__357.MoveNext@28,Checking the offline network namespace...,未分类,低,排除,非 Windows：方法 <CheckLinuxNetworkBlock>d__357.MoveNext 属 Linux/Proton 专属流程
+0x70017FE5,<CheckLinuxNetworkBlock>d__357.MoveNext@65,The network namespace marker is already in place.,未分类,低,排除,非 Windows：方法 <CheckLinuxNetworkBlock>d__357.MoveNext 属 Linux/Proton 专属流程
+0x70018049,<CheckLinuxNetworkBlock>d__357.MoveNext@179,The namespace self-test passed; sessions will run inside the offline network namespace.,未分类,低,排除,非 Windows：方法 <CheckLinuxNetworkBlock>d__357.MoveNext 属 Linux/Proton 专属流程
+0x7001819A,<CheckLinuxOwnership>d__351.MoveNext@198,The supported build's Steam API library was not found.,未分类,低,排除,非 Windows：方法 <CheckLinuxOwnership>d__351.MoveNext 属 Linux/Proton 专属流程
+0x70018264,<CheckLinuxOwnership>d__351.MoveNext@707," The wrapper log says: """,未分类,低,排除,非 Windows：方法 <CheckLinuxOwnership>d__351.MoveNext 属 Linux/Proton 专属流程
+0x70018296,<CheckLinuxOwnership>d__351.MoveNext@714,""".",未分类,低,排除,非 Windows：方法 <CheckLinuxOwnership>d__351.MoveNext 属 Linux/Proton 专属流程
+0x7001829C,<CheckLinuxOwnership>d__351.MoveNext@731," Make sure Steam is running and signed in to an account that owns HELLDIVERS 2.",未分类,低,排除,非 Windows：方法 <CheckLinuxOwnership>d__351.MoveNext 属 Linux/Proton 专属流程
+0x7001839F,<CheckLinuxSetupFiles>d__353.MoveNext@231,"Steam was not found. Choose the folder Steam is installed in (the one that holds steamapps), or start Steam and sign in, then try setup again.",未分类,低,排除,非 Windows：方法 <CheckLinuxSetupFiles>d__353.MoveNext 属 Linux/Proton 专属流程
+0x7001857F,<CheckLinuxSetupFiles>d__353.MoveNext@288,hellforge-linux.sh,未分类,低,排除,非 Windows：方法 <CheckLinuxSetupFiles>d__353.MoveNext 属 Linux/Proton 专属流程
+0x70018613,<CheckLinuxSetupFiles>d__353.MoveNext@401,"The Linux setup files are missing. Update HellForge so app/linux, app/engine-package.zip and app/steamprobe are installed.",未分类,低,排除,非 Windows：方法 <CheckLinuxSetupFiles>d__353.MoveNext 属 Linux/Proton 专属流程
+0x7001870A,<ChooseLinuxBackupFolder>d__91.MoveNext@29,Choose where prefix backups are saved (default beside the prefix),未分类,低,排除,非 Windows：方法 <ChooseLinuxBackupFolder>d__91.MoveNext 属 Linux/Proton 专属流程
+0x7001878F,<ChooseLinuxRestoreArchive>d__93.MoveNext@213,Choose a prefix backup to restore,未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x700187D3,<ChooseLinuxRestoreArchive>d__93.MoveNext@241,"Prefix backups (.tar.zst, .tar.gz)",未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x70018819,<ChooseLinuxRestoreArchive>d__93.MoveNext@263,*.tar.zst,未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x7001882D,<ChooseLinuxRestoreArchive>d__93.MoveNext@271,*.tar.gz,未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x7001883F,<ChooseLinuxRestoreArchive>d__93.MoveNext@523,"Restore ",未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x70018887,<ChooseLinuxRestoreArchive>d__93.MoveNext@561,"Current prefix: ",未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x700188AF,<ChooseLinuxRestoreArchive>d__93.MoveNext@599,"The backup replaces the game copy, every profile and every mod in the prefix. The current prefix is kept until the restored one is in place; if the replacement fails, it is put back. HellForge closes to replace the prefix, then starts again. Close any session first.",未分类,低,排除,非 Windows：方法 <ChooseLinuxRestoreArchive>d__93.MoveNext 属 Linux/Proton 专属流程
+0x70018AC6,<ChooseSteamFolder>d__17.MoveNext@29,Choose Steam's folder (the one that holds steamapps),未分类,低,排除,非 Windows：方法 <ChooseSteamFolder>d__17.MoveNext 属 Linux/Proton 专属流程
+0x70018B30,<CleanUpSync>d__85.MoveNext@107,Cleaning up the Linux capture...,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70018BBA,<CleanUpSync>d__85.MoveNext@316,sync-cleanup-,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70018F97,<CopyLinuxGame>d__356.MoveNext@140," existing files (",未分类,低,排除,非 Windows：方法 <CopyLinuxGame>d__356.MoveNext 属 Linux/Proton 专属流程
+0x70018FBB,<CopyLinuxGame>d__356.MoveNext@191," GB) verified against Steam's hashes; no download or copy needed.",未分类,低,排除,非 Windows：方法 <CopyLinuxGame>d__356.MoveNext 属 Linux/Proton 专属流程
+0x70019040,<CopyLinuxGame>d__356.MoveNext@229,Copying and verifying game files...,未分类,低,排除,非 Windows：方法 <CopyLinuxGame>d__356.MoveNext 属 Linux/Proton 专属流程
+0x70019A69,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@87,Finish the open confirmation first.,未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019AB1,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@149,Install Account Sync helper?,未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019B1D,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@218,Install,未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019B2D,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@397,The capture helper was not installed; nothing changed.,未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019B9B,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@421,Installing the Account Sync helper...,未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019C49,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@805,"The helper installer finished, but the installed copies still do not match: ",未分类,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x70019DF0,<FindGameStep>d__360.MoveNext@101,"On Linux, setup runs inside HellForge's network namespace. Close HellForge and start it with app/linux/hellforge-linux.sh (docs/linux.md), then start setup there.",未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001A430,<FindLinuxGame>d__354.MoveNext@84,Checking the existing HellForge game folder...,未分类,低,排除,非 Windows：方法 <FindLinuxGame>d__354.MoveNext 属 Linux/Proton 专属流程
+0x7001A589,<FindLinuxGame>d__354.MoveNext@279,"Moved extra game data files out of game/data: ",未分类,低,排除,非 Windows：方法 <FindLinuxGame>d__354.MoveNext 属 Linux/Proton 专属流程
+0x7001A5E7,<FindLinuxGame>d__354.MoveNext@438,"Supported build ",未分类,低,排除,非 Windows：方法 <FindLinuxGame>d__354.MoveNext 属 Linux/Proton 专属流程
+0x7001A609,<FindLinuxGame>d__354.MoveNext@459," already verified in ",未分类,低,排除,非 Windows：方法 <FindLinuxGame>d__354.MoveNext 属 Linux/Proton 专属流程
+0x7001A635,<FindLinuxSteamGame>d__355.MoveNext@668," downloaded by Steam into ",未分类,低,排除,非 Windows：方法 <FindLinuxSteamGame>d__355.MoveNext 属 Linux/Proton 专属流程
+0x7001A66B,<FindLinuxSteamGame>d__355.MoveNext@795,"unsupported HELLDIVERS 2 build ",未分类,低,排除,非 Windows：方法 <FindLinuxSteamGame>d__355.MoveNext 属 Linux/Proton 专属流程
+0x7001A6AB,<FindLinuxSteamGame>d__355.MoveNext@836,an unusable HELLDIVERS 2 installation,未分类,低,排除,非 Windows：方法 <FindLinuxSteamGame>d__355.MoveNext 属 Linux/Proton 专属流程
+0x7001A6F7,<FindLinuxSteamGame>d__355.MoveNext@843,no supported game build,未分类,低,排除,非 Windows：方法 <FindLinuxSteamGame>d__355.MoveNext 属 Linux/Proton 专属流程
+0x7001A9AF,<InstallNetworkBlock>d__389.MoveNext@93,"-NoProfile -ExecutionPolicy Bypass -File ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AA2D,<InstallNetworkBlock>d__389.MoveNext@140,"-InstallRoot ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AA49,<InstallNetworkBlock>d__389.MoveNext@175," -ReportPath ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AA65,<InstallNetworkBlock>d__389.MoveNext@230," -BackendPort ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AA83,<InstallNetworkBlock>d__389.MoveNext@267," -Uninstall",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AAD3,<InstallNetworkBlock>d__389.MoveNext@546,"The network block was not installed: ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AB1F,<InstallNetworkBlock>d__389.MoveNext@553,"The network block was not removed: ",未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AB67,<InstallNetworkBlock>d__389.MoveNext@568,no report was written.,未分类,低,排除,网络阻断脚本参数，非界面文本
+0x7001AE6E,<OwnershipStep>d__365.MoveNext@385,"-File ",未分类,低,排除,脚本参数，非界面文本
+0x7001AEAC,<OwnershipStep>d__365.MoveNext@420," -NoBuild -PassThru -SteamApi ",未分类,低,排除,脚本参数，非界面文本
+0x7001AEEA,<OwnershipStep>d__365.MoveNext@467,"-WorkRoot ",未分类,低,排除,脚本参数，非界面文本
+0x7001AF00,<OwnershipStep>d__365.MoveNext@517," -EvidencePath ",未分类,低,排除,脚本参数，非界面文本
+0x7001B16B,<PickMods>d__242.MoveNext@161,*.rar,未分类,低,排除,文件筛选模式，非界面文本
+0x7001B177,<PickMods>d__242.MoveNext@169,*.7z,未分类,低,排除,文件筛选模式，非界面文本
+0x7001B1C3,<PrepareLinuxModTools>d__358.MoveNext@78,INSTALL,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B1D3,<PrepareLinuxModTools>d__358.MoveNext@127,STEAM_COMPAT_CLIENT_INSTALL_PATH,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B215,<PrepareLinuxModTools>d__358.MoveNext@149,STEAM_COMPAT_DATA_PATH,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B243,<PrepareLinuxModTools>d__358.MoveNext@181,HELLFORGE_WRAPPER_LOG,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B26F,<PrepareLinuxModTools>d__358.MoveNext@202,HELLFORGE_SKIP_LIVE_WAR,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B29F,<PrepareLinuxModTools>d__358.MoveNext@213,HELLFORGE_PREPARE_MOD_TOOLS_ONLY,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B2E1,<PrepareLinuxModTools>d__358.MoveNext@247,The Linux mod-tools preparation did not start.,未分类,低,排除,非 Windows：方法 <PrepareLinuxModTools>d__358.MoveNext 属 Linux/Proton 专属流程
+0x7001B33F,<RemoveCaptureHelperForUninstall>d__97.MoveNext@55,Removing the Account Sync helper through the desktop's password dialog...,未分类,低,排除,非 Windows：方法 <RemoveCaptureHelperForUninstall>d__97.MoveNext 属 Linux/Proton 专属流程
+0x7001B3D4,<RemoveCaptureHelperForUninstall>d__97.MoveNext@282,"Uninstall stopped: ",未分类,低,排除,非 Windows：方法 <RemoveCaptureHelperForUninstall>d__97.MoveNext 属 Linux/Proton 专属流程
+0x7001B56E,<RestoreLinuxPrefix>d__94.MoveNext@292,Checking the backup and unpacking it beside the prefix...,未分类,低,排除,非 Windows：方法 <RestoreLinuxPrefix>d__94.MoveNext 属 Linux/Proton 专属流程
+0x7001B5E2,<RestoreLinuxPrefix>d__94.MoveNext@424,"Unpacked ",未分类,低,排除,非 Windows：方法 <RestoreLinuxPrefix>d__94.MoveNext 属 Linux/Proton 专属流程
+0x7001B5F6,<RestoreLinuxPrefix>d__94.MoveNext@441,". HellForge closes, replaces the prefix, and starts again...",未分类,低,排除,非 Windows：方法 <RestoreLinuxPrefix>d__94.MoveNext 属 Linux/Proton 专属流程
+0x7001B723,<RunBackendAsync>d__23.MoveNext@79,backend-linux,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001B82E,<RunBackendAsync>d__23.MoveNext@228,HELLFORGE_STEAM_ACCOUNT,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001B8A0,<RunImportAsync>d__18.MoveNext@58,Importing,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001B92E,<RunLinuxSandboxProbe>d__408.MoveNext@31,Running the Linux sandbox self-test...,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001B97C,<RunLinuxSandboxProbe>d__408.MoveNext@81,sandbox-readiness.txt,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001B9A8,<RunLinuxSandboxProbe>d__408.MoveNext@108,sandbox-self-test.txt,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001B9D4,<RunLinuxSandboxProbe>d__408.MoveNext@149,"The native Linux readiness command is missing, so the sandbox stays off.",未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BA67,<RunLinuxSandboxProbe>d__408.MoveNext@293,sandbox-readiness,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BA8B,<RunLinuxSandboxProbe>d__408.MoveNext@310,--install,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BA9F,<RunLinuxSandboxProbe>d__408.MoveNext@455,The Linux readiness command did not start.,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BAF5,<RunLinuxSandboxProbe>d__408.MoveNext@702,the Linux sandbox self-test did not finish in 3 minutes,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BB65,<RunLinuxSandboxProbe>d__408.MoveNext@751,; the sandbox stays off.,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BB97,<RunLinuxSandboxProbe>d__408.MoveNext@1207,the readiness command did not record a result,未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BBF3,<RunLinuxSandboxProbe>d__408.MoveNext@1292,"The sandbox stays off: ",未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BC23,<RunLinuxSandboxProbe>d__408.MoveNext@1299,"The Linux sandbox self-test passed. ",未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BC6D,<RunLinuxSandboxProbe>d__408.MoveNext@1317," Reports: ",未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BC83,<RunLinuxSandboxProbe>d__408.MoveNext@1339," and ",未分类,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BCE7,<RunLinuxSetup>d__352.MoveNext@524,Steam confirmed ownership. Preparing the pinned mod tools...,未分类,低,排除,非 Windows：方法 <RunLinuxSetup>d__352.MoveNext 属 Linux/Proton 专属流程
+0x7001BD61,<RunLinuxSetup>d__352.MoveNext@541,Cancel preparation,未分类,低,排除,非 Windows：方法 <RunLinuxSetup>d__352.MoveNext 属 Linux/Proton 专属流程
+0x7001BE5E,<RunLinuxSetup>d__352.MoveNext@740,Steam confirmed ownership; pinned mod tools are ready.,未分类,低,排除,非 Windows：方法 <RunLinuxSetup>d__352.MoveNext 属 Linux/Proton 专属流程
+0x7001BECC,<RunLinuxSetup>d__352.MoveNext@989,Skipped on Linux.,未分类,低,排除,非 Windows：方法 <RunLinuxSetup>d__352.MoveNext 属 Linux/Proton 专属流程
+0x7001C0E3,<SaveCrashReport>d__28.MoveNext@233,HellForge-crash-report-,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001C28E,<ShowReviewAsync>d__10.MoveNext@117,import-preview,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001C409,<StartSync>d__62.MoveNext@837,sync-,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001C415,<StartSync>d__62.MoveNext@1510,"sync started for profile ",未分类,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7001C449,<StartSync>d__62.MoveNext@1540,"; capture pid ",未分类,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7001C467,<StartSync>d__62.MoveNext@1565,"; launcher ",未分类,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7001C4AF,<StartSync>d__62.MoveNext@1617,"Inventory sync: capture started for profile ",未分类,低,排除,内部日志前缀（Start/StartSync 内），launch-errors 已证只进日志
+0x7001C72F,<StopSyncForCloseAsync>d__84.MoveNext@103,Stopping the Linux capture...,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001C882,<SyncAccountAsync>d__63.MoveNext@186,Account Sync needs HellForge's Linux launcher: close this window and start HellForge from its desktop shortcut.,未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001C9C3,<Uninstall>d__383.MoveNext@282,"On Linux, use the native launcher to uninstall HellForge.",未分类,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001CDE6,<Uninstall>d__383.MoveNext@906," -Root ",未分类,低,排除,脚本参数，非界面文本
+0x7001CDF6,<Uninstall>d__383.MoveNext@946," -Launcher ",未分类,低,排除,脚本参数，非界面文本
+0x7001CEE1,<UninstallLinux>d__98.MoveNext@499," Nothing was removed.",未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001CF0D,<UninstallLinux>d__98.MoveNext@692,Removing the removed installer's files (Steam's download is left)...,未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001CF98,<UninstallLinux>d__98.MoveNext@699,Removing Steam's download and the removed installer's files...,未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001D066,<UninstallLinux>d__98.MoveNext@958,this installation,未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001D0F0,<UninstallLinux>d__98.MoveNext@1051,". Removing ",未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001D108,<UninstallLinux>d__98.MoveNext@1072," after the launcher closes...",未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001D144,<UninstallLinux>d__98.MoveNext@1091,"Removing ",未分类,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001D158,HellForge.Launcher.App.OnFrameworkInitializationCompleted@34,HELLFORGE_INSTALLER_PAYLOAD,未分类,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x7001D53B,XamlClosure_1.Build_13@18,"Cascadia Mono, Consolas, DejaVu Sans Mono, Menlo, monospace",未分类,低,排除,字体名，非界面文本
+0x7001D5C7,HellForge.Launcher.LauncherPaths.ForRepository@6,host-startup,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LauncherPaths.ForRepository 属 Linux/Proton 专属流程
+0x7001D5E1,HellForge.Launcher.LauncherPaths.ForRepository@23,engine-package,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LauncherPaths.ForRepository 属 Linux/Proton 专属流程
+0x7001D747,HellForge.Launcher.LauncherPaths.ForRepository@223,local-boots,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LauncherPaths.ForRepository 属 Linux/Proton 专属流程
+0x7001D79B,HellForge.Launcher.LinuxInstallerWindow..ctor@37,HellForge Linux setup,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001D7C7,HellForge.Launcher.LinuxInstallerWindow..ctor@115,#11141B,未分类,低,排除,颜色/样式值，非文本
+0x7001D7D7,HellForge.Launcher.LinuxInstallerWindow..ctor@162,.local,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001D7F1,HellForge.Launcher.LinuxInstallerWindow..ctor@172,hellforge-prefix,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001D813,HellForge.Launcher.LinuxInstallerWindow..ctor@274,#B8C0CE,未分类,低,排除,颜色/样式值，非文本
+0x7001D823,HellForge.Launcher.LinuxInstallerWindow..ctor@315,Install and start setup,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001D853,HellForge.Launcher.LinuxInstallerWindow..ctor@373,Choose…,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001D863,HellForge.Launcher.LinuxInstallerWindow..ctor@607,#E44B4B,未分类,低,排除,颜色/样式值，非文本
+0x7001D873,HellForge.Launcher.LinuxInstallerWindow..ctor@653,Set up on Linux,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow..ctor 属 Linux/Proton 专属流程
+0x7001DD68,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@109,app/linux/hellforge-linux.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DDA2,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@117,app/linux/hf-steam.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DDCE,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@125,app/linux/hf-container.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DE02,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@133,app/linux/hf-wineserver.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DE38,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@142,app/linux/hf-relays.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DE66,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@151,app/linux/hf-coop-relays.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DE9E,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@160,app/linux/hf-sandbox-probe,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DED4,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@169,app/linux/allow-capture.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DF0A,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@178,app/linux/capture-helper.sh,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DF42,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@187,app/linux/capture-relay,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DF72,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@196,app/linux/hf-sandbox,未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001DF9C,HellForge.Launcher.LinuxInstallerWindow.ValidatePackage@222,"The Linux package is incomplete; missing ",未分类,低,排除,非 Windows：方法 HellForge.Launcher.LinuxInstallerWindow.ValidatePackage 属 Linux/Proton 专属流程
+0x7001E1CD,<InitializePrefix>d__19.MoveNext@117,-u,未分类,低,排除,非 Windows：方法 <InitializePrefix>d__19.MoveNext 属 Linux/Proton 专属流程
+0x7001E2B7,<InstallAndLaunch>d__18.MoveNext@121,The HellForge Linux package was not found beside this installer.,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E33A,<InstallAndLaunch>d__18.MoveNext@479,"Steam was not found. Install Steam, start it, sign in, and try again.",未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E433,<InstallAndLaunch>d__18.MoveNext@636,Choose a folder for the HellForge prefix.,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E4BF,<InstallAndLaunch>d__18.MoveNext@765,Documents,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E4D3,<InstallAndLaunch>d__18.MoveNext@876,Existing installation found; updating its app files and preserving game data...,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E5B2,<InstallAndLaunch>d__18.MoveNext@1029,Extracting HellForge...,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E5E2,<InstallAndLaunch>d__18.MoveNext@1036,Updating HellForge...,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E60E,<InstallAndLaunch>d__18.MoveNext@1205,Starting the native launcher and setup wizard...,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E670,<InstallAndLaunch>d__18.MoveNext@1251,The new launcher did not start.,未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E6F6,<InstallAndLaunch>d__18.MoveNext@1434," The previous installation was restored.",未分类,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E7C8,HellForge.Launcher.ProtonPicker.Using@8,"Using ",未分类,低,排除,非 Windows：方法 HellForge.Launcher.ProtonPicker.Using 属 Linux/Proton 专属流程
+0x7001E7D6,HellForge.Launcher.ProtonPicker.Using@25," at ",未分类,低,排除,非 Windows：方法 HellForge.Launcher.ProtonPicker.Using 属 Linux/Proton 专属流程
+0x7001E7E0,HellForge.Launcher.ProtonPicker..cctor@0,Other...,未分类,低,排除,非 Windows：方法 HellForge.Launcher.ProtonPicker..cctor 属 Linux/Proton 专属流程
+0x7001E832,<PickAndShow>d__3`1.MoveNext@72,proton scripts,未分类,低,排除,非 Windows：方法 <PickAndShow>d__3`1.MoveNext 属 Linux/Proton 专属流程
+0x7001E85E,<PickAndShow>d__3`1.MoveNext@101,All files,未分类,低,排除,非 Windows：方法 <PickAndShow>d__3`1.MoveNext 属 Linux/Proton 专属流程
+0x7001E872,HellForge.Launcher.WeaponMastery.ToString@7,WeaponMastery,未分类,低,排除,记录类型输出
+0x7001E88E,HellForge.Launcher.WeaponMastery.PrintMembers@6,"Package = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x7001E8A4,HellForge.Launcher.WeaponMastery.PrintMembers@45,", Weapon = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x7001E8BC,HellForge.Launcher.WeaponMastery.PrintMembers@84,", MaxLevel = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x7001E8D8,HellForge.Launcher.WeaponMastery.PrintMembers@123,", Name = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x7001E8EC,HellForge.Launcher.WeaponMastery.PrintMembers@148,", ArmoryType = ",未分类,低,排除,记录类型 PrintMembers 数据键输出
+0x7001E968,HellForge.Launcher.WeaponLevelData.Load@237,"Weapon ",未分类,低,排除,存档数据读写键
+0x7001E978,HellForge.Launcher.WeaponLevelData.Load@251,X8,未分类,低,排除,存档数据读写键
+0x7001E988,HellForge.Launcher.WeaponLevelData.Names@28,arsenal.tsv,未分类,低,排除,存档数据读写键
+0x7001EAB8,"CompiledAvaloniaXaml.XamlIlHelpers.Avalonia.Styling.Setter,Avalonia.Base.Value!Property@16",Value,未分类,低,排除,XAML 属性绑定辅助（数据键）
+0x70001660,HellForge.Launcher.MainWindow.SyncStartingText@13,Starting the native capture and the Linux helper...,档案,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7001EACE,"CompiledAvaloniaXaml.XamlIlHelpers.HellForge.Core.LocalProfile,HellForge.Core.IsDev!Property@16",IsDev,档案,低,排除,XAML 属性绑定辅助（数据键）
+0x7001EADA,"CompiledAvaloniaXaml.XamlIlHelpers.HellForge.Core.LocalProfile,HellForge.Core.Detail!Property@16",Detail,档案,低,排除,XAML 属性绑定辅助（数据键）
+0x70005F9F,HellForge.Launcher.MainWindow.TryModSyncRestart@79,mod-sync,模组,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70008E69,HellForge.Launcher.MainWindow.AddModKitCards@334,"Code mods are compiled by the pinned native Linux Zig, which HellForge fetches once into the installation's tools folder (about 55 MB from ziglang.org, pinned and checksummed; nothing is installed system-wide).",模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70009018,HellForge.Launcher.MainWindow.BuildItem@62,cli-linux,模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000A765,HellForge.Launcher.MainWindow.AddModSyncCard@307,"•  ",模组,低,排除,项目符号/布局符号
+0x7000AF74,HellForge.Launcher.MainWindow.AddModSyncCard@1097,"  ·  ",模组,低,排除,分隔符号
+0x7000B289,HellForge.Launcher.MainWindow..cctor@338,#282C33,模组,低,排除,颜色/样式值，非文本
+0x7000B299,HellForge.Launcher.MainWindow.ModRow@26,"Auto,Auto,Auto,Auto,*,Auto,Auto",模组,低,排除,"行模板配置 Auto,Auto,…（非文本）"
+0x7000B2ED,HellForge.Launcher.MainWindow.ModRow@225,⠿,模组,低,排除,拖拽把手符号 ⠿
+0x7000B371,HellForge.Launcher.MainWindow.ModRow@1359," · ",模组,低,排除,分隔符号 ·
+0x7000B40F,HellForge.Launcher.MainWindow.ModRow@1824,⋮,模组,低,排除,菜单符号 ⋮
+0x7000B4F3,HellForge.Launcher.MainWindow.ModSyncRow@147,#F2A541,模组,低,排除,颜色值（ModSyncRow 状态色）
+0x7000B50D,HellForge.Launcher.MainWindow.ModSyncRow@96,#E05591,模组,低,排除,颜色值（ModSyncRow 状态色）
+0x7000BC21,HellForge.Launcher.MainWindow.ModChanges@89," -> ",模组,低,排除,数据变化箭头 ->（内部表示）
+0x7000BE9B,HellForge.Launcher.MainWindow.ShowModSync@142,|,模组,低,排除,分隔符 |
+0x7000C899,HellForge.Launcher.MainWindow.ModSyncRow@635," MB)",模组,低,排除,进度单位片段 MB)
+0x7000C947,HellForge.Launcher.MainWindow.ModSyncRow@721,"·  ",模组,低,排除,分隔符号
+0x700165F8,<>c.<RefreshMods>b__294_0@6,zz.local.stats,模组,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70016CC8,<>c__DisplayClass256_0.<BuildMod>b__0@44,the native Linux build agent is missing; reinstall HellForge.,模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70016D44,<>c__DisplayClass256_0.<BuildMod>b__0@104,build-mod,模组,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70016D64,<>c__DisplayClass256_0.<BuildMod>b__0@161,the native Linux build agent did not start.,模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70016DBC,<>c__DisplayClass256_0.<BuildMod>b__0@252,"the native Linux build agent exited with code ",模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70016E1A,<>c__DisplayClass256_0.<BuildMod>b__3@17," built with native Linux Zig.",模组,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x70016F94,<>c__DisplayClass259_0.<InstallModTools>b__2@6,"Mod tools installed in ",模组,低,排除,技术标识/路径/文件名/数值，非界面文本
+0x70017034,<>c__DisplayClass289_0.<WatchMods>g__Changed|1@90,~$,模组,低,排除,格式字面量/符号，无待译文本
+0x7001703A,<>c__DisplayClass289_0.<WatchMods>g__Changed|1@104,.tmp,模组,低,排除,格式字面量/符号，无待译文本
+0x7000DF5D,HellForge.Launcher.MainWindow.!XamlIlPopulate@64,HellForge,界面静态,中,排除,品牌名 HellForge，保留原文
+0x7000EC09,HellForge.Launcher.MainWindow.!XamlIlPopulate@2315,SidebarState,界面静态,中,排除,XAML x:Name 控件名 SidebarState（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000EC3B,HellForge.Launcher.MainWindow.!XamlIlPopulate@2581,Nav,界面静态,中,排除,XAML x:Name 控件名 Nav（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F21B,HellForge.Launcher.MainWindow.!XamlIlPopulate@13100,OnboardingFlagsHex,界面静态,中,排除,XAML x:Name 控件名 OnboardingFlagsHex（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F2C9,HellForge.Launcher.MainWindow.!XamlIlPopulate@14255,SyncWarning,界面静态,中,排除,XAML x:Name 控件名 SyncWarning（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F50D,HellForge.Launcher.MainWindow.!XamlIlPopulate@17107,AllLevelsInput,界面静态,中,排除,XAML x:Name 控件名 AllLevelsInput（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F5CD,HellForge.Launcher.MainWindow.!XamlIlPopulate@17955,ModsSummary,界面静态,中,排除,XAML x:Name 控件名 ModsSummary（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F68B,HellForge.Launcher.MainWindow.!XamlIlPopulate@19482,AutoScroll,界面静态,中,排除,XAML x:Name 控件名 AutoScroll（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F7DF,HellForge.Launcher.MainWindow.!XamlIlPopulate@21843,UninstallConfirm,界面静态,中,排除,XAML x:Name 控件名 UninstallConfirm（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F801,HellForge.Launcher.MainWindow.!XamlIlPopulate@22134,UninstallWarning,界面静态,中,排除,XAML x:Name 控件名 UninstallWarning（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000F847,HellForge.Launcher.MainWindow.!XamlIlPopulate@22299,UninstallSteamPaths,界面静态,中,排除,XAML x:Name 控件名 UninstallSteamPaths（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FA5D,HellForge.Launcher.MainWindow.!XamlIlPopulate@24077,LinuxRestoreConfirm,界面静态,中,排除,XAML x:Name 控件名 LinuxRestoreConfirm（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FA85,HellForge.Launcher.MainWindow.!XamlIlPopulate@24376,LinuxRestoreWarning,界面静态,中,排除,XAML x:Name 控件名 LinuxRestoreWarning（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FB4B,HellForge.Launcher.MainWindow.!XamlIlPopulate@25280,SteamUdpOptions,界面静态,中,排除,XAML x:Name 控件名 SteamUdpOptions（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FBF9,HellForge.Launcher.MainWindow.!XamlIlPopulate@25881,StrangersWarning,界面静态,中,排除,XAML x:Name 控件名 StrangersWarning（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FC97,HellForge.Launcher.MainWindow.!XamlIlPopulate@27015,WarLiveRadio,界面静态,中,排除,XAML x:Name 控件名 WarLiveRadio（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FCB1,HellForge.Launcher.MainWindow.!XamlIlPopulate@27226,WarFrozenRadio,界面静态,中,排除,XAML x:Name 控件名 WarFrozenRadio（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FCCF,HellForge.Launcher.MainWindow.!XamlIlPopulate@27437,WarOpenRadio,界面静态,中,排除,XAML x:Name 控件名 WarOpenRadio（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FDA1,HellForge.Launcher.MainWindow.!XamlIlPopulate@28900,LaunchOptionsProblem,界面静态,中,排除,XAML x:Name 控件名 LaunchOptionsProblem（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FDCB,HellForge.Launcher.MainWindow.!XamlIlPopulate@29048,LaunchOptionsWarning,界面静态,中,排除,XAML x:Name 控件名 LaunchOptionsWarning（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FEC5,HellForge.Launcher.MainWindow.!XamlIlPopulate@31359,SetupIntro,界面静态,中,排除,XAML x:Name 控件名 SetupIntro（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FF9B,HellForge.Launcher.MainWindow.!XamlIlPopulate@32807,SetupSteps,界面静态,中,排除,XAML x:Name 控件名 SetupSteps（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7000FFC7,HellForge.Launcher.MainWindow.!XamlIlPopulate@33141,SignInIntro,界面静态,中,排除,XAML x:Name 控件名 SignInIntro（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x70010107,HellForge.Launcher.MainWindow.!XamlIlPopulate@34541,SignInQr,界面静态,中,排除,XAML x:Name 控件名 SignInQr（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x70010119,HellForge.Launcher.MainWindow.!XamlIlPopulate@34640,SignInQrWait,界面静态,中,排除,XAML x:Name 控件名 SignInQrWait（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7001014F,HellForge.Launcher.MainWindow.!XamlIlPopulate@34886,SteamCmdAccount,界面静态,中,排除,XAML x:Name 控件名 SteamCmdAccount（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x700101A5,HellForge.Launcher.MainWindow.!XamlIlPopulate@35163,DownloadIntro,界面静态,中,排除,XAML x:Name 控件名 DownloadIntro（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x700101E5,HellForge.Launcher.MainWindow.!XamlIlPopulate@35360,DownloadCommands,界面静态,中,排除,XAML x:Name 控件名 DownloadCommands（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7001035F,HellForge.Launcher.MainWindow.!XamlIlPopulate@37255,ConfirmButtons,界面静态,中,排除,XAML x:Name 控件名 ConfirmButtons（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x7001037D,HellForge.Launcher.MainWindow.!XamlIlPopulate@37397,ConfirmCancel,界面静态,中,排除,XAML x:Name 控件名 ConfirmCancel（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x70010399,HellForge.Launcher.MainWindow.!XamlIlPopulate@37493,ConfirmStop,界面静态,中,排除,XAML x:Name 控件名 ConfirmStop（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x70010C94,HellForge.Launcher.MainWindow.!XamlIlPopulate@1064,HELL,界面静态,中,排除,品牌 Logo 文本 HELL（IL 1064），保留原文
+0x70010C9E,HellForge.Launcher.MainWindow.!XamlIlPopulate@1115,FORGE,界面静态,中,排除,品牌 Logo 文本 FORGE（IL 1115），保留原文
+0x70010CF8,HellForge.Launcher.MainWindow.!XamlIlPopulate@1867,M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z,界面静态,中,排除,SVG 矢量路径（Discord 图标），无待译文本
+0x700116D9,HellForge.Launcher.MainWindow.!XamlIlPopulate@1917,Discord,界面静态,中,排除,品牌名 Discord（社区链接），保留原文
+0x70012D58,HellForge.Launcher.MainWindow.!XamlIlPopulate@23082,PREFIX BACKUP,界面静态,中,排除,非 Windows：Linux 前缀备份卡片标题 PREFIX BACKUP
+0x70012FB9,HellForge.Launcher.MainWindow.!XamlIlPopulate@23510,Choose folder,界面静态,中,排除,非 Windows：Linux 前缀备份卡片按钮 Choose folder
+0x70012FD5,HellForge.Launcher.MainWindow.!XamlIlPopulate@23660,Back up prefix,界面静态,中,排除,非 Windows：Linux 前缀备份卡片按钮 Back up prefix
+0x70012FF3,HellForge.Launcher.MainWindow.!XamlIlPopulate@23753,Restore prefix...,界面静态,中,排除,非 Windows：Linux 前缀备份卡片按钮 Restore prefix...
+0x70013017,HellForge.Launcher.MainWindow.!XamlIlPopulate@23846,Cancel backup,界面静态,中,排除,非 Windows：Linux 前缀备份卡片按钮 Cancel backup
+0x70013033,HellForge.Launcher.MainWindow.!XamlIlPopulate@24554,Restore and replace the prefix,界面静态,中,排除,非 Windows：Linux 前缀备份卡片按钮 Restore and replace the prefix
+0x700160BD,HellForge.Launcher.MainWindow.!XamlIlPopulate@32376,PROTON VERSION,界面静态,中,排除,非 Windows：Linux 安装器标题 PROTON VERSION
+0x7001D353,HellForge.Launcher.App.!XamlIlPopulate@471,CheckBoxCheckGlyphForegroundChecked,界面静态,中,排除,App.axaml 样式键 CheckBoxCheckGlyphForegroundChecked
+0x7001D39B,HellForge.Launcher.App.!XamlIlPopulate@499,CheckBoxCheckGlyphForegroundCheckedPointerOver,界面静态,中,排除,App.axaml 样式键 CheckBoxCheckGlyphForegroundCheckedPointerOver
+0x7001D3F9,HellForge.Launcher.App.!XamlIlPopulate@526,CheckBoxCheckGlyphForegroundCheckedPressed,界面静态,中,排除,App.axaml 样式键 CheckBoxCheckGlyphForegroundCheckedPressed
+0x7001D461,HellForge.Launcher.App.!XamlIlPopulate@2780,0%,界面静态,中,排除,App.axaml 数值 0%（样式/进度值）
+0x7001D467,HellForge.Launcher.App.!XamlIlPopulate@2863,100%,界面静态,中,排除,App.axaml 数值 100%（样式/进度值）
+0x7001D471,HellForge.Launcher.App.!XamlIlPopulate@3376,PART_ContentPresenter,界面静态,中,排除,控件模板部件名 PART_ContentPresenter
+0x7001D49D,HellForge.Launcher.App.!XamlIlPopulate@3775,:pointerover,界面静态,中,排除,App.axaml 样式选择器 :pointerover
+0x7001D4B7,HellForge.Launcher.App.!XamlIlPopulate@4018,:selected,界面静态,中,排除,App.axaml 样式选择器 :selected
+0x7001D4CB,HellForge.Launcher.App.!XamlIlPopulate@6010,0 6 22 0 #55E5392B,界面静态,中,排除,App.axaml 样式值 0 6 22 0 #55E5392B
+0x7001D4F1,HellForge.Launcher.App.!XamlIlPopulate@6313,:pressed,界面静态,中,排除,App.axaml 样式选择器 :pressed
+0x7001D503,HellForge.Launcher.App.!XamlIlPopulate@7188,:disabled,界面静态,中,排除,App.axaml 样式选择器 :disabled
+0x7000C6AA,HellForge.Launcher.MainWindow.RenderTrust@335,#E05555,设置,低,排除,颜色/样式值，非文本
+0x700108E0,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@369,).,设置,低,排除,格式字面量/符号，无待译文本
+0x700023CA,HellForge.Launcher.MainWindow.ProxyClosedLine@3,"Inventory sync: the capture ended with an error; see ",错误,低,排除,内部同步日志行（launch-errors 已证不入界面）
+0x7000D372,HellForge.Launcher.MainWindow.ShowDownload@67,"). On Linux, setup runs inside HellForge's network namespace and cannot reach Steam itself, so the Steam app downloads that build for your account.",错误,低,排除,非 Windows：字符串自述 Linux 专属（Linux/Proton/passt 等）
+0x7000FC31,HellForge.Launcher.MainWindow.!XamlIlPopulate@26306,SandboxUnavailable,错误,中,排除,XAML x:Name 控件名 SandboxUnavailable（InitializeComponent + 两处 !XamlIlPopulate 引用）
+0x70013644,HellForge.Launcher.MainWindow.!XamlIlPopulate@25469,"Off: the session has no route out. On: it opens UDP to Valve's Steam relay servers only, from the list Valve publishes for HELLDIVERS 2, so Steam networking can carry co-op; TCP and every other destination stay refused. Needs passt (the pasta command) and python3. Applies to the next session.",错误,中,排除,非 Windows：沙箱 UDP 说明含 passt/python3，属 Linux 网络命名空间
+0x70018D3E,<CleanupLinuxLeftoversAsync>d__58.MoveNext@249,"Inventory sync: leftover Linux cleanup failed: ",错误,低,排除,非 Windows：方法 <CleanupLinuxLeftoversAsync>d__58.MoveNext 属 Linux/Proton 专属流程
+0x70019BE7,<EnsureLinuxCaptureHelperAsync>d__64.MoveNext@625,"The Account Sync helper could not be installed: ",错误,低,排除,非 Windows：方法 <EnsureLinuxCaptureHelperAsync>d__64.MoveNext 属 Linux/Proton 专属流程
+0x7001BC8F,<RunLinuxSandboxProbe>d__408.MoveNext@1539,"the Linux sandbox self-test could not run: ",错误,低,排除,非 Windows：方法 <RunLinuxSandboxProbe>d__408.MoveNext 属 Linux/Proton 专属流程
+0x7001BD87,<RunLinuxSetup>d__352.MoveNext@733,Steam confirmed ownership. Optional mod tools could not be downloaded; see logs/linux-session-wrapper.log.,错误,低,排除,非 Windows：方法 <RunLinuxSetup>d__352.MoveNext 属 Linux/Proton 专属流程
+0x7001D08A,<UninstallLinux>d__98.MoveNext@1016," item(s) could not be removed; the details are in ",错误,低,排除,非 Windows：方法 <UninstallLinux>d__98.MoveNext 属 Linux/Proton 专属流程
+0x7001E04C,<DiscoverProtons>d__12.MoveNext@281,"Could not look up Steam's folder: ",错误,低,排除,非 Windows：方法 <DiscoverProtons>d__12.MoveNext 属 Linux/Proton 专属流程
+0x7001E6B0,<InstallAndLaunch>d__18.MoveNext@1418,"The new launcher could not start: ",错误,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E748,<InstallAndLaunch>d__18.MoveNext@1456,"HellForge was installed, but the new launcher could not start: ",错误,低,排除,非 Windows：方法 <InstallAndLaunch>d__18.MoveNext 属 Linux/Proton 专属流程
+0x7001E9CC,HellForge.Launcher.WeaponLevelData.Save@528,"Could not save the weapon levels: ",错误,低,排除,存档数据读写键

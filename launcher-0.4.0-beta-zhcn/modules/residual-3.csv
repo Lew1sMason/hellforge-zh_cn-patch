@@ -1,0 +1,95 @@
+token,method_il,original,translation,status,context,decision_id
+0x700031CE,HellForge.Launcher.MainWindow.AppendSteamRemovals@11,"  - Steam's download of the supported build: Steam's folder was not found, so none was removed",  - Steam 中受支持版本的下载：未找到 Steam 的文件夹，因此未移除任何内容,已译,设置页卸载警告清单行（AppendSteamRemovals），行首「  - 」保留；Windows 安装/卸载文案。,—
+0x7000328D,HellForge.Launcher.MainWindow.AppendSteamRemovals@71,  - Steam's depot download and state files for build ,  - Steam 的 depot 下载与状态文件，版本 ,已译,卸载清单行；尾空格保留，后接版本号。depot 作为 Steam 技术术语保留英文。,—
+0x700032F9,HellForge.Launcher.MainWindow.AppendSteamRemovals@87,: only if you tick the Steam box below,：仅当你勾选下方的 Steam 复选框时,已译,卸载清单行，接在版本号之后；原文以冒号开头，译文用全角冒号。,—
+0x70003347,HellForge.Launcher.MainWindow.AppendSteamRemovals@115,: none found,：未找到,已译,卸载清单行，接在版本号之后；原文以冒号开头，译文用全角冒号。,—
+0x70003361,HellForge.Launcher.MainWindow.AppendSteamRemovals@174,  - Steam's depot download for build ,  - Steam 的 depot 下载，版本 ,已译,卸载清单行；尾空格保留，后接版本号。,—
+0x700033AD,HellForge.Launcher.MainWindow.AppendSteamRemovals@261,  - Steam's depot download: ,  - Steam 的 depot 下载: ,已译,卸载清单行；尾空格保留，后接运行期路径；拼接前缀沿用 ASCII 冒号加空格。,—
+0x700033E7,HellForge.Launcher.MainWindow.AppendSteamRemovals@355,  - Steam's download folder once empty: ,  - Steam 的下载文件夹（清空后）: ,已译,卸载清单行；尾空格保留，后接运行期路径；拼接前缀沿用 ASCII 冒号加空格。,—
+0x70003439,HellForge.Launcher.MainWindow.AppendSteamRemovals@439,  - Steam's download state files in or next to its content/app_,  - Steam 下载状态文件，位于其 content/app_,已译,卸载清单行前段，与 0x700034B9「 文件夹内或旁边：未找到」拼接；content/app_ 为 Steam 路径片段，保留。,—
+0x700034B9,HellForge.Launcher.MainWindow.AppendSteamRemovals@469, folder: none found, 文件夹内或旁边：未找到,已译,卸载清单行后段，接 0x70003439；首空格保留。,—
+0x700034E1,HellForge.Launcher.MainWindow.AppendSteamRemovals@526,  - Steam's download state file in or next to its content/app_,  - Steam 下载状态文件，位于其 content/app_,已译,卸载清单行前段，与 0x7000355F「 文件夹内或旁边: 」拼接。,—
+0x7000355F,HellForge.Launcher.MainWindow.AppendSteamRemovals@556, folder: , 文件夹内或旁边: ,已译,卸载清单行后段，接 0x700034E1，后接运行期路径；首空格与尾部 ASCII 冒号加空格保留。,—
+0x700103B1,HellForge.Launcher.MainWindow..cctor@21,Build mods,编译模组,已译,配置步骤名（MainWindow 静态字段），步骤列表可见；与“Compiling mods”一致用“编译模组”。,—
+0x700103C7,HellForge.Launcher.MainWindow..cctor@29,Verify files,校验文件,已译,配置步骤名（静态字段）。,—
+0x700103E1,HellForge.Launcher.MainWindow..cctor@37,Network block,网络阻断,已译,配置步骤名（静态字段）；沿用主表 network block→网络阻断。,—
+0x700103FD,HellForge.Launcher.MainWindow..cctor@45,Launching,正在启动,已译,状态词（静态字段）；与主表“Launching the game...”的“正在启动”一致。,—
+0x700104F7,HellForge.Launcher.MainWindow..cctor@391,Find HELLDIVERS 2 in Steam,在 Steam 中查找 HELLDIVERS 2,已译,配置步骤名（静态字段）。,—
+0x7001052D,HellForge.Launcher.MainWindow..cctor@399,Confirm you own the game,确认你拥有该游戏,已译,配置步骤名（静态字段）。,—
+0x7001055F,HellForge.Launcher.MainWindow..cctor@407,Copy the game into this folder,将游戏复制到此文件夹,已译,配置步骤名（静态字段）。,—
+0x7001059D,HellForge.Launcher.MainWindow..cctor@415,Block the copy from the internet,阻止副本访问互联网,已译,配置步骤名（静态字段）；副本沿用主表“复制后的游戏/副本”。,—
+0x700105DF,HellForge.Launcher.MainWindow..cctor@423,Import earlier game data,导入此前的游戏数据,已译,配置步骤名（静态字段）。,—
+0x70010611,HellForge.Launcher.MainWindow..cctor@431,Create shortcuts,创建快捷方式,已译,配置步骤名（静态字段）。,—
+0x7000B5DD,HellForge.Launcher.MainWindow.PremiumText@8,Built on ,构建于 ,已译,高级内容面板（PremiumText）；尾空格保留，后接运行期构建信息。,—
+0x7000B5F1,HellForge.Launcher.MainWindow.PremiumText@81,Premium items are checked against the signed-in Steam account when the session starts.,,待裁定,高级内容面板：Premium items 术语未定，与主表 Premium content 待裁定行同域。,R3-02
+0x7000B6A0,HellForge.Launcher.MainWindow.PremiumText@101,"Your synced account owns it, so everything this mod adds is yours to use.",你的已同步账户拥有它，因此此模组添加的一切都可使用。,已译,高级内容面板说明。,—
+0x7000B747,HellForge.Launcher.MainWindow.PremiumText@146,'s synced account lacks , 的已同步账户缺少 ,已译,高级内容面板片段，接在运行期档案名之后；首空格为中文排版有意添加（见 review 边界说明），尾空格保留。,—
+0x7000B779,HellForge.Launcher.MainWindow.PremiumText@208,": the mod loads, but its weapons and stratagems stay locked.",：模组会加载，但其武器与战略配备仍保持锁定。,已译,高级内容面板片段，接在物品名之后。,—
+0x7000B7F3,HellForge.Launcher.MainWindow.PremiumText@215,: this mod is not loaded for it.,：此模组不会为其加载。,已译,高级内容面板片段，接在档案名之后。,—
+0x7000B835,HellForge.Launcher.MainWindow.PremiumText@223, Buy it in the normal game and sync (Profile > Account sync)., 请先在正常游戏中购买并同步（档案 > 账户同步）。,已译,高级内容面板片段；首空格保留；“档案 > 账户同步”沿用主表。,—
+0x700069F0,HellForge.Launcher.MainWindow.ShowObserving@56,"Building the shader cache (first start only, this can take a few minutes)...",正在构建着色器缓存（仅首次启动时需要，可能要几分钟）……,已译,播放页启动状态（ShowObserving）。,—
+0x70006A8B,HellForge.Launcher.MainWindow.ShowObserving@62,The game window stays black until it is done. Later starts are quick. Press STOP or close the game to end the session.,游戏窗口在完成前会保持黑屏。之后的启动会很快。按“停止”或关闭游戏可结束本次会话。,已译,启动状态；含 STOP 按钮名，按钮标签尚未定稿。 已按 R3-01 关闭：residual-2 的 UpdateButton@37 STOP 定稿“停止”，同语义沿用。,
+0x70006B7A,HellForge.Launcher.MainWindow.ShowObserving@170,The game seems stuck in the cryo pod.,游戏似乎卡在冷冻舱里。,已译,启动状态（ShowObserving）；cryo pod 译“冷冻舱”。,—
+0x70006BC6,HellForge.Launcher.MainWindow.ShowObserving@176,"This can happen on the first launch of a new installation. Press STOP, then PLAY again: the next launch goes through.",新安装的首次启动可能出现这种情况。按“停止”，然后再次按“开始游戏”：下一次启动即可通过。,已译,启动状态；含 STOP 与 PLAY 按钮名，STOP 标签尚未定稿。 已按 R3-01 关闭：residual-2 的 UpdateButton@37 STOP 定稿“停止”，同语义沿用。,
+0x70006CB3,HellForge.Launcher.MainWindow.ShowObserving@201,Running. Steam Input can't reach the sandboxed game.,正在运行。Steam 输入无法连接到沙箱中的游戏。,已译,启动状态；Steam Input 沿用主表“Steam 输入”，sandbox 沿用“沙箱”。,—
+0x70006D2D,HellForge.Launcher.MainWindow.ShowObserving@223,Press STOP or close the game to end the session.,按“停止”或关闭游戏可结束本次会话。,已译,启动状态；含 STOP 按钮名，按钮标签尚未定稿。 已按 R3-01 关闭：residual-2 的 UpdateButton@37 STOP 定稿“停止”，同语义沿用。,
+0x7001741E,<AddMods>d__243.MoveNext@228,Adding ,正在添加 ,已译,模组导入进度前缀；尾空格保留。,—
+0x7001742E,<AddMods>d__243.MoveNext@392,Added ,已添加 ,已译,模组导入进度前缀；尾空格保留。,—
+0x7001743C,<AddMods>d__243.MoveNext@534,", replacing the one installed",，替换已安装的那个,已译,模组导入进度片段，接在进度文本后。,—
+0x70017478,<AddMods>d__243.MoveNext@649, was not added: , 未添加: ,已译,模组导入失败片段；首尾空格保留，ASCII 冒号沿用拼接前缀先例。,—
+0x7001C113,<SaveCrashReport>d__28.MoveNext@456,Saved the crash report to ,已将崩溃报告保存到 ,已译,崩溃报告保存成功提示前缀；尾空格保留。,—
+0x7001C149,<SaveCrashReport>d__28.MoveNext@494,", with the crash dump",，包含崩溃转储,已译,崩溃报告保存提示片段。,—
+0x7001C175,<SaveCrashReport>d__28.MoveNext@577,". Read its summary.txt, then attach the zip to a GitHub issue (Open a GitHub issue).",。请阅读其中的 summary.txt，然后把 zip 附加到 GitHub 问题中（打开 GitHub 问题）。,已译,崩溃报告保存提示末段；summary.txt、zip 保留。,—
+0x7001C220,<SaveCrashReport>d__28.MoveNext@667,Could not save the crash report: ,无法保存崩溃报告: ,已译,崩溃报告保存失败拼接前缀；ASCII 冒号与尾空格保留。,—
+0x7000042B,HellForge.Launcher.MainWindow.OfferCrashReport@75,The game crashed,游戏崩溃了,已译,崩溃报告提示（OfferCrashReport）；原文无句号，译文不加。,—
+0x7000044D,HellForge.Launcher.MainWindow.OfferCrashReport@95, (exit code , （退出代码 ,已译,崩溃提示片段；首尾空格保留，全角左括号。,—
+0x7000046B,HellForge.Launcher.MainWindow.OfferCrashReport@116,". Save logs to Desktop keeps this session's logs for whoever helps you; Save crash report (on the Play page) puts them, scrubbed for a public bug report, in one zip on your Desktop to attach to a GitHub issue.",。“将日志保存到桌面”会保留本次会话的日志，供帮助你的人使用；“保存崩溃报告”（在开始页）会把它们（已按公开缺陷报告的要求做脱敏处理）打包成一个 zip 放在桌面，供你附加到 GitHub 问题。,已译,崩溃提示说明段；按钮名沿用主表“将日志保存到桌面”“保存崩溃报告”，开始页沿用主表说法。,—
+0x70000610,HellForge.Launcher.MainWindow.OfferCrashReport@147,Known cause: ,已知原因: ,已译,崩溃提示片段；ASCII 冒号与尾空格保留。,—
+0x7000941E,HellForge.Launcher.MainWindow.ZipItem@38,Zip to share,打包以便分享,已译,模组「打包分享」按钮/标签（ZipItem）。,—
+0x70009438,HellForge.Launcher.MainWindow.ZipItem@118,"Packs the mod to share, into the installation's exports folder: drop the zip into a mods folder as it is. ",把模组打包以便分享，放入安装目录的 exports 文件夹：把 zip 原样放入模组文件夹即可。 ,已译,打包分享说明；结尾空格保留；exports 文件夹为安装目录内的固定文件夹名，保留英文。,—
+0x7000950F,HellForge.Launcher.MainWindow.ZipItem@133,"It is built first, so a mod that does not compile is not packed; the zip holds its sources, not a DLL.",打包前会先构建，因此无法编译的模组不会被打包；zip 中包含的是源代码，而不是 DLL。,已译,打包分享说明；DLL 保留。,—
+0x700095DE,HellForge.Launcher.MainWindow.ZipItem@145,"Zipping builds the mod first, which waits until the session ends.",打包会先构建模组，而构建要等会话结束后进行。,已译,打包分享说明。,—
+0x7001B0C4,<PickMods>d__242.MoveNext@131,"Mods and cosmetic packs (.zip, .rar, .7z, hellforge-mod.json, manifest.json)",模组与外观包（.zip、.rar、.7z、hellforge-mod.json、manifest.json）,已译,文件选择对话框筛选标签；cosmetic packs 沿用主表“外观包”。,—
+0x7001B19D,<PickMods>d__242.MoveNext@433,Reading ,正在读取 ,已译,读取模组文件状态前缀；尾空格保留。,—
+0x7001B1AF,<PickMods>d__242.MoveNext@468, files..., 个文件……,已译,读取模组文件状态片段；首空格保留。,—
+0x7001C7AB,<SyncAccountAsync>d__63.MoveNext@36,Checking the signed-in Steam account...,正在检查已登录的 Steam 账户……,已译,账户同步状态。,—
+0x7001C7FB,<SyncAccountAsync>d__63.MoveNext@179,Sign in to Steam first: the sync is sealed for your Steam account.,请先登录 Steam：同步仅与你的 Steam 账户绑定。,已译,账户同步错误提示。,—
+0x7001C963,<SyncAccountAsync>d__63.MoveNext@264,The signed-in Steam account could not be read: ,无法读取已登录的 Steam 账户: ,已译,账户同步错误拼接前缀；ASCII 冒号与尾空格保留。,—
+0x70009048,HellForge.Launcher.MainWindow.BuildItem@127,Build now,立即构建,已译,模组页“立即构建”按钮（BuildItem）。,—
+0x70009393,HellForge.Launcher.MainWindow.BuildItem@256,Builds wait until the session ends: the game has the mod loaded.,构建会等到会话结束后进行：游戏已加载该模组。,已译,构建按钮说明。,—
+0x7000905C,HellForge.Launcher.MainWindow.BuildItem@228,"Compiles src/ with HellForge's pinned Zig now, as a session would (sessions build it anyway; this shows errors early).",立即用 HellForge 固定版本的 Zig 编译 src/，与进行会话时相同（会话本就会构建它；此操作可提前显示错误）。,已译,构建按钮说明（Windows 版，未含 native Linux 字样）；Zig、src/ 保留，pinned 译“固定版本”。,—
+0x7000B569,HellForge.Launcher.MainWindow.PremiumTag@25,PREMIUM,,待裁定,模组/物品标签：Premium 术语未定。,R3-02
+0x7000B589,HellForge.Launcher.MainWindow.PremiumTag@41,PREMIUM: LOCKED,,待裁定,模组/物品标签：Premium 术语未定。,R3-02
+0x7000B5A9,HellForge.Launcher.MainWindow.PremiumTag@57,PREMIUM: CHECK AT SESSION,,待裁定,模组/物品标签：Premium 术语未定。,R3-02
+0x70007745,HellForge.Launcher.MainWindow.ShowModBuilds@198,Compiling mods (,正在编译模组（,已译,编译进度前缀。,—
+0x70007771,HellForge.Launcher.MainWindow.ShowModBuilds@240,)...,）……,已译,编译进度片段。,—
+0x700077C9,HellForge.Launcher.MainWindow.ShowModBuilds@285, from its sources., （从源代码构建）。,已译,编译进度末段，接在运行期名称后；首空格保留。,—
+0x70001EC6,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@49,the game is still running ,游戏仍在运行 ,已译,库存同步提示片段；尾空格保留，后接秒数。,—
+0x70001EFC,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@72, s after the capture was taken, 秒（自采集完成起）,已译,库存同步提示片段；首空格保留；采集沿用主表“采集”。,—
+0x70001F3A,HellForge.Launcher.MainWindow.WarnIfGameStillOpen@88,Inventory sync: ,库存同步: ,已译,库存同步共享前缀；ASCII 冒号与尾空格保留，见 review 拼接说明。,—
+0x70016B43,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@102,. It is on from the next session.,。将从下一次会话起开启。,已译,Co-op over Steam relays 状态片段；句首承接前段。,—
+0x70016B87,<>c__DisplayClass173_1.<ServeCoopRelays>b__1@114,Co-op over Steam relays is on for this session (UDP to Valve's relays only) and stays on (Settings > Multiplayer).,本次会话已开启 Steam 中继联机（仅 UDP 连接 Valve 的中继），并将保持开启（设置 > 多人游戏）。,已译,Steam 中继联机状态；术语沿用主表“Steam 中继联机”“多人游戏”。,—
+0x70016FC4,<>c__DisplayClass259_2.<InstallModTools>b__5@11,Not installed: ,未安装: ,已译,模组工具安装失败提示前缀；ASCII 冒号与尾空格保留。,—
+0x70016FE4,<>c__DisplayClass259_2.<InstallModTools>b__5@48,Mod tools not installed: ,模组工具未安装: ,已译,模组工具安装失败提示前缀；ASCII 冒号与尾空格保留。,—
+0x7001B3FC,<ReportStartFailure>d__78.MoveNext@333,; security programs: ,；安全软件: ,已译,同步采集启动失败详情片段；首分号转全角，ASCII 冒号与尾空格保留。,—
+0x7001B428,<ReportStartFailure>d__78.MoveNext@359,"none besides Microsoft Defender, or not asked",除 Microsoft Defender 外没有其他安全软件，或未询问,已译,同步采集启动失败详情片段。,—
+0x7000B735,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@304,Profile ,档案 ,已译,设置导入提示前缀，后接运行期档案名；尾空格保留，档案沿用主表。,—
+0x70010886,HellForge.Launcher.MainWindow.<InitializeSettingsImport>b__30_0@334,: game settings imported from HELLDIVERS 2 (,：已从 HELLDIVERS 2 导入游戏设置（,已译,设置导入提示片段；全角冒号开头。,—
+0x700085DE,HellForge.Launcher.MainWindow.ApplyStrangersSetting@125,Off by default: ,默认关闭: ,已译,与陌生人同玩设置说明前缀；ASCII 冒号与尾空格保留。,—
+0x70008600,HellForge.Launcher.MainWindow.ApplyStrangersSetting@143,On by default while your game is sandboxed,当你的游戏处于沙箱中时默认开启,已译,与陌生人同玩设置说明。,—
+0x70008444,HellForge.Launcher.MainWindow.ShowLeftoverProcesses@104,Still running: ,仍在运行: ,已译,残留进程提示前缀；ASCII 冒号与尾空格保留。,—
+0x70008464,HellForge.Launcher.MainWindow.ShowLeftoverProcesses@120,. End them before starting the next session.,。请在开始下一次会话前结束它们。,已译,残留进程提示末段。,—
+0x70016550,<<InitializeAccountImport>b__4_0>d.MoveNext@23,Reviewing...,审核中……,已译,账户导入状态词。,—
+0x7001656A,<<InitializeAccountImport>b__4_1>d.MoveNext@23,Importing...,正在导入……,已译,账户导入状态词。,—
+0x7001667C,<>c.<ShowDepotProgress>b__376_2@11,depot ,depot ,保留,Steam depot 进度行前缀；depot 为 Steam 技术术语，按与 SteamCMD、Steam broker 同类方式保留英文。,—
+0x70016D58,<>c__DisplayClass256_0.<BuildMod>b__0@120,--mod,,排除,排除：Linux 构建代理的命令行参数（相邻文本均为 native Linux build agent），非界面文案。,—
+0x70017118,<>c__DisplayClass295_2.<AddModSyncCard>b__7@78,Could not unblock ,无法取消屏蔽 ,已译,模组同步卡片错误前缀；尾空格保留；unblock 沿用主表“取消屏蔽”。,—
+0x70017DB2,<CheckFilteringEngine>d__378.MoveNext@116,"The Windows Base Filtering Engine (BFE) service is off. HellForge needs it to keep its copy of the game off the internet. Turn it back on (Services > Base Filtering Engine, or run 'net start BFE' as administrator), then start setup again.",Windows 基础筛选引擎（BFE）服务已关闭。HellForge 需要它让游戏副本保持断网。请重新开启（在“服务”中找到“基础筛选引擎”，或以管理员身份运行 'net start BFE'），然后重新开始配置。,已译,Windows 配置错误提示；服务名按官方中文“基础筛选引擎”，命令 net start BFE 保留。,—
+0x700002C2,HellForge.Launcher.MainWindow.AccountCheckNote@13, (checking the signed-in Steam account first takes about 20 seconds), （先检查已登录的 Steam 账户约需 20 秒）,已译,账户检查提示片段；首空格保留，全角括号。,—
+0x700072BD,HellForge.Launcher.MainWindow.Cleanup@16,The session's network block removed: ,本次会话的网络阻断已移除: ,已译,清理流程状态提示；ASCII 冒号与尾空格保留。,—
+0x7000BBA7,HellForge.Launcher.MainWindow.Details@616,Where to get this mod: opens in your browser.,此模组的获取位置：会在你的浏览器中打开。,已译,模组详情提示。,—
+0x7000C881,HellForge.Launcher.MainWindow.ModSyncRow@589,downloads (,下载（,已译,模组同步行片段，后接大小；注意配套 token 0x7000C899「 MB)」尚未处理，定稿时需统一括号。,—
+0x700054DC,HellForge.Launcher.MainWindow.PlayClicked@29,Inventory sync is running. Play once it finishes.,库存同步正在运行。请在其完成后开始游戏。,已译,播放按钮状态提示；PLAY 沿用主表“开始游戏”。,—
+0x70005ECA,HellForge.Launcher.MainWindow.ServeCoopRelays@93,The game's lobby browser asked to turn co-op over Steam relays on; opening it for this session...,游戏内的大厅浏览器请求开启 Steam 中继联机；正在为本次会话打开……,已译,Steam 中继联机状态提示。,—
+0x7000677D,HellForge.Launcher.MainWindow.ShowState@561,"The sandboxed game reaches Steam through HellForge's Steam broker, which is starting.",沙箱中的游戏通过 HellForge 的 Steam broker 连接 Steam，该 broker 正在启动。,已译,启动状态提示；broker 沿用主表保留英文的写法，sandbox 沿用“沙箱”。,—
+0x70009663,HellForge.Launcher.MainWindow.ZipMod@98,Packing ,正在打包 ,已译,打包进度前缀；尾空格保留。,—

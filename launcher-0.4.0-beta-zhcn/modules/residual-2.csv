@@ -1,0 +1,81 @@
+﻿token,method_il,original,translation,status,context,decision_id
+0x70009B61,MainWindow.AddModSyncCard@2194, mod,,待裁定,模组页摘要（ModsSummaryText@98）与已下载模组数量（AddModSyncCard@2194）共用片段「 mod」；复数后缀「s」（0x70009B6B）与共享片段「 of 」（0x70007767，PM-04 未决）分别承载数词与量词，单独翻译会产生「模组s」或语序不完整。,R2-01
+0x7000A928,MainWindow.AddModSyncCard@544,the mod sync setting,模组同步设置,已译,模组同步卡片内指向设置页的超链接文本（the mod sync setting）；名词短语按设置名处理，是否处于句中被插入待实机确认。,—
+0x7000AA14,MainWindow.AddModSyncCard@594,the public lobby setting,公开大厅设置,已译,模组同步卡片内链接文本（the public lobby setting）；与设置页「公开大厅」用词一致。,—
+0x7000AAE6,MainWindow.AddModSyncCard@644,the shared stats setting,共享属性设置,已译,模组同步卡片内链接文本（the shared stats setting）；stats 沿用「属性」译名。,—
+0x7000ABF6,MainWindow.AddModSyncCard@761,Trusted mods (,受信任的模组（,已译,模组同步卡分区标题，后接数量与共享右括号 1127（已译「）」）。,—
+0x7000AFC6,MainWindow.AddModSyncCard@1265,from ,来自 ,已译,受信任模组条目的来源前缀，后接来源文本；尾空格为接缝，保留。,—
+0x7000AFD2,MainWindow.AddModSyncCard@1307, (trusted in a sandboxed game; sandbox only), （在沙盒游戏中受信任；仅沙盒）,已译,受信任模组条目的来源注记；前导空格为接缝，保留。,—
+0x7000B02C,MainWindow.AddModSyncCard@1314, (not a Steam friend; sandbox only), （非 Steam 好友；仅沙盒）,已译,受信任模组条目的来源注记；前导空格为接缝，保留。,—
+0x7000B074,MainWindow.AddModSyncCard@1407,", from ",，来自 ,已译,受信任模组条目的来源衔接片段；尾空格为接缝，保留。,—
+0x7000B084,MainWindow.AddModSyncCard@1438,. Content hash ,。内容哈希 ,已译,受信任模组条目末尾的内容哈希前缀；尾空格为接缝，保留。,—
+0x7000B207,MainWindow.AddModSyncCard@2234, from hosts (, 来自主机 (,已译,已下载模组数量说明片段，后接容量与 0x7000B22B；前导空格与半角括号保留（与 0x7000B22B 的右括号配对）。,—
+0x7000B22B,MainWindow.AddModSyncCard@2271," MB), used only when you play with their mods.", MB)，仅在你使用他们的模组游玩时使用。,已译,已下载模组容量说明末段；前导空格为接缝，半角右括号与 45575 左括号配对。,—
+0x7000B469,MainWindow.Tags@38,DID NOT COMPILE,未编译,已译,模组行标签（Tags）：编译未通过，红色标签；短标签，与同行内其它标签并列。,—
+0x7000B499,MainWindow.Tags@67,UNSUPPORTED,不支持,已译,模组行标签（Tags）：不受支持，红色标签。,—
+0x7000B4B1,MainWindow.Tags@101,BUNDLED,内置,已译,模组行标签（Tags）：随附/内置模组，灰色标签。,—
+0x7000B4D1,MainWindow.Tags@136,PACK,外观包,已译,模组行标签（Tags）：外观包（cosmetic pack），蓝色标签。,—
+0x7000B4EB,MainWindow.Tags@165,LUA,LUA,保留,模组行标签（Tags）：Lua 模组类型标签，技术专名，原样保留。,—
+0x7000B51D,MainWindow.Tags@223,NATIVE,原生,已译,模组行标签（Tags）：原生代码模组标签，紫色。,—
+0x7000B53B,MainWindow.Tags@258,STATS,属性,已译,模组行标签（Tags）：属性类模组标签（stats），与「属性变更」用词一致。,—
+0x7000B547,MainWindow.Tags@301,DATA,数据,已译,模组行标签（Tags）：数据类模组标签。,—
+0x7000B561,MainWindow.Tags@330,ZIP,ZIP,保留,模组行标签（Tags）：ZIP 包类型标签，格式专名，原样保留。,—
+0x70018B72,<CleanUpSync>d__85.MoveNext@148,The installation folder is missing.,安装文件夹不存在。,已译,同步清理状态机（<CleanUpSync>）：清理时安装文件夹缺失的错误提示。,—
+0x70018BD6,<CleanUpSync>d__85.MoveNext@685,Clean up needs the administrator prompt.,清理需要管理员权限提示。,已译,同步清理状态机：需要管理员权限提示才能清理。,—
+0x70018C4C,<CleanUpSync>d__85.MoveNext@780,see ,请查看 ,已译,同步清理说明片段，后接日志/路径；尾空格为接缝，保留。,—
+0x70018C56,<CleanUpSync>d__85.MoveNext@813,remove the HellForge-CaptureProxy lines from the hosts file.,请从 hosts 文件中移除 HellForge-CaptureProxy 相关行。,已译,同步清理操作指引；hosts 文件名与 HellForge-CaptureProxy 原样保留。,—
+0x70018CD0,<CleanUpSync>d__85.MoveNext@837,Cleaned up: the normal game reaches its servers again.,清理完成：正常版游戏可以再次连接其服务器。,已译,同步清理成功提示。,—
+0x7000001B,MainWindow.RuleLabel@74,As in vanilla,同原版,已译,导入规则标签（RuleLabel）：与原版一致；与「使用原版」区分。,—
+0x70000037,MainWindow.RuleLabel@82,Every item,所有物品,已译,导入规则标签（RuleLabel）：全部物品。,—
+0x7000004D,MainWindow.RuleLabel@90,None,无,已译,导入规则标签（RuleLabel）：不导入。,—
+0x70000057,MainWindow.RuleLabel@98,Keep the higher,保留较高者,已译,导入规则标签（RuleLabel）：两个来源冲突时保留较高值。,—
+0x7000008D,MainWindow.RuleLabel@114,Use vanilla,使用原版,已译,导入规则标签（RuleLabel）：直接使用原版数值。,—
+0x7000BC03,MainWindow.ModChanges@39,network field ,网络字段 ,已译,模组变更说明片段（ModChanges），后接字段名；尾空格为接缝，保留。,—
+0x7000BC2B,MainWindow.ModChanges@114, bits, 位,已译,模组变更说明片段：位宽/比特数；前导空格为接缝，保留。,—
+0x7000BC37,MainWindow.ModChanges@419, stats change, 属性变更,已译,模组变更说明片段：属性变更；前导空格为接缝，保留。,—
+0x7000BC53,MainWindow.ModChanges@519, game data file, 游戏数据文件,已译,模组变更说明片段：游戏数据文件；前导空格为接缝，保留。,—
+0x70006DCF,MainWindow.ShowObserved@72,"The game closed its window but did not exit, so HellForge ended it and finished the session as usual. ",游戏关闭了窗口但未退出，因此 HellForge 结束了它，并照常完成了本次会话。 ,已译,会话结束状态说明；末尾空格为接缝，保留。,—
+0x70006E9E,MainWindow.ShowObserved@82,Ending the session...,正在结束会话……,已译,会话结束状态提示。,—
+0x70006FCF,MainWindow.ShowObserved@149,Session ended.,会话已结束。,已译,会话结束状态词。,—
+0x70006FED,MainWindow.ShowObserved@162,Press PLAY to start another session.,按“开始游戏”开始下一次会话。,已译,会话结束后引导；PLAY 按钮名按锁定译文「开始游戏」。,—
+0x7001749A,<AfterCaptureAsync>d__9.MoveNext@59,Synced. Choose what to import below.,已同步。请在下方选择要导入的内容。,已译,同步完成后的导入引导（导入面板）。,—
+0x700174E4,<AfterCaptureAsync>d__9.MoveNext@80,Synced. Review import to choose what else to bring into the profile.,已同步。通过“查看导入”选择还要带入档案的其他内容。,已译,同步完成后的导入引导；引用锁定按钮名「查看导入」。,—
+0x7001756F,<AfterCaptureAsync>d__9.MoveNext@289,Synced and imported with your saved choices. A backup was made first.,已按你保存的选择完成同步与导入。事先已创建备份。,已译,同步并自动导入完成提示。,—
+0x70019F37,<FindGameStep>d__360.MoveNext@230,start setup again.,重新开始配置。,已译,安装配置失败说明的收尾片段，前接「…then 」；译为「重新开始配置。」以便承接。,—
+0x7001C378,<StartSync>d__62.MoveNext@278,The last sync still keeps HELLDIVERS 2 connected: close the game first.,上次同步仍保持 HELLDIVERS 2 连接：请先关闭游戏。,已译,开始同步前的拒绝说明。,—
+0x7001C47F,<StartSync>d__62.MoveNext@1600,Starting the capture...,正在启动采集……,已译,同步启动状态：开始采集。,—
+0x7001C509,<StartSync>d__62.MoveNext@1633,. HELLDIVERS 2 opens through Steam; take it past the title screen.,. HELLDIVERS 2 会通过 Steam 打开；请让它通过标题画面。,已译,同步引导片段，承接前段；句首「. 」为接缝，保留。,—
+0x70008B5E,MainWindow.AskUninstall@204,This deletes ,此操作会删除 ,已译,卸载/删除确认对话框共用片段，后接对象名；尾空格为接缝，保留。同 token 亦见 RemoveConfirmation@192。,—
+0x7000DAAF,MainWindow.AskUninstall@105,": this deletes the game copy, every profile and every mod in it",：这会删除游戏副本、其中的每个档案和每个模组,已译,卸载选项说明，前接 Proton 前缀路径；删除范围与下一段 0x7000DB55 连续。,—
+0x7000DB55,MainWindow.AskUninstall@215," and everything in it: the game copy (about 24 GB), your HellForge profiles and progress, every mod in its mods folder (your own too), saves and logs. Copy anything you want to keep first. HellForge closes when it is done.", 及其中的全部内容：游戏副本（约 24 GB）、你的 HellForge 档案与进度、其模组文件夹中的每个模组（包括你自己的）、存档与日志。请先复制任何你想保留的内容。完成后 HellForge 会关闭。,已译,卸载确认长说明；前导空格为接缝，24 GB 等数值保留。,—
+0x7000D9A3,MainWindow.OpenSteamConsole@55,No process was started.,未启动任何进程。,已译,设置页「打开 Steam 控制台」失败状态。,—
+0x7000D9D3,MainWindow.OpenSteamConsole@119,Could not open the Steam console: ,无法打开 Steam 控制台: ,已译,打开 Steam 控制台失败前段，后接异常；ASCII 冒号与尾空格保留。,—
+0x7000DA19,MainWindow.OpenSteamConsole@130," Start Steam with -console, then try again.", 请以 -console 参数启动 Steam，然后重试。,已译,打开 Steam 控制台失败说明；前导空格为接缝，-console 保留。,—
+0x7000062C,MainWindow.ShowCrashEnding@30,The game crashed.,游戏崩溃了。,已译,崩溃结束状态。,—
+0x70000650,MainWindow.ShowCrashEnding@51,It ended with ,它结束时的状态为 ,已译,崩溃结束状态片段，后接退出码；尾空格为接缝，保留。,—
+0x70000674,MainWindow.ShowCrashEnding@72,"Save logs or a crash report below, then press PLAY to start another session.",请在下方保存日志或崩溃报告，然后按“开始游戏”开始下一次会话。,已译,崩溃后引导；PLAY 按锁定译文。,—
+0x7000794A,MainWindow.UpdateButton@37,STOP,停止,已译,主按钮状态词（STOP）：会话运行中。,—
+0x70007954,MainWindow.UpdateButton@44,STOPPING,正在停止,已译,主按钮状态词（STOPPING）。,—
+0x70007970,MainWindow.UpdateButton@58,INSTALLING,正在安装,已译,主按钮状态词（INSTALLING）。,—
+0x700166E6,<>c.<ShowDepotProgress>b__376_5@196,: another build's file; delete it and run the download_depot command again),: 这是另一个构建的文件；请删除它，然后重新运行 download_depot 命令),已译,安装 depot 下载诊断片段，前接文件名、后接右括号；命令名 download_depot 保留。,—
+0x7001677F,<>c.<ShowDepotProgress>b__376_5@215, (not there yet), (尚未就绪),已译,安装 depot 下载进度片段（not there yet）；前导空格与半角括号保留。,—
+0x70016EB0,<>c__DisplayClass258_1.<ZipMod>b__3@46, packed: , 已打包: ,已译,模组打包状态片段，前接模组名、后接大小；前导空格与 ASCII 冒号保留。,—
+0x70016EC4,<>c__DisplayClass258_1.<ZipMod>b__3@113, KB). Share that file; players drop it into their mods folder., KB)。分享该文件；玩家将其放入自己的模组文件夹即可。,已译,模组打包成功末段；前导空格与单位 KB 保留。,—
+0x700177E1,<ApplyReviewAsync>d__17.MoveNext@431,Imported. The profile was backed up first; Restore backup puts it back.,已导入。事先已备份档案；“恢复备份”可将其还原。,已译,导入完成提示；引用按钮名「恢复备份」。,—
+0x70017799,<ApplyReviewAsync>d__17.MoveNext@289,Could not save the import choices: ,无法保存导入选择: ,已译,保存导入选择失败前段，后接异常；ASCII 冒号与尾空格保留。,—
+0x7001D1B8,HellForge.Launcher.App.OnFrameworkInitializationCompleted@140,HellForge Launcher,HellForge 启动器,已译,应用启动失败窗口标题；品牌名 HellForge 保留。,—
+0x7001D1DE,HellForge.Launcher.App.OnFrameworkInitializationCompleted@194,Run the launcher from a HellForge installation or the HellForge repository.,请从 HellForge 安装目录或 HellForge 仓库运行启动器。,已译,启动位置错误的引导提示。,—
+0x7000BD73,MainWindow.PackOptions@216,All on,全部开启,已译,设置页打包选项的批量开关标签（PackOptions）。,—
+0x7000BD81,MainWindow.PackOptions@280,All off,全部关闭,已译,设置页打包选项的批量开关标签（PackOptions）。,—
+0x7000717A,MainWindow.ShowRunnerEnded@84,The session ended without finishing cleanup.,会话已结束，但未完成清理。,已译,会话启动程序结束状态。,—
+0x700071D4,MainWindow.ShowRunnerEnded@93,The session runner exited before writing completedUtc. Check the session logs before playing again.,会话启动程序在写入 completedUtc 之前退出。再次游玩前请查看会话日志。,已译,会话启动程序异常结束提示；completedUtc 为程序内字段名，原样保留。,—
+0x700171E6,<<InitializeSetup>b__8>d.MoveNext@202,Copied,已复制,已译,安装下载步骤中的状态词（Copied）；同 token 亦见 <ShowDownload>b__1 调用点。,—
+0x70016A1B,<>c__DisplayClass173_0.<ServeCoopRelays>b__0@83,". It is on from the next session: STOP, then PLAY, to join",. 它将在下次会话生效：按“停止”，再按“开始游戏”即可加入,已译,合作中继开关的状态说明片段，承接前句；STOP/PLAY 按按钮译名引用，句首「. 」为接缝，保留。,—
+0x700170F2,<>c__DisplayClass295_1.<AddModSyncCard>b__6@131,Could not untrust ,无法取消信任 ,已译,取消信任失败前段，后接模组名与共享冒号片段；尾空格为接缝，保留。,—
+0x70010ADC,MainWindow.<InitializeWeaponLevels>b__445_1@123,Saved. The next session uses these levels.,已保存。下次会话将使用这些等级。,已译,档案页武器等级保存成功提示。,—
+0x700077B5,MainWindow.BuildMod@84,Building ,正在构建 ,已译,模组构建状态片段，后接模组名；同 token 亦见 ShowModBuilds@278。,—
+0x7000E05F,MainWindow.Describe@55," Something on this PC may be blocking or inspecting HTTPS (an antivirus web shield, a VPN or a proxy); allow it, then try again.", 此 PC 上可能有东西正在拦截或检查 HTTPS（杀毒软件的网页防护、VPN 或代理）；请允许它，然后重试。,已译,下载失败说明；前导空格为接缝，保留。,—
+0x7000B359,MainWindow.ModRow@1316, options on,,待裁定,模组行摘要片段「 options on」，与共享片段「 of 」（0x70007767，PM-04 未决）按固定顺序拼成「N of M options on」；中文需「M 个选项中 N 个已开启」的语序，跨片段移动信息与规则冲突。,R2-02
+0x7000BE35,MainWindow.NoteSessionEditor@161,Could not read the mods folder for mod sync: ,无法读取用于模组同步的模组文件夹: ,已译,模组同步读取失败前段，后接异常；ASCII 冒号与尾空格保留。,—
+0x700086A0,MainWindow.SandboxOffReason@66,this HellForge was built without the Steam bridge,此 HellForge 构建未包含 Steam 桥接,已译,沙盒不可用原因；与 settings.csv 同句译文用词一致。,—
+0x7000D8FF,MainWindow.ShowDownload@404,Copy,复制,已译,安装下载页复制命令按钮（Copy）。,—

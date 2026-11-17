@@ -1,0 +1,9 @@
+token,method_il,original,translation,status,context,decision_id
+0x70008A3B,MainWindow.!XamlIlPopulate@6159,Cancel,取消,已译,XAML 按钮内容 Cancel；同 token 在 IL 6159/22845/24650 多处对话框按内容文本引用，非控件名。现有模块未覆盖。,—
+0x70011819,MainWindow.!XamlIlPopulate@4820,Save crash report,保存崩溃报告,已译,播放页崩溃区按钮（CrashReportButton 内容）；crash report 沿用试译基线「崩溃报告」。,—
+0x7001183D,MainWindow.!XamlIlPopulate@4913,Open a GitHub issue,打开 GitHub 问题,已译,播放页链接按钮（CrashIssueButton 内容）；GitHub 保留英文。,—
+0x700118AF,MainWindow.!XamlIlPopulate@7028,End these processes,结束这些进程,已译,残留进程提示区按钮（EndLeftoverProcessesButton 内容）；动词与主表「无法结束残留的会话进程」一致。,—
+0x700118E7,MainWindow.!XamlIlPopulate@7406,PLAY WITH STRANGERS,与陌生人同玩,已译,播放页陌生人提示卡片标题（h2 样式）；沿用主表「与陌生人同玩」。,—
+0x700116E9,MainWindow.!XamlIlPopulate@1994,SESSION,会话,已译,侧栏区块标题（h2 样式），下接会话状态点与导航；session 统一「会话」。,—
+0x70010CC2,MainWindow.!XamlIlPopulate@1223,Local HELLDIVERS 2,本地 HELLDIVERS 2,已译,标题区标签（HELL/FORGE 标识下方）；Local 沿用「本地会话/本地后端」，HELLDIVERS 2 保留英文。,—
+0x700135DA,MainWindow.!XamlIlPopulate@25398,Co-op over Steam relays (UDP to Valve's relays only),Steam 中继联机（仅以 UDP 连接 Valve 的中继服务器）,已译,设置页复选框标签（SteamUdpBox 内容）；沿用主表「Steam 中继联机」，UDP、Valve 保留。,—
