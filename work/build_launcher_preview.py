@@ -1,4 +1,4 @@
-"""Build the localized HellForge 0.4.0-beta launcher DLL from a copy."""
+"""Build the localized HellForge 0.4.0-beta launcher preview from a copy."""
 
 import argparse
 from collections import defaultdict
@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "launcher-0.4.0-beta-input" / "HellForge.Launcher.dll"
 VERSION = "launcher-0.4.0-beta-zhcn"
 INPUT_SHA256 = "3ebfc7e270564deeb688465cc6f9613cfcb4fed67be201ec4f0d3288c06d4fe1"
+STEAM_DLL = "HellForge.SteamDownload.dll"
+STEAM_SHA256 = "98bb04f1edd25e52896fb8b58839f07f1047c01f6810b7ab796128ca5304101a"
 PREVIEW = ROOT / "preview-0.4.0-beta-zhcn"
 USER_STRING = 0x70000000
 
@@ -83,8 +85,13 @@ def build_plan(source, project):
             continue
         plan[matches[0]["operand_offset"]] = (token, row["translation"])
 
-    scoped = set()
-    for row in read_csv(project / "modules" / "sync-callpoints.csv"):
+    plan.update(scoped_plan(refs_by_token, project / "modules" / "sync-callpoints.csv"))
+    return plan, deferred
+
+
+def scoped_plan(refs_by_token, path):
+    plan = {}
+    for row in read_csv(path):
         token = int(row["token"], 16)
         matches = [
             ref for ref in refs_by_token[token]
@@ -93,11 +100,10 @@ def build_plan(source, project):
         if len(matches) != 1:
             raise ValueError(f'Unresolved scoped entry {row["token"]} {row["method_il"]}')
         offset = matches[0]["operand_offset"]
-        if offset in scoped:
+        if offset in plan:
             raise ValueError(f'Duplicate scoped entry {row["token"]} {row["method_il"]}')
-        scoped.add(offset)
         plan[offset] = (token, row["callpoint_translation"])
-    return plan, deferred
+    return plan
 
 
 def encode_user_string(text):
@@ -124,8 +130,6 @@ def relocate_metadata(source, plan):
     file_alignment, section_alignment = u32(opt + 36), u32(opt + 32)
     sections = source["sections"]
     header = source["sec_off"] + source["num_sections"] * 40
-    if header + 40 > min(section[3] for section in sections):
-        raise ValueError("No room for the preview metadata section header")
     if len(image) != max(raw + size for _, _, _, raw, size in sections):
         raise ValueError("Unexpected data after the original PE sections")
 
@@ -161,17 +165,28 @@ def relocate_metadata(source, plan):
     else:
         raise ValueError("Missing #US stream")
 
-    rva = align(
-        max(va + max(vsize, rawsize) for _, va, vsize, _, rawsize in sections),
-        section_alignment,
-    )
     raw_offset = align(len(image), file_alignment)
     raw_size = align(len(metadata), file_alignment)
-    struct.pack_into(
-        "<8sIIIIIIHHI", image, header, b".hfzh", len(metadata), rva,
-        raw_size, raw_offset, 0, 0, 0, 0, 0x40000040,
-    )
-    struct.pack_into("<H", image, coff + 2, source["num_sections"] + 1)
+    virtual_end = max(va + max(vsize, size) for _, va, vsize, _, size in sections)
+    if header + 40 <= min(section[3] for section in sections):
+        rva = align(virtual_end, section_alignment)
+        struct.pack_into(
+            "<8sIIIIIIHHI", image, header, b".hfzh", len(metadata), rva,
+            raw_size, raw_offset, 0, 0, 0, 0, 0x40000040,
+        )
+        struct.pack_into("<H", image, coff + 2, source["num_sections"] + 1)
+    else:
+        # SteamDownload's section table has no spare header. Preserve its base
+        # relocations and append the metadata inside the final readable section.
+        name, va, vsize, raw, size = sections[-1]
+        header -= 40
+        if (name != ".reloc" or vsize > size or va + size != virtual_end
+                or raw + size != raw_offset or u32(header + 36) != 0x42000040):
+            raise ValueError("No room for preview metadata in this PE layout")
+        rva = va + size
+        struct.pack_into("<I", image, header + 8, size + len(metadata))
+        struct.pack_into("<I", image, header + 16, size + raw_size)
+        struct.pack_into("<I", image, header + 36, 0x40000040)  # Keep metadata mapped.
     struct.pack_into("<I", image, opt + 8, u32(opt + 8) + raw_size)
     struct.pack_into("<I", image, opt + 56, align(rva + len(metadata), section_alignment))
     struct.pack_into("<I", image, opt + 64, 0)
@@ -193,6 +208,40 @@ def verify_build(source, built, plan):
         expected = plan[offset][1] if offset in plan else ref["text"]
         if after[offset]["text"] != expected:
             raise ValueError(f"Unexpected text at IL operand {offset}")
+
+
+def write_dll(source, plan, destination):
+    pending = destination.with_suffix(".dll.building")
+    pending.write_bytes(relocate_metadata(source, plan))
+    try:
+        built = read_assembly(pending)
+        verify_build(source, built, plan)
+        pending.replace(destination)
+    finally:
+        pending.unlink(missing_ok=True)
+    return built
+
+
+def build_steam_text(preview, project):
+    source_path = preview / "app" / "cli" / STEAM_DLL
+    destination = preview / "app" / "launcher" / STEAM_DLL
+    if not all(path.resolve(strict=True).is_relative_to(preview) for path in (source_path, destination)):
+        raise ValueError("Steam download assembly path escapes the preview")
+    source = read_assembly(source_path)
+    if hashlib.sha256(source["data"]).hexdigest() != STEAM_SHA256:
+        raise ValueError(f"Unexpected source version for {STEAM_DLL}")
+    refs_by_token = defaultdict(list)
+    for ref in source["ldstr"]:
+        refs_by_token[int(ref["token"], 16)].append(ref)
+    plan = scoped_plan(refs_by_token, project / "steam-download-callpoints.csv")
+    built = write_dll(source, plan, destination)
+    print(f"Localized {len(plan)} Steam download call points.")
+    return {
+        "base_sha256": STEAM_SHA256,
+        "preview_sha256": hashlib.sha256(built["data"]).hexdigest(),
+        "verified_ldstr": len(source["ldstr"]),
+        "localized_callpoints": len(plan),
+    }
 
 
 def build_profile_text(preview):
@@ -233,6 +282,9 @@ def main():
     parser.add_argument(
         "--profile-text", action="store_true", help="Also localize template descriptions in an installed preview",
     )
+    parser.add_argument(
+        "--steam-text", action="store_true", help="Also localize Steam download choices in an installed preview",
+    )
     options = parser.parse_args()
     preview = options.preview.resolve()
     if not preview.is_relative_to(ROOT) or preview.is_relative_to(INPUT.parent):
@@ -249,14 +301,7 @@ def main():
     launcher = preview / "app" / "launcher"
     launcher.mkdir(parents=True, exist_ok=True)
     destination = launcher / INPUT.name
-    pending = destination.with_suffix(".dll.building")
-    pending.write_bytes(relocate_metadata(source, plan))
-    try:
-        built = read_assembly(pending)
-        verify_build(source, built, plan)
-        pending.replace(destination)
-    finally:
-        pending.unlink(missing_ok=True)
+    built = write_dll(source, plan, destination)
     report = {
         "base_sha256": digest,
         "preview_sha256": hashlib.sha256(built["data"]).hexdigest(),
@@ -264,6 +309,8 @@ def main():
         "localized_callpoints": len(plan),
         "deferred_rows": deferred,
     }
+    if options.steam_text:
+        report["steam_download"] = build_steam_text(preview, ROOT / VERSION)
     (preview / "build-report.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8",
     )

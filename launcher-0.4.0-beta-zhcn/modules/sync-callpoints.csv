@@ -22,3 +22,7 @@ token,method_il,original,callpoint_translation,scope,note
 0x70009B6B,MainWindow.ModChanges@445,s,,Mods page,属性变更计数后缀在该调用点移除（接 @419「项属性变更」，前导空格保留）
 0x70009B6B,MainWindow.ModChanges@545,s,,Mods page,游戏数据文件计数后缀在该调用点移除（接 @519「个游戏数据文件」，前导空格保留）
 0x70008704,MainWindow.ShowStrangersDefaultNotice@96,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",非好友玩家的游戏会向你发送你无法核查的数据：被修改的游戏可能谎报其模组，游戏网络代码的缺陷还可能让它在你的电脑上运行代码。只有在接受这一风险时才开启。开关会在数秒内生效，会话进行中也是如此。,Play page,主界面陌生人默认提示；沿用设置版 HF-34564 原文与译文，保持原安全提示力度
+0x7000EBB9,MainWindow.ShowChoice@329,Start SteamCMD,启动 SteamCMD,Setup wizard,安装引导页·Start SteamCMD 按钮的另一处引用，沿用 HF-60345
+0x70019302,<DownloadWithQr>d__431.MoveNext@497," from Steam...",,Setup wizard,QR 下载状态后段在此调用点置空，组合为「正在从 Steam 下载版本 」+ 动态版本号；主表 HF-103170 保留非空，构建器仅允许 scoped 为空
+0x7000D2CF,MainWindow.ShowDownload@79,"Steam has another build of HELLDIVERS 2 than the one this HellForge runs (build ","Steam 上 HELLDIVERS 2 的版本与此 HellForge 所运行的版本不同（版本 ",Setup wizard,安装引导页·下载卡版本提示前段，Windows 分支 ShowDownload@79，沿用 HF-53967；@56 Linux 分支保持原样
+0x7000D0DA,MainWindow.ShowDownload@135,"Steam has ","Steam 上 ",Setup wizard,安装引导页·手动控制台说明前段，Windows 分支 ShowDownload@135，沿用 HF-53466；@56 Linux 分支保持原样
