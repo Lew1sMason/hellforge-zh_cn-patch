@@ -195,11 +195,43 @@ def verify_build(source, built, plan):
             raise ValueError(f"Unexpected text at IL operand {offset}")
 
 
+def build_profile_text(preview):
+    path = preview / "app" / "profile-templates.json"
+    if not path.resolve(strict=True).is_relative_to(preview):
+        raise ValueError("Template description target escapes the preview")
+    entries_path = ROOT / VERSION / "profile-template-descriptions.json"
+    entries = json.loads(entries_path.read_text(encoding="utf-8-sig"))
+    original_data = path.read_bytes()
+    text = original_data.decode("utf-8")
+    templates = json.loads(text)["templates"]
+    for key, entry in entries.items():
+        original, translation = entry["original"], entry["translation"]
+        current = templates[key]["description"]
+        if current == translation:
+            continue
+        original_literal = json.dumps(original, ensure_ascii=False)
+        if current != original or text.count(original_literal) != 1:
+            raise ValueError(f"Unexpected template description for {key}")
+        text = text.replace(original_literal, json.dumps(translation, ensure_ascii=False), 1)
+    updated = text.encode("utf-8")
+    if updated != original_data:
+        pending = path.with_suffix(".json.building")
+        pending.write_bytes(updated)
+        try:
+            pending.replace(path)
+        finally:
+            pending.unlink(missing_ok=True)
+    print(f"Localized {len(entries)} profile template descriptions.")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--preview", type=Path, default=PREVIEW,
         help="Output folder beneath this workspace (default: %(default)s)",
+    )
+    parser.add_argument(
+        "--profile-text", action="store_true", help="Also localize template descriptions in an installed preview",
     )
     options = parser.parse_args()
     preview = options.preview.resolve()
@@ -236,6 +268,8 @@ def main():
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8",
     )
     print(f"Localized {len(plan)} call points; deferred {len(deferred)} rows.")
+    if options.profile_text:
+        build_profile_text(preview)
 
 
 if __name__ == "__main__":

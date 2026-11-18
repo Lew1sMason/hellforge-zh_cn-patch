@@ -1,0 +1,10 @@
+{
+  "starter": {
+    "original": "Fresh player after basic training: AR-23 Liberator, P-2 Peacemaker, G-12 High Explosive (the onboarding chain's unlock items and the stratagems every account owns, Orbital Precision Strike and MG-43 Machine Gun, are added by ProfileStore).",
+    "translation": "完成基础训练的新兵：AR-23 Liberator、P-2 Peacemaker、G-12 High Explosive（新手引导链的解锁物品，以及每个账号都拥有的战略配备——Orbital Precision Strike 与 MG-43 Machine Gun——由 ProfileStore 添加）。"
+  },
+  "unlock-all": {
+    "original": "Development: every non-consumable catalogue item, every booster and package progress, at the top level (300; customization needs level 10).",
+    "translation": "开发用：所有非消耗品目录物品、所有强化剂与数据包进度，均处于满级（300 级；自定义需要 10 级）。"
+  }
+}

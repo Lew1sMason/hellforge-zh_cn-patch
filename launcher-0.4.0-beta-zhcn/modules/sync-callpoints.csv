@@ -21,3 +21,4 @@ token,method_il,original,callpoint_translation,scope,note
 0x70009B6B,MainWindow.AddModSyncCard@2215,s,,Mods page,已下载模组数量后缀在该调用点移除（接 @2194「个模组」，前导空格保留）
 0x70009B6B,MainWindow.ModChanges@445,s,,Mods page,属性变更计数后缀在该调用点移除（接 @419「项属性变更」，前导空格保留）
 0x70009B6B,MainWindow.ModChanges@545,s,,Mods page,游戏数据文件计数后缀在该调用点移除（接 @519「个游戏数据文件」，前导空格保留）
+0x70008704,MainWindow.ShowStrangersDefaultNotice@96,"Strangers' games send yours data you cannot check: a modified game can lie about its mods, and a flaw in the game's network code could let it run code on your PC. Turn this on only if you accept that risk. It applies within a few seconds, also during a session.",非好友玩家的游戏会向你发送你无法核查的数据：被修改的游戏可能谎报其模组，游戏网络代码的缺陷还可能让它在你的电脑上运行代码。只有在接受这一风险时才开启。开关会在数秒内生效，会话进行中也是如此。,Play page,主界面陌生人默认提示；沿用设置版 HF-34564 原文与译文，保持原安全提示力度
