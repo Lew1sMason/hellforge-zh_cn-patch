@@ -1,0 +1,18 @@
+{
+  "version": "0.4.0-beta",
+  "commit": "d8a8b46",
+  "files": {
+    "app/launcher/HellForge.Launcher.dll": {
+      "original": "3ebfc7e270564deeb688465cc6f9613cfcb4fed67be201ec4f0d3288c06d4fe1",
+      "patched": "5908d435fee9a427a8ad43936ddf050e5661bcf9b2d4baec9545076d2516c16e"
+    },
+    "app/launcher/HellForge.SteamDownload.dll": {
+      "original": "98bb04f1edd25e52896fb8b58839f07f1047c01f6810b7ab796128ca5304101a",
+      "patched": "26ada22edfb3f35bf6975f013de56688aa079c2c1cef6ffdb1091fc41cdee04a"
+    },
+    "app/profile-templates.json": {
+      "original": "c8722cc7ec3378eb343c3f70b4651b84614e5d68312e92565660f4c747b50d53",
+      "patched": "08da0437b0557ef2c92e64af0f799f7633257e91eed93d984f761f27744805d4"
+    }
+  }
+}
