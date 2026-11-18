@@ -12,6 +12,16 @@
 | `inventory/inventory-summary.md` | 台账按模块与状态的统计 | 每次合并后重新生成 |
 | `STATUS.md` | 当前进度、接续点、验证记录 | 每批更新 |
 
+## BAT 拖拽安装与卸载
+
+适用于 Windows 版 HellForge Launcher `0.4.0-beta`（`d8a8b46`）。使用补丁目录里的 `app`，也可直接用旧版拖拽 ZIP 解压后的 `payload/app`。
+
+1. 在记事本中分别复制两段源码，另存为 `install.bat` 和 `uninstall.bat`。文件类型选「所有文件」，编码选 ANSI。两个 BAT 放在补丁目录根部，与 `app` 或 `payload` 同级。[安装 BAT 源码](installer/batch/install.bat) · [卸载 BAT 源码](installer/batch/uninstall.bat)
+2. 关闭 HellForge，将包含 `app` 的 HellForge 安装目录拖到 `install.bat` 上。脚本将准备覆盖的两份 DLL 和一份 JSON 备份到补丁目录的 `backup/app`，校验后执行覆盖。显示 `Install OK.` 即完成。
+3. 卸载时关闭 HellForge，将同一安装目录拖到 `uninstall.bat` 上。保留同一目录下的两个 BAT 和 `backup`。显示 `Uninstall OK.` 即恢复完成。
+
+如果脚本提示 SHA-256 不匹配，请先检查安装版本、补丁文件或备份。更新补丁时，同步校对 [manifest.json](installer/manifest.json) 和安装 BAT 中的 SHA-256。
+
 ## 主表字段
 
 `item_id` 为 `HF-` 加 `#US` 堆偏移，同一构建内稳定。`token` 为 `0x70000000+us_index`。`locator` 为方法名加 IL 偏移，用于定位运行期引用点。`file_offset` 为字符串记录在 DLL 内的字节位置，长度前缀所在处。`pending_id` 只在待裁定行为空译时填写。
