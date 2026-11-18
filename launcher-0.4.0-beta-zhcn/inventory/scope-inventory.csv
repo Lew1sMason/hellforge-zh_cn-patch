@@ -97,7 +97,7 @@ HF-27,未分类,27,0x7000001B,416691,1,As in vanilla,RuleLabel,低,已译,批次
 HF-55,未分类,55,0x70000037,416719,1,Every item,RuleLabel,低,已译,批次 4 合并,
 HF-77,未分类,77,0x7000004D,416741,1,None,RuleLabel,低,已译,批次 4 合并,
 HF-87,未分类,87,0x70000057,416751,1,Keep the higher,RuleLabel,低,已译,批次 4 合并,
-HF-119,未分类,119,0x70000077,416783,1,Merge both,RuleLabel,低,待译,,
+HF-119,未分类,119,0x70000077,416783,1,Merge both,RuleLabel,低,已译,,
 HF-141,未分类,141,0x7000008D,416805,1,Use vanilla,RuleLabel,低,已译,批次 4 合并,
 HF-332,未分类,332,0x7000014C,416996,1,Always synced: ,BuildReview,低,已译,批次 4 合并,
 HF-380,未分类,380,0x7000017C,417044,1, you own. Super Credits are never imported.,BuildReview,低,已译,批次 4 合并,

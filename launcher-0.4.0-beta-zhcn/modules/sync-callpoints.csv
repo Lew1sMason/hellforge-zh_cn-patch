@@ -18,3 +18,6 @@ token,method_il,original,callpoint_translation,scope,note
 0x70009D63,MainWindow.RefreshMods@484," gameplay mod"," 个玩法模组",Mods page,图4 玩法模组计数，补量词
 0x70009B6B,MainWindow.RefreshMods@501,s,,Mods page,图4 同一复数后缀的另一调用点
 0x70001CBC,MainWindow.ModsSummaryText@33,.,。,Mods page,修正英文句号为全角，下一句已去掉前导分号
+0x70009B6B,MainWindow.AddModSyncCard@2215,s,,Mods page,已下载模组数量后缀在该调用点移除（接 @2194「个模组」，前导空格保留）
+0x70009B6B,MainWindow.ModChanges@445,s,,Mods page,属性变更计数后缀在该调用点移除（接 @419「项属性变更」，前导空格保留）
+0x70009B6B,MainWindow.ModChanges@545,s,,Mods page,游戏数据文件计数后缀在该调用点移除（接 @519「个游戏数据文件」，前导空格保留）
