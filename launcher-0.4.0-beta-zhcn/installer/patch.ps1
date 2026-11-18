@@ -70,7 +70,7 @@ $entries = @(
         $hashes = $manifest.files.$path
         $entry = [pscustomobject]@{
             Target = Join-Path $root $path
-            Payload = Join-Path $PSScriptRoot $path
+            Payload = Join-Path (Join-Path $PSScriptRoot 'payload') $path
             Backup = Join-Path $backupRoot $path
             Original = $hashes.original
             Patched = $hashes.patched
@@ -142,6 +142,7 @@ try {
         foreach ($entry in $entries) { Assert-Hash $entry.Target $entry.Expected }
     } catch {
         $failure = $_
+        $rollbackFailures = @()
         foreach ($replacement in $staged) {
             if (-not [IO.File]::Exists($replacement.Previous)) { continue }
             try {
@@ -156,8 +157,11 @@ try {
                     [IO.File]::Replace($replacement.Previous, $target, [NullString]::Value)
                 }
             } catch {
-                Write-Warning "Rollback failed. The previous file is at $($replacement.Previous). $_"
+                $rollbackFailures += "Rollback failed. Check $($replacement.Previous). $_"
             }
+        }
+        if ($rollbackFailures) {
+            throw (@($failure.Exception.Message) + $rollbackFailures -join [Environment]::NewLine)
         }
         throw $failure
     } finally {
